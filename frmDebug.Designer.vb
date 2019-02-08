@@ -22,7 +22,11 @@ Partial Class frmDebug
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.ConsoleIO = New System.Windows.Forms.TextBox
+        Me.components = New System.ComponentModel.Container()
+        Me.ConsoleIO = New System.Windows.Forms.TextBox()
+        Me.MainMenu1 = New System.Windows.Forms.MainMenu(Me.components)
+        Me.MenuItem1 = New System.Windows.Forms.MenuItem()
+        Me.MenuItem2 = New System.Windows.Forms.MenuItem()
         Me.SuspendLayout()
         '
         'ConsoleIO
@@ -38,12 +42,28 @@ Partial Class frmDebug
         Me.ConsoleIO.Size = New System.Drawing.Size(605, 398)
         Me.ConsoleIO.TabIndex = 0
         '
+        'MainMenu1
+        '
+        Me.MainMenu1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.MenuItem1})
+        '
+        'MenuItem1
+        '
+        Me.MenuItem1.Index = 0
+        Me.MenuItem1.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.MenuItem2})
+        Me.MenuItem1.Text = "File"
+        '
+        'MenuItem2
+        '
+        Me.MenuItem2.Index = 0
+        Me.MenuItem2.Text = "Exit"
+        '
         'frmDebug
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(605, 398)
         Me.Controls.Add(Me.ConsoleIO)
+        Me.Menu = Me.MainMenu1
         Me.Name = "frmDebug"
         Me.Text = "Configuration Values"
         Me.ResumeLayout(False)
@@ -51,4 +71,7 @@ Partial Class frmDebug
 
     End Sub
     Friend WithEvents ConsoleIO As System.Windows.Forms.TextBox
+    Friend WithEvents MainMenu1 As System.Windows.Forms.MainMenu
+    Friend WithEvents MenuItem1 As System.Windows.Forms.MenuItem
+    Friend WithEvents MenuItem2 As System.Windows.Forms.MenuItem
 End Class

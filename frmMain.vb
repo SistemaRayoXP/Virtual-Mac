@@ -81,7 +81,6 @@
         Dim Line As String
         Dim Lines As New ArrayList
 
-        MsgBox("Virtual Mac © " + My.Application.Info.Version.ToString + " Beta. Launch support incomplete. Test with precaution")
         Do
             Line = Reader.ReadLine()
             If Not Line Is Nothing Then
@@ -97,36 +96,26 @@
 
         Select Case VMList.FocusedItem.SubItems(2).Text
             Case "vMac"
-                If My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\Emulators\vMac\vMac.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\Emulators\vMac\vMac.exe " & Chr(34) & Lines(0) & Chr(34), AppWinStyle.NormalFocus)
+                If My.Computer.FileSystem.FileExists(My.Settings.vMacPath) = True Then
                     frmVirtualMacintosh.Text = VMList.Items(VMList.FocusedItem.Index).Text & " - Virtual Mac"
-                ElseIf My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\vMac.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\vMac.exe " & Chr(34) & Lines(0) & Chr(34), AppWinStyle.NormalFocus)
-                    frmVirtualMacintosh.Text = VMList.Items(VMList.FocusedItem.Index).Text & " - Virtual Mac"
+                    Shell(My.Settings.vMacPath & " " & Chr(34) & Lines(0) & Chr(34), AppWinStyle.NormalFocus)
                 End If
             Case "BII"
-                If My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\Emulators\BasiliskII\BasiliskII.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\Emulators\BasiliskII\BasiliskII.exe " & VMList.FocusedItem.SubItems(1).Text, AppWinStyle.NormalFocus)
-                ElseIf My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\BasiliskII.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\BasiliskII.exe " & VMList.FocusedItem.SubItems(1).Text, AppWinStyle.NormalFocus)
+                If My.Computer.FileSystem.FileExists(My.Settings.BasiliskPath) = True Then
+                    Shell(My.Settings.BasiliskPath & " " & Chr(34) & VMList.FocusedItem.SubItems(1).Text & Chr(34), AppWinStyle.NormalFocus)
                 End If
             Case "SheepShaver"
-                If My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\Emulators\SheepShaver\SheepShaver.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\Emulators\SheepShaver\SheepShaver.exe " & VMList.FocusedItem.SubItems(1).Text, AppWinStyle.NormalFocus)
-                ElseIf My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\SheepShaver.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\SheepShaver.exe" & VMList.FocusedItem.SubItems(1).Text, AppWinStyle.NormalFocus)
+                If My.Computer.FileSystem.FileExists(My.Settings.SheepShaverPath) = True Then
+                    Shell(My.Settings.SheepShaverPath & " " & Chr(34) & VMList.FocusedItem.SubItems(1).Text & Chr(34), AppWinStyle.NormalFocus)
                 End If
             Case "PearPC"
-                If My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\Emulators\PearPC\PPC.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\Emulators\PearPC\PPC.exe " & VMList.FocusedItem.SubItems(1).Text, AppWinStyle.NormalFocus)
-                ElseIf My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\PPC.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\PPC.exe " & VMList.FocusedItem.SubItems(1).Text, AppWinStyle.NormalFocus)
+                If My.Computer.FileSystem.FileExists(My.Settings.PearPCPath) = True Then
+                    MsgBox("cmd.exe /k " & My.Settings.PearPCPath & " " & Chr(34) & VMList.FocusedItem.SubItems(1).Text & Chr(34))
+                    Shell("cmd.exe /k " & My.Settings.PearPCPath & " " & Chr(34) & VMList.FocusedItem.SubItems(1).Text & Chr(34), AppWinStyle.NormalFocus)
                 End If
             Case "QEMU"
-                If My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\Emulators\QEMU\qemu-system-ppc.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\Emulators\QEMU\qemu-system-ppc.exe" & Lines(0), AppWinStyle.NormalFocus)
-                ElseIf My.Computer.FileSystem.FileExists(My.Application.Info.DirectoryPath & "\qemu-system-ppc.exe") = True Then
-                    Shell(My.Application.Info.DirectoryPath & "\qemy-system-ppc.exe" & Lines(0), AppWinStyle.NormalFocus)
+                If My.Computer.FileSystem.FileExists(My.Settings.QEMUPath) = True Then
+                    Shell(My.Settings.QEMUPath & " " & Lines(0), AppWinStyle.NormalFocus)
                 End If
         End Select
 
@@ -337,6 +326,7 @@
     End Sub
 
     Private Sub MenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuHelpCrash.Click
+        'This instruction is WRONG purposedly, it's for crashing the program. This will be used for handling crashes
         Dim x() As String = Split("crashing,instruction", ",")
         MsgBox(x(3))
     End Sub
@@ -394,26 +384,25 @@
     Public Sub OpenSettings()
         Select Case VMList.FocusedItem.SubItems(2).Text
             Case "vMac"
-                frmSettingsvMacVM.Text = Replace(frmSettingsvMacVM.Text, "%s", VMList.FocusedItem.Text)
-                frmSettingsvMacVM.Settings(VMList.FocusedItem.SubItems(1).Text)
-                frmSettingsvMacVM.Show()
+                '    frmSettingsPearPCVM.Text = Replace(frmSettingsPearPCVM.Text, "%s", VMList.FocusedItem.Text)
+                '    frmSettingsPearPCVM.LoadSettingsFrom(VMList.FocusedItem.SubItems(1).Text)
+                '    frmSettingsPearPCVM.Show()
             Case "BII"
                 frmSettingsBasiliskVM.Text = Replace(frmSettingsBasiliskVM.Text, "%s", VMList.FocusedItem.Text)
-                frmSettingsBasiliskVM.File(VMList.FocusedItem.SubItems(1).Text, VMList.FocusedItem.Text)
+                frmSettingsBasiliskVM.LoadSettingsFrom(VMList.FocusedItem.Index)
                 frmSettingsBasiliskVM.Show()
             Case "SheepShaver"
                 frmSettingsSheepVM.Text = Replace(frmSettingsSheepVM.Text, "%s", VMList.FocusedItem.Text)
-                'frmSettingsSheepVM.Settings(VMList.FocusedItem.SubItems(1).Text)
+                frmSettingsSheepVM.LoadSettingsFrom(VMList.FocusedItem.Index)
                 frmSettingsSheepVM.Show()
             Case "QEMU"
                 frmSettingsQemuVM.Text = Replace(frmSettingsSheepVM.Text, "%s", VMList.FocusedItem.Text)
-                'frmSettingsQemuVM.Settings(VMList.FocusedItem.SubItems(1).Text)
+                'frmSettingsQemuVM.LoadSettingsFrom(VMList.FocusedItem.Index)
                 frmSettingsQemuVM.Show()
-            Case "PPC"
-                'frmSettingsPearVM.Text = Replace(frmSettingsSheepVM.Text, "%s", VMList.FocusedItem.Text)
-                'frmSettingsPearVM.Settings(VMList.FocusedItem.SubItems(1).Text)
-                'frmSettingsPearVM.Show()
-                MsgBox("Not supported (yet)")
+            Case "PearPC"
+                frmSettingsPearPCVM.Text = Replace(frmSettingsSheepVM.Text, "%s", VMList.FocusedItem.Text)
+                frmSettingsPearPCVM.LoadSettingsFrom(VMList.FocusedItem.Index)
+                frmSettingsPearPCVM.Show()
         End Select
     End Sub
 

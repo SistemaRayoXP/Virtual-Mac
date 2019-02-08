@@ -12,7 +12,6 @@ Module SysInfo
         Dim VersionArray() As String = Split(My.Computer.Info.OSVersion, ".")
 
         'Setting the labels with the versions
-        frmAbout.ProductNAV.Text = frmAbout.ProductNAV.Text & " " & My.Application.Info.Version.ToString & " Beta"
         Dim BuildOS As String = VersionArray(0) + "." + VersionArray(1) + "." + VersionArray(2)
         Dim NameOS As String = ""
         Dim CPUInfo As String = GetProcessorInfo()

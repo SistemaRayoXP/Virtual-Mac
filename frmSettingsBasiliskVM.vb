@@ -4,14 +4,16 @@ Imports System.Collections
 Public Class frmSettingsBasiliskVM
     Public ConfigFile As String
     Public VMName As String
-    Public Sub File(ByVal File As String, ByVal vName As String)
-        ConfigFile = File
-        VMName = vName
+    Public SelectedItem As Integer
+    Public Sub LoadSettingsFrom(Item As Integer)
+        ConfigFile = frmMain.VMList.Items.Item(Item).SubItems(1).Text
+        VMName = frmMain.VMList.Items.Item(Item).Text
+        SelectedItem = Item
     End Sub
 
     Public Sub Settings()
         
-        Dim Reader As New StreamReader(ConfigFIle)
+        Dim Reader As New StreamReader(ConfigFile)
         Dim ConfigValues As New ArrayList()
         Dim strContainer As String = ""
 
@@ -21,7 +23,6 @@ Public Class frmSettingsBasiliskVM
                 ConfigValues.Add(strContainer)
             End If
         Loop Until strContainer Is Nothing
-
         Reader.Close()
 
         For x As Integer = 0 To ConfigValues.Count - 1
@@ -479,7 +480,7 @@ Public Class frmSettingsBasiliskVM
             End If
 
             If InStr(ConfigValues(x), "ethermulticastmode") <> 0 Then
-
+                NetMulticastMode.Text = ConfigValues(x).ToString.Substring(19)
             End If
 
             If InStr(ConfigValues(x), "routerenabled") <> 0 Then
@@ -495,7 +496,7 @@ Public Class frmSettingsBasiliskVM
             End If
 
             If InStr(ConfigValues(x), "tcp_port") <> 0 Then
-                NetFTPPorts.Text = ConfigValues(x).ToString.Substring(14)
+                NetServerPorts.Text = ConfigValues(x).ToString.Substring(9)
             End If
 
             If InStr(ConfigValues(x), "portfile0") <> 0 Then
@@ -531,7 +532,33 @@ Public Class frmSettingsBasiliskVM
 
             EMCEditor.Items.Add(ConfigValues(x))
         Next
+    End Sub
 
+    Private Sub CollectAndSave()
+        Dim Options As String = ""
+
+        For x As Integer = 0 To DriveList.Items.Count
+            Select Case DriveList.Items.Item(x).SubItems(1).Text
+                Case "Disk"
+                    Options = Options & vbCrLf & "disk " & DriveList.Items.Item(x).Text
+                Case "Floppy"
+                    Options = Options & vbCrLf & "floppy " & DriveList.Items.Item(x).Text
+                Case "CD"
+                    Options = Options & vbCrLf & "cdrom " & DriveList.Items.Item(x).Text
+            End Select
+        Next
+
+        Select Case ScrMode.SelectedItem.ToString
+            Case "Window"
+                Options = Options & vbCrLf & "screen win/" & ScrResX.SelectedItem.ToString & "/" & ScrResY.SelectedItem.ToString
+            Case "Fullscreen"
+                Options = Options & vbCrLf & "screen dga/" & ScrResX.SelectedItem.ToString & "/" & ScrResY.SelectedItem.ToString
+        End Select
+
+        'For x As Integer = 0 To EMCEditor.Items.Count - 1
+        '    Options = Options & EMCEditor.Items.Item(x).Text & vbCrLf
+        'Next
+        ConfigFileHandler.Write(Options, ConfigFile)
     End Sub
 
     Private Sub frmSettingsBasiliskVM_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -642,7 +669,7 @@ Public Class frmSettingsBasiliskVM
         End If
     End Sub
 
-    Private Sub SetAsBootDriveToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ContextSetAsBoot.Click
+    Private Sub SetAsBootDriveToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DriveContxSetAsBoot.Click
         For x As Integer = 0 To DriveList.Items.Count - 1
             If DriveList.Items.Item(x).SubItems.Item(2).Text = "*" Then
                 DriveList.Items.Item(x).SubItems.Item(2).Text = ""
@@ -651,7 +678,7 @@ Public Class frmSettingsBasiliskVM
         DriveList.FocusedItem.SubItems.Item(2).Text = "*"
     End Sub
 
-    Private Sub ContextRemoveDrive_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ContextRemoveDrive.Click
+    Private Sub ContextRemoveDrive_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DriveContxRemoveDrive.Click
         Dim Remove As Integer = MsgBox("Are you sure you want to remove ''" & DriveList.FocusedItem.Text & "'' from the drives list?", MsgBoxStyle.Exclamation + MsgBoxStyle.YesNo, "Remove drive")
         If Remove = 6 Then
             DriveList.FocusedItem.Remove()
@@ -717,17 +744,7 @@ Public Class frmSettingsBasiliskVM
     End Sub
 
     Private Sub cmdOK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdOK.Click
-        SaveConfig()
+        CollectAndSave()
         Me.Close()
-    End Sub
-
-    Public Sub SaveConfig()
-        Dim File As String = ""
-
-        For x As Integer = 0 To EMCEditor.Items.Count - 1
-            File = File & EMCEditor.Items.Item(x).Text & vbCrLf
-        Next
-        ConfigFileHandler.Write(File, ConfigFile)
-
     End Sub
 End Class

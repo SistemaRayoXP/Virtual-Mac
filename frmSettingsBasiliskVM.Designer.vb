@@ -22,132 +22,136 @@ Partial Class frmSettingsBasiliskVM
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSettingsBasiliskVM))
-        Dim ListViewItem27 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Name", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
-        Dim ListViewItem28 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Icon", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
-        Dim ListViewItem29 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Memory")
-        Dim ListViewItem30 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Drives", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
-        Dim ListViewItem31 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Network", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
-        Dim ListViewItem32 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Screen", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
-        Dim ListViewItem33 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Mouse and keyboard")
-        Dim ListViewItem34 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Serial ports")
-        Dim ListViewItem35 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Misc. Hardware")
-        Dim ListViewItem36 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("External FileSystem")
-        Dim ListViewItem37 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Miscelaneous")
-        Dim ListViewItem38 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("JIT and debugging")
-        Dim ListViewItem39 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Edit Manually Config File")
-        Me.OptionPanel = New System.Windows.Forms.Panel
-        Me.IconFrame = New System.Windows.Forms.GroupBox
-        Me.ListView1 = New System.Windows.Forms.ListView
-        Me.IconInfo = New System.Windows.Forms.Label
-        Me.ScreenFrame = New System.Windows.Forms.GroupBox
-        Me.ScrModeLabel = New System.Windows.Forms.Label
-        Me.ScrMode = New System.Windows.Forms.ComboBox
-        Me.ScrRefreshLabel = New System.Windows.Forms.Label
-        Me.ScrRefresh = New System.Windows.Forms.ComboBox
-        Me.ScrResLabel = New System.Windows.Forms.Label
-        Me.ScrResCust = New System.Windows.Forms.CheckBox
-        Me.ScrResY = New System.Windows.Forms.ComboBox
-        Me.ScrResX = New System.Windows.Forms.ComboBox
-        Me.NetworkFrame = New System.Windows.Forms.GroupBox
-        Me.NetPermPhysicalAddress = New System.Windows.Forms.CheckBox
-        Me.NetEnableUDP = New System.Windows.Forms.CheckBox
-        Me.NetUPDPortLabel = New System.Windows.Forms.Label
-        Me.NetUPDPort = New System.Windows.Forms.TextBox
-        Me.NetRouterConfig = New System.Windows.Forms.Panel
-        Me.NetServerPortsLabel = New System.Windows.Forms.Label
-        Me.NetFTPPortsLabel = New System.Windows.Forms.Label
-        Me.NetServerPorts = New System.Windows.Forms.TextBox
-        Me.NetFTPPorts = New System.Windows.Forms.TextBox
-        Me.NetTypeLabel = New System.Windows.Forms.Label
-        Me.NetType = New System.Windows.Forms.ComboBox
-        Me.NetRouterEnabled = New System.Windows.Forms.CheckBox
-        Me.SerialFrame = New System.Windows.Forms.GroupBox
-        Me.SBFilePath = New System.Windows.Forms.TextBox
-        Me.SBFileBrowse = New System.Windows.Forms.Button
-        Me.SAFilePath = New System.Windows.Forms.TextBox
-        Me.SAFileBrowse = New System.Windows.Forms.Button
-        Me.SerialBLabel = New System.Windows.Forms.Label
-        Me.SerialALabel = New System.Windows.Forms.Label
-        Me.SerialB = New System.Windows.Forms.ComboBox
-        Me.SerialA = New System.Windows.Forms.ComboBox
-        Me.EMCFrame = New System.Windows.Forms.GroupBox
-        Me.EMCEditor = New System.Windows.Forms.ListView
-        Me.EMCKeywordValueColumn = New System.Windows.Forms.ColumnHeader
-        Me.DriveFrame = New System.Windows.Forms.GroupBox
-        Me.DrivePollMedia = New System.Windows.Forms.CheckBox
-        Me.DriveBootCD = New System.Windows.Forms.RadioButton
-        Me.DriveBootDisk = New System.Windows.Forms.RadioButton
-        Me.DriveSetBootDrive = New System.Windows.Forms.Button
-        Me.DriveRemove = New System.Windows.Forms.Button
-        Me.DriveAddFloppy = New System.Windows.Forms.Button
-        Me.DriveAddCD = New System.Windows.Forms.Button
-        Me.DriveAddDisk = New System.Windows.Forms.Button
-        Me.DriveList = New System.Windows.Forms.ListView
-        Me.DriveLCPath = New System.Windows.Forms.ColumnHeader
-        Me.DriveLCType = New System.Windows.Forms.ColumnHeader
-        Me.DriveLCBootMark = New System.Windows.Forms.ColumnHeader
+        Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Name", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
+        Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Icon", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
+        Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Memory")
+        Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Drives", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
+        Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Network", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
+        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Screen", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
+        Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Mouse and keyboard")
+        Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Serial ports")
+        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Misc. Hardware")
+        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("External FileSystem")
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Miscelaneous")
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("JIT and debugging")
+        Dim ListViewItem13 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Edit Manually Config File")
+        Me.OptionPanel = New System.Windows.Forms.Panel()
+        Me.IconFrame = New System.Windows.Forms.GroupBox()
+        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.IconInfo = New System.Windows.Forms.Label()
+        Me.ScreenFrame = New System.Windows.Forms.GroupBox()
+        Me.ScrModeLabel = New System.Windows.Forms.Label()
+        Me.ScrMode = New System.Windows.Forms.ComboBox()
+        Me.ScrRefreshLabel = New System.Windows.Forms.Label()
+        Me.ScrRefresh = New System.Windows.Forms.ComboBox()
+        Me.ScrResLabel = New System.Windows.Forms.Label()
+        Me.ScrResCust = New System.Windows.Forms.CheckBox()
+        Me.ScrResY = New System.Windows.Forms.ComboBox()
+        Me.ScrResX = New System.Windows.Forms.ComboBox()
+        Me.NetworkFrame = New System.Windows.Forms.GroupBox()
+        Me.NetPermPhysicalAddress = New System.Windows.Forms.CheckBox()
+        Me.NetEnableUDP = New System.Windows.Forms.CheckBox()
+        Me.NetUPDPortLabel = New System.Windows.Forms.Label()
+        Me.NetUPDPort = New System.Windows.Forms.TextBox()
+        Me.NetRouterConfig = New System.Windows.Forms.Panel()
+        Me.NetServerPortsLabel = New System.Windows.Forms.Label()
+        Me.NetFTPPortsLabel = New System.Windows.Forms.Label()
+        Me.NetServerPorts = New System.Windows.Forms.TextBox()
+        Me.NetFTPPorts = New System.Windows.Forms.TextBox()
+        Me.NetTypeLabel = New System.Windows.Forms.Label()
+        Me.NetType = New System.Windows.Forms.ComboBox()
+        Me.NetRouterEnabled = New System.Windows.Forms.CheckBox()
+        Me.SerialFrame = New System.Windows.Forms.GroupBox()
+        Me.SBFilePath = New System.Windows.Forms.TextBox()
+        Me.SBFileBrowse = New System.Windows.Forms.Button()
+        Me.SAFilePath = New System.Windows.Forms.TextBox()
+        Me.SAFileBrowse = New System.Windows.Forms.Button()
+        Me.SerialBLabel = New System.Windows.Forms.Label()
+        Me.SerialALabel = New System.Windows.Forms.Label()
+        Me.SerialB = New System.Windows.Forms.ComboBox()
+        Me.SerialA = New System.Windows.Forms.ComboBox()
+        Me.EMCFrame = New System.Windows.Forms.GroupBox()
+        Me.EMCEditor = New System.Windows.Forms.ListView()
+        Me.EMCKeywordValueColumn = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DriveFrame = New System.Windows.Forms.GroupBox()
+        Me.DrivePollMedia = New System.Windows.Forms.CheckBox()
+        Me.DriveBootCD = New System.Windows.Forms.RadioButton()
+        Me.DriveBootDisk = New System.Windows.Forms.RadioButton()
+        Me.DriveSetBootDrive = New System.Windows.Forms.Button()
+        Me.DriveRemove = New System.Windows.Forms.Button()
+        Me.DriveAddFloppy = New System.Windows.Forms.Button()
+        Me.DriveAddCD = New System.Windows.Forms.Button()
+        Me.DriveAddDisk = New System.Windows.Forms.Button()
+        Me.DriveList = New System.Windows.Forms.ListView()
+        Me.DriveLCPath = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DriveLCType = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DriveLCBootMark = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.DriveListContext = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.ContextAddDisk = New System.Windows.Forms.ToolStripMenuItem
-        Me.ContextAddCD = New System.Windows.Forms.ToolStripMenuItem
-        Me.ContextAddFloppy = New System.Windows.Forms.ToolStripMenuItem
-        Me.ContextSetAsBoot = New System.Windows.Forms.ToolStripMenuItem
-        Me.ContextRemoveDrive = New System.Windows.Forms.ToolStripMenuItem
+        Me.DriveContxAddDisk = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DriveContxAddCD = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DriveContxAddFloppy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DriveContextBar0 = New System.Windows.Forms.ToolStripSeparator()
+        Me.DriveContxSetAsBoot = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DriveContextBar1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.DriveContxRemoveDrive = New System.Windows.Forms.ToolStripMenuItem()
         Me.DriveIcons = New System.Windows.Forms.ImageList(Me.components)
-        Me.MiscFrame = New System.Windows.Forms.GroupBox
-        Me.MiscIdleWait = New System.Windows.Forms.CheckBox
-        Me.MiscIgnoreSegv = New System.Windows.Forms.CheckBox
-        Me.MiscEnableGUI = New System.Windows.Forms.CheckBox
-        Me.MiscROM = New System.Windows.Forms.TextBox
-        Me.MiscROMBrowse = New System.Windows.Forms.Button
-        Me.MiscROMLabel = New System.Windows.Forms.Label
-        Me.MacNameFrame = New System.Windows.Forms.GroupBox
-        Me.MacName = New System.Windows.Forms.TextBox
-        Me.MacNameLabel = New System.Windows.Forms.Label
-        Me.ExtFSFrame = New System.Windows.Forms.GroupBox
-        Me.ExtFSDrivesLabel = New System.Windows.Forms.Label
-        Me.ExtFSDrives = New System.Windows.Forms.CheckedListBox
-        Me.ExtFSEnable = New System.Windows.Forms.CheckBox
-        Me.JITFrame = New System.Windows.Forms.GroupBox
-        Me.JITDebugExtFS = New System.Windows.Forms.CheckBox
-        Me.JITCacheSizeLabel = New System.Windows.Forms.Label
-        Me.JITDebug = New System.Windows.Forms.CheckBox
-        Me.JITDontUseInfo = New System.Windows.Forms.Label
-        Me.JITLazyFlush = New System.Windows.Forms.CheckBox
-        Me.JITFPU = New System.Windows.Forms.CheckBox
-        Me.JITInLine = New System.Windows.Forms.CheckBox
-        Me.JITEnable = New System.Windows.Forms.CheckBox
-        Me.JITCacheSize = New System.Windows.Forms.ComboBox
-        Me.InputFrame = New System.Windows.Forms.GroupBox
-        Me.InputMouseWheelLines = New System.Windows.Forms.NumericUpDown
-        Me.InputMouseWheelMode = New System.Windows.Forms.ComboBox
-        Me.InputMouseWheelModeLabel = New System.Windows.Forms.Label
-        Me.InputKeyCodesPathPanel = New System.Windows.Forms.Panel
-        Me.InputKeyCodesPathLabel = New System.Windows.Forms.Label
-        Me.InputKeyCodesPath = New System.Windows.Forms.TextBox
-        Me.InputKeycodesEnable = New System.Windows.Forms.CheckBox
-        Me.InputEmuKbdType = New System.Windows.Forms.ComboBox
-        Me.InputEmuKbdTypeLabel = New System.Windows.Forms.Label
-        Me.MiscHwFrame = New System.Windows.Forms.GroupBox
-        Me.MiscHwSound = New System.Windows.Forms.CheckBox
-        Me.MiscHwCPU = New System.Windows.Forms.ComboBox
-        Me.MiscHwFPU = New System.Windows.Forms.CheckBox
-        Me.MiscHwModelLabel = New System.Windows.Forms.Label
-        Me.MiscHwModel = New System.Windows.Forms.ComboBox
-        Me.MiscHwCD = New System.Windows.Forms.CheckBox
-        Me.MiscHwCPULabel = New System.Windows.Forms.Label
-        Me.MemoryFrame = New System.Windows.Forms.GroupBox
-        Me.MemoryBoxMBLabel = New System.Windows.Forms.Label
-        Me.MemoryBoxLabel = New System.Windows.Forms.Label
-        Me.MemoryBox = New System.Windows.Forms.TextBox
-        Me.MemoryTracker = New System.Windows.Forms.TrackBar
-        Me.OptionList = New System.Windows.Forms.ListView
-        Me.Options = New System.Windows.Forms.ColumnHeader
-        Me.Value = New System.Windows.Forms.ColumnHeader
-        Me.cmdCancel = New System.Windows.Forms.Button
-        Me.cmdOK = New System.Windows.Forms.Button
+        Me.MiscFrame = New System.Windows.Forms.GroupBox()
+        Me.MiscIdleWait = New System.Windows.Forms.CheckBox()
+        Me.MiscIgnoreSegv = New System.Windows.Forms.CheckBox()
+        Me.MiscEnableGUI = New System.Windows.Forms.CheckBox()
+        Me.MiscROM = New System.Windows.Forms.TextBox()
+        Me.MiscROMBrowse = New System.Windows.Forms.Button()
+        Me.MiscROMLabel = New System.Windows.Forms.Label()
+        Me.MacNameFrame = New System.Windows.Forms.GroupBox()
+        Me.MacName = New System.Windows.Forms.TextBox()
+        Me.MacNameLabel = New System.Windows.Forms.Label()
+        Me.ExtFSFrame = New System.Windows.Forms.GroupBox()
+        Me.ExtFSDrivesLabel = New System.Windows.Forms.Label()
+        Me.ExtFSDrives = New System.Windows.Forms.CheckedListBox()
+        Me.ExtFSEnable = New System.Windows.Forms.CheckBox()
+        Me.JITFrame = New System.Windows.Forms.GroupBox()
+        Me.JITDebugExtFS = New System.Windows.Forms.CheckBox()
+        Me.JITCacheSizeLabel = New System.Windows.Forms.Label()
+        Me.JITDebug = New System.Windows.Forms.CheckBox()
+        Me.JITDontUseInfo = New System.Windows.Forms.Label()
+        Me.JITLazyFlush = New System.Windows.Forms.CheckBox()
+        Me.JITFPU = New System.Windows.Forms.CheckBox()
+        Me.JITInLine = New System.Windows.Forms.CheckBox()
+        Me.JITEnable = New System.Windows.Forms.CheckBox()
+        Me.JITCacheSize = New System.Windows.Forms.ComboBox()
+        Me.InputFrame = New System.Windows.Forms.GroupBox()
+        Me.InputMouseWheelLines = New System.Windows.Forms.NumericUpDown()
+        Me.InputMouseWheelMode = New System.Windows.Forms.ComboBox()
+        Me.InputMouseWheelModeLabel = New System.Windows.Forms.Label()
+        Me.InputKeyCodesPathPanel = New System.Windows.Forms.Panel()
+        Me.InputKeyCodesPathLabel = New System.Windows.Forms.Label()
+        Me.InputKeyCodesPath = New System.Windows.Forms.TextBox()
+        Me.InputKeycodesEnable = New System.Windows.Forms.CheckBox()
+        Me.InputEmuKbdType = New System.Windows.Forms.ComboBox()
+        Me.InputEmuKbdTypeLabel = New System.Windows.Forms.Label()
+        Me.MiscHwFrame = New System.Windows.Forms.GroupBox()
+        Me.MiscHwSound = New System.Windows.Forms.CheckBox()
+        Me.MiscHwCPU = New System.Windows.Forms.ComboBox()
+        Me.MiscHwFPU = New System.Windows.Forms.CheckBox()
+        Me.MiscHwModelLabel = New System.Windows.Forms.Label()
+        Me.MiscHwModel = New System.Windows.Forms.ComboBox()
+        Me.MiscHwCD = New System.Windows.Forms.CheckBox()
+        Me.MiscHwCPULabel = New System.Windows.Forms.Label()
+        Me.MemoryFrame = New System.Windows.Forms.GroupBox()
+        Me.MemoryBoxMBLabel = New System.Windows.Forms.Label()
+        Me.MemoryBoxLabel = New System.Windows.Forms.Label()
+        Me.MemoryBox = New System.Windows.Forms.TextBox()
+        Me.MemoryTracker = New System.Windows.Forms.TrackBar()
+        Me.OptionList = New System.Windows.Forms.ListView()
+        Me.Options = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Value = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.cmdCancel = New System.Windows.Forms.Button()
+        Me.cmdOK = New System.Windows.Forms.Button()
         Me.ControlToolTip = New System.Windows.Forms.ToolTip(Me.components)
+        Me.NetMulticastModeLabel = New System.Windows.Forms.Label()
+        Me.NetMulticastMode = New System.Windows.Forms.TextBox()
         Me.OptionPanel.SuspendLayout()
         Me.IconFrame.SuspendLayout()
         Me.ScreenFrame.SuspendLayout()
@@ -171,9 +175,9 @@ Partial Class frmSettingsBasiliskVM
         '
         'OptionPanel
         '
+        Me.OptionPanel.Controls.Add(Me.NetworkFrame)
         Me.OptionPanel.Controls.Add(Me.IconFrame)
         Me.OptionPanel.Controls.Add(Me.ScreenFrame)
-        Me.OptionPanel.Controls.Add(Me.NetworkFrame)
         Me.OptionPanel.Controls.Add(Me.SerialFrame)
         Me.OptionPanel.Controls.Add(Me.EMCFrame)
         Me.OptionPanel.Controls.Add(Me.DriveFrame)
@@ -313,6 +317,8 @@ Partial Class frmSettingsBasiliskVM
         '
         'NetworkFrame
         '
+        Me.NetworkFrame.Controls.Add(Me.NetMulticastMode)
+        Me.NetworkFrame.Controls.Add(Me.NetMulticastModeLabel)
         Me.NetworkFrame.Controls.Add(Me.NetPermPhysicalAddress)
         Me.NetworkFrame.Controls.Add(Me.NetEnableUDP)
         Me.NetworkFrame.Controls.Add(Me.NetUPDPortLabel)
@@ -367,8 +373,8 @@ Partial Class frmSettingsBasiliskVM
         Me.NetUPDPort.Size = New System.Drawing.Size(133, 20)
         Me.NetUPDPort.TabIndex = 0
         Me.ControlToolTip.SetToolTip(Me.NetUPDPort, "This option is only used if Enable UDP Tunnel is marked." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This selects the port b" & _
-                "y which the emulator is going to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "connect to the network. The default value is t" & _
-                "he recommended.")
+        "y which the emulator is going to" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "connect to the network. The default value is t" & _
+        "he recommended.")
         '
         'NetRouterConfig
         '
@@ -378,7 +384,7 @@ Partial Class frmSettingsBasiliskVM
         Me.NetRouterConfig.Controls.Add(Me.NetFTPPorts)
         Me.NetRouterConfig.Location = New System.Drawing.Point(10, 180)
         Me.NetRouterConfig.Name = "NetRouterConfig"
-        Me.NetRouterConfig.Size = New System.Drawing.Size(367, 67)
+        Me.NetRouterConfig.Size = New System.Drawing.Size(367, 60)
         Me.NetRouterConfig.TabIndex = 2
         '
         'NetServerPortsLabel
@@ -687,41 +693,51 @@ Partial Class frmSettingsBasiliskVM
         '
         'DriveListContext
         '
-        Me.DriveListContext.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextAddDisk, Me.ContextAddCD, Me.ContextAddFloppy, Me.ContextSetAsBoot, Me.ContextRemoveDrive})
+        Me.DriveListContext.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DriveContxAddDisk, Me.DriveContxAddCD, Me.DriveContxAddFloppy, Me.DriveContextBar0, Me.DriveContxSetAsBoot, Me.DriveContextBar1, Me.DriveContxRemoveDrive})
         Me.DriveListContext.Name = "DriveListContext"
-        Me.DriveListContext.Size = New System.Drawing.Size(240, 114)
+        Me.DriveListContext.Size = New System.Drawing.Size(240, 126)
         '
-        'ContextAddDisk
+        'DriveContxAddDisk
         '
-        Me.ContextAddDisk.Name = "ContextAddDisk"
-        Me.ContextAddDisk.Size = New System.Drawing.Size(239, 22)
-        Me.ContextAddDisk.Text = "Add disk image"
+        Me.DriveContxAddDisk.Name = "DriveContxAddDisk"
+        Me.DriveContxAddDisk.Size = New System.Drawing.Size(239, 22)
+        Me.DriveContxAddDisk.Text = "Add disk image"
         '
-        'ContextAddCD
+        'DriveContxAddCD
         '
-        Me.ContextAddCD.Name = "ContextAddCD"
-        Me.ContextAddCD.Size = New System.Drawing.Size(239, 22)
-        Me.ContextAddCD.Text = "Add CD image"
+        Me.DriveContxAddCD.Name = "DriveContxAddCD"
+        Me.DriveContxAddCD.Size = New System.Drawing.Size(239, 22)
+        Me.DriveContxAddCD.Text = "Add CD image"
         '
-        'ContextAddFloppy
+        'DriveContxAddFloppy
         '
-        Me.ContextAddFloppy.Name = "ContextAddFloppy"
-        Me.ContextAddFloppy.Size = New System.Drawing.Size(239, 22)
-        Me.ContextAddFloppy.Text = "Add floppy image"
+        Me.DriveContxAddFloppy.Name = "DriveContxAddFloppy"
+        Me.DriveContxAddFloppy.Size = New System.Drawing.Size(239, 22)
+        Me.DriveContxAddFloppy.Text = "Add floppy image"
         '
-        'ContextSetAsBoot
+        'DriveContextBar0
         '
-        Me.ContextSetAsBoot.Enabled = False
-        Me.ContextSetAsBoot.Name = "ContextSetAsBoot"
-        Me.ContextSetAsBoot.Size = New System.Drawing.Size(239, 22)
-        Me.ContextSetAsBoot.Text = "Set as boot drive"
+        Me.DriveContextBar0.Name = "DriveContextBar0"
+        Me.DriveContextBar0.Size = New System.Drawing.Size(236, 6)
         '
-        'ContextRemoveDrive
+        'DriveContxSetAsBoot
         '
-        Me.ContextRemoveDrive.Enabled = False
-        Me.ContextRemoveDrive.Name = "ContextRemoveDrive"
-        Me.ContextRemoveDrive.Size = New System.Drawing.Size(239, 22)
-        Me.ContextRemoveDrive.Text = "Remove selected drive from list"
+        Me.DriveContxSetAsBoot.Enabled = False
+        Me.DriveContxSetAsBoot.Name = "DriveContxSetAsBoot"
+        Me.DriveContxSetAsBoot.Size = New System.Drawing.Size(239, 22)
+        Me.DriveContxSetAsBoot.Text = "Set as boot drive"
+        '
+        'DriveContextBar1
+        '
+        Me.DriveContextBar1.Name = "DriveContextBar1"
+        Me.DriveContextBar1.Size = New System.Drawing.Size(236, 6)
+        '
+        'DriveContxRemoveDrive
+        '
+        Me.DriveContxRemoveDrive.Enabled = False
+        Me.DriveContxRemoveDrive.Name = "DriveContxRemoveDrive"
+        Me.DriveContxRemoveDrive.Size = New System.Drawing.Size(239, 22)
+        Me.DriveContxRemoveDrive.Text = "Remove selected drive from list"
         '
         'DriveIcons
         '
@@ -775,7 +791,7 @@ Partial Class frmSettingsBasiliskVM
         Me.MiscEnableGUI.TabIndex = 5
         Me.MiscEnableGUI.Text = "Enable GUI"
         Me.ControlToolTip.SetToolTip(Me.MiscEnableGUI, "Note that this option is useless in" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Windows and is kept only for" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "multiplataform" & _
-                " compatibility")
+        " compatibility")
         Me.MiscEnableGUI.UseVisualStyleBackColor = True
         '
         'MiscROM
@@ -828,7 +844,7 @@ Partial Class frmSettingsBasiliskVM
         Me.MacNameLabel.Size = New System.Drawing.Size(347, 30)
         Me.MacNameLabel.TabIndex = 0
         Me.MacNameLabel.Text = "The most important thing for any computer, the name. The name can be anything, li" & _
-            "ke Performa 9000, Mac OS 7, iMac G3, or simply Mac"
+    "ke Performa 9000, Mac OS 7, iMac G3, or simply Mac"
         '
         'ExtFSFrame
         '
@@ -871,8 +887,8 @@ Partial Class frmSettingsBasiliskVM
         Me.ExtFSEnable.TabIndex = 8
         Me.ExtFSEnable.Text = "Enable External FileSystem"
         Me.ControlToolTip.SetToolTip(Me.ExtFSEnable, "Enables the access to your host drives. To access them," & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "just boot into MacOS and" & _
-                " double click the 'My PC' icon" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "that appears in the desktop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Do not confuse wi" & _
-                "th Linux's Extensible FileSystem (Ext)")
+        " double click the 'My PC' icon" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "that appears in the desktop" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Do not confuse wi" & _
+        "th Linux's Extensible FileSystem (Ext)")
         Me.ExtFSEnable.UseVisualStyleBackColor = True
         '
         'JITFrame
@@ -902,7 +918,7 @@ Partial Class frmSettingsBasiliskVM
         Me.JITDebugExtFS.TabIndex = 8
         Me.JITDebugExtFS.Text = "Debug External FileSystem"
         Me.ControlToolTip.SetToolTip(Me.JITDebugExtFS, "Debug the ExtFS driver. This is only intended to use the output" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to perfection th" & _
-                "e code, so it's not useful unless you are a programmer")
+        "e code, so it's not useful unless you are a programmer")
         Me.JITDebugExtFS.UseVisualStyleBackColor = True
         '
         'JITCacheSizeLabel
@@ -923,7 +939,7 @@ Partial Class frmSettingsBasiliskVM
         Me.JITDebug.TabIndex = 6
         Me.JITDebug.Text = "Debug JIT Compiler"
         Me.ControlToolTip.SetToolTip(Me.JITDebug, "Sets the JIT compiler in debug mode. This is used to perfection" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "the emulation on" & _
-                " the JIT side. This is only used by programmers")
+        " the JIT side. This is only used by programmers")
         Me.JITDebug.UseVisualStyleBackColor = True
         '
         'JITDontUseInfo
@@ -1223,7 +1239,7 @@ Partial Class frmSettingsBasiliskVM
         Me.OptionList.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Options, Me.Value})
         Me.OptionList.FullRowSelect = True
         Me.OptionList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
-        Me.OptionList.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem27, ListViewItem28, ListViewItem29, ListViewItem30, ListViewItem31, ListViewItem32, ListViewItem33, ListViewItem34, ListViewItem35, ListViewItem36, ListViewItem37, ListViewItem38, ListViewItem39})
+        Me.OptionList.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12, ListViewItem13})
         Me.OptionList.Location = New System.Drawing.Point(12, 11)
         Me.OptionList.Name = "OptionList"
         Me.OptionList.Size = New System.Drawing.Size(353, 376)
@@ -1273,6 +1289,22 @@ Partial Class frmSettingsBasiliskVM
         Me.ControlToolTip.AutoPopDelay = 10000
         Me.ControlToolTip.InitialDelay = 500
         Me.ControlToolTip.ReshowDelay = 100
+        '
+        'NetMulticastModeLabel
+        '
+        Me.NetMulticastModeLabel.AutoSize = True
+        Me.NetMulticastModeLabel.Location = New System.Drawing.Point(10, 243)
+        Me.NetMulticastModeLabel.Name = "NetMulticastModeLabel"
+        Me.NetMulticastModeLabel.Size = New System.Drawing.Size(81, 13)
+        Me.NetMulticastModeLabel.TabIndex = 6
+        Me.NetMulticastModeLabel.Text = "Multicast mode:"
+        '
+        'NetMulticastMode
+        '
+        Me.NetMulticastMode.Location = New System.Drawing.Point(93, 240)
+        Me.NetMulticastMode.Name = "NetMulticastMode"
+        Me.NetMulticastMode.Size = New System.Drawing.Size(133, 20)
+        Me.NetMulticastMode.TabIndex = 7
         '
         'frmSettingsBasiliskVM
         '
@@ -1390,11 +1422,11 @@ Partial Class frmSettingsBasiliskVM
     Friend WithEvents DriveList As System.Windows.Forms.ListView
     Friend WithEvents DriveIcons As System.Windows.Forms.ImageList
     Friend WithEvents DriveListContext As System.Windows.Forms.ContextMenuStrip
-    Friend WithEvents ContextAddDisk As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ContextAddCD As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ContextAddFloppy As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ContextSetAsBoot As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents ContextRemoveDrive As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DriveContxAddDisk As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DriveContxAddCD As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DriveContxAddFloppy As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DriveContxSetAsBoot As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DriveContxRemoveDrive As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DriveLCPath As System.Windows.Forms.ColumnHeader
     Friend WithEvents DriveLCType As System.Windows.Forms.ColumnHeader
     Friend WithEvents DriveLCBootMark As System.Windows.Forms.ColumnHeader
@@ -1436,4 +1468,8 @@ Partial Class frmSettingsBasiliskVM
     Friend WithEvents NetRouterEnabled As System.Windows.Forms.CheckBox
     Friend WithEvents IconInfo As System.Windows.Forms.Label
     Friend WithEvents ListView1 As System.Windows.Forms.ListView
+    Friend WithEvents DriveContextBar0 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents DriveContextBar1 As System.Windows.Forms.ToolStripSeparator
+    Friend WithEvents NetMulticastMode As System.Windows.Forms.TextBox
+    Friend WithEvents NetMulticastModeLabel As System.Windows.Forms.Label
 End Class

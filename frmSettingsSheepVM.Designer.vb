@@ -16,116 +16,169 @@
     End Sub
     'Required by the Windows Form Designer
     Private components As System.ComponentModel.IContainer
-    Public ToolTip1 As System.Windows.Forms.ToolTip
+    Public ControlInfo As System.Windows.Forms.ToolTip
     Public WithEvents cmdCancel As System.Windows.Forms.Button
     Public WithEvents cmdOK As System.Windows.Forms.Button
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSettingsSheepVM))
         Dim ListViewItem1 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Name", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
         Dim ListViewItem2 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Icon", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
         Dim ListViewItem3 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Memory")
         Dim ListViewItem4 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Drives", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
         Dim ListViewItem5 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Network", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
-        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Screen", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
+        Dim ListViewItem6 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem(New String() {"Display and multimedia", ""}, -1, System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, New System.Drawing.Font("Tahoma", 8.25!))
         Dim ListViewItem7 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Mouse and keyboard")
         Dim ListViewItem8 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Serial ports")
-        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Miscelaneous")
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmSettingsSheepVM))
-        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
-        Me.cmdCancel = New System.Windows.Forms.Button
-        Me.cmdOK = New System.Windows.Forms.Button
-        Me.IconFrame = New System.Windows.Forms.GroupBox
-        Me.BrowseIcon = New System.Windows.Forms.Button
-        Me.IconDescription = New System.Windows.Forms.Label
-        Me.IconList = New System.Windows.Forms.ListView
+        Dim ListViewItem9 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("External FileSystem")
+        Dim ListViewItem10 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Miscelaneous")
+        Dim ListViewItem11 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("JIT and debugging")
+        Dim ListViewItem12 As System.Windows.Forms.ListViewItem = New System.Windows.Forms.ListViewItem("Edit Manually Config File")
+        Me.ControlInfo = New System.Windows.Forms.ToolTip(Me.components)
+        Me.NetFakeAddressLabel = New System.Windows.Forms.Label()
+        Me.cmdCancel = New System.Windows.Forms.Button()
+        Me.cmdOK = New System.Windows.Forms.Button()
         Me.Icons = New System.Windows.Forms.ImageList(Me.components)
-        Me.Browser = New System.Windows.Forms.OpenFileDialog
-        Me.VMNameFrame = New System.Windows.Forms.GroupBox
-        Me.VMNameHelp = New System.Windows.Forms.Label
-        Me.VMName = New System.Windows.Forms.TextBox
-        Me.ScreenFrame = New System.Windows.Forms.GroupBox
-        Me.CustResolution = New System.Windows.Forms.CheckBox
-        Me.VMResHeight = New System.Windows.Forms.ComboBox
-        Me.VMResWidth = New System.Windows.Forms.ComboBox
-        Me.VMResLabel = New System.Windows.Forms.Label
-        Me.VMResDef = New System.Windows.Forms.ComboBox
-        Me.RefeshRateLabel = New System.Windows.Forms.Label
-        Me.RefreshRate = New System.Windows.Forms.ComboBox
-        Me.StartModeLabel = New System.Windows.Forms.Label
-        Me.StartMode = New System.Windows.Forms.ComboBox
-        Me.NetworkFrame = New System.Windows.Forms.GroupBox
-        Me.NetInterfaceLabel = New System.Windows.Forms.Label
-        Me.NetInterface = New System.Windows.Forms.ComboBox
-        Me.RouterPanel = New System.Windows.Forms.Panel
-        Me.FTPPortsLabel = New System.Windows.Forms.Label
-        Me.ServerPortsLabel = New System.Windows.Forms.Label
-        Me.FTPPorts = New System.Windows.Forms.TextBox
-        Me.ServerPorts = New System.Windows.Forms.TextBox
-        Me.InputFrame = New System.Windows.Forms.GroupBox
-        Me.KeyboardGroup = New System.Windows.Forms.GroupBox
-        Me.KeyCodesPathLabel = New System.Windows.Forms.Label
-        Me.KeyCodesPath = New System.Windows.Forms.TextBox
-        Me.UseKeycodes = New System.Windows.Forms.CheckBox
-        Me.BrowseKeyCodes = New System.Windows.Forms.Button
-        Me.MouseGroup = New System.Windows.Forms.GroupBox
-        Me.ScrollLinesLabel = New System.Windows.Forms.Label
-        Me.WheelFunctionLabel = New System.Windows.Forms.Label
-        Me.WheelFunction = New System.Windows.Forms.ComboBox
-        Me.ScrollLines = New System.Windows.Forms.NumericUpDown
-        Me.SerialFrame = New System.Windows.Forms.GroupBox
-        Me.PrinterPort = New System.Windows.Forms.ComboBox
-        Me.PrinterPortLabel = New System.Windows.Forms.Label
-        Me.PrinterOutputFile = New System.Windows.Forms.Panel
-        Me.PrinterOutputPath = New System.Windows.Forms.TextBox
-        Me.BrowsePOFile = New System.Windows.Forms.Button
-        Me.ModemPort = New System.Windows.Forms.ComboBox
-        Me.Label2 = New System.Windows.Forms.Label
-        Me.ModemOutputFile = New System.Windows.Forms.Panel
-        Me.ModemOutputPath = New System.Windows.Forms.TextBox
-        Me.BrowseMOFile = New System.Windows.Forms.Button
-        Me.MemoryFrame = New System.Windows.Forms.GroupBox
-        Me.Memory = New System.Windows.Forms.TextBox
-        Me.MegabyteLabel = New System.Windows.Forms.Label
-        Me.MemoryLabel = New System.Windows.Forms.Label
-        Me.MemorySlider = New System.Windows.Forms.TrackBar
-        Me.MiscFrame = New System.Windows.Forms.GroupBox
-        Me.IgnoreIllegal = New System.Windows.Forms.CheckBox
-        Me.IdleCPU = New System.Windows.Forms.CheckBox
-        Me.Enable68kEmu = New System.Windows.Forms.CheckBox
-        Me.EnableJIT = New System.Windows.Forms.CheckBox
-        Me.DrivesFrame = New System.Windows.Forms.GroupBox
-        Me.DrivesList = New System.Windows.Forms.ListBox
-        Me.MoveItemDown = New System.Windows.Forms.Button
-        Me.MoveItemUp = New System.Windows.Forms.Button
-        Me.AddDisk = New System.Windows.Forms.Button
-        Me.AddCD = New System.Windows.Forms.Button
-        Me.DeleteItem = New System.Windows.Forms.Button
-        Me.OptionsList = New System.Windows.Forms.ListView
-        Me.Options = New System.Windows.Forms.ColumnHeader
-        Me.Value = New System.Windows.Forms.ColumnHeader
-        Me.OptionPanel = New System.Windows.Forms.Panel
-        Me.Label1 = New System.Windows.Forms.Label
+        Me.Browser = New System.Windows.Forms.OpenFileDialog()
+        Me.DriveListContext = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.ContextAddDisk = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextAddCD = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextAddFloppy = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextSetAsBoot = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ContextRemoveDrive = New System.Windows.Forms.ToolStripMenuItem()
+        Me.DriveIcons = New System.Windows.Forms.ImageList(Me.components)
+        Me.GroupContainer = New System.Windows.Forms.Panel()
+        Me.MacNameFrame = New System.Windows.Forms.GroupBox()
+        Me.MacName = New System.Windows.Forms.TextBox()
+        Me.MacNameLabel = New System.Windows.Forms.Label()
+        Me.IconFrame = New System.Windows.Forms.GroupBox()
+        Me.IconAdd = New System.Windows.Forms.Button()
+        Me.IconList = New System.Windows.Forms.ListView()
+        Me.IconInfo = New System.Windows.Forms.Label()
+        Me.MemoryFrame = New System.Windows.Forms.GroupBox()
+        Me.MemoryBoxMBLabel = New System.Windows.Forms.Label()
+        Me.MemoryBoxLabel = New System.Windows.Forms.Label()
+        Me.MemoryBox = New System.Windows.Forms.TextBox()
+        Me.MemoryTracker = New System.Windows.Forms.TrackBar()
+        Me.DriveFrame = New System.Windows.Forms.GroupBox()
+        Me.DrivePollMedia = New System.Windows.Forms.CheckBox()
+        Me.DriveBootCD = New System.Windows.Forms.RadioButton()
+        Me.DriveBootDisk = New System.Windows.Forms.RadioButton()
+        Me.DriveSetBootDrive = New System.Windows.Forms.Button()
+        Me.DriveRemove = New System.Windows.Forms.Button()
+        Me.DriveAddFloppy = New System.Windows.Forms.Button()
+        Me.DriveAddCD = New System.Windows.Forms.Button()
+        Me.DriveAddDisk = New System.Windows.Forms.Button()
+        Me.DriveList = New System.Windows.Forms.ListView()
+        Me.DriveLCPath = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DriveLCType = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DriveLCBootMark = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.NetworkFrame = New System.Windows.Forms.GroupBox()
+        Me.NetEnable = New System.Windows.Forms.CheckBox()
+        Me.NetContainer = New System.Windows.Forms.Panel()
+        Me.NetMulticastModeLabel = New System.Windows.Forms.Label()
+        Me.NetMulticastMode = New System.Windows.Forms.TextBox()
+        Me.NetTypeLabel = New System.Windows.Forms.Label()
+        Me.NetFakeAddress = New System.Windows.Forms.TextBox()
+        Me.NetPermPhysicalAddress = New System.Windows.Forms.CheckBox()
+        Me.NetRouterEnabled = New System.Windows.Forms.CheckBox()
+        Me.NetEnableUDP = New System.Windows.Forms.CheckBox()
+        Me.NetType = New System.Windows.Forms.ComboBox()
+        Me.NetUPDPortLabel = New System.Windows.Forms.Label()
+        Me.NetRouterConfig = New System.Windows.Forms.Panel()
+        Me.NetServerPortsLabel = New System.Windows.Forms.Label()
+        Me.NetFTPPortsLabel = New System.Windows.Forms.Label()
+        Me.NetServerPorts = New System.Windows.Forms.TextBox()
+        Me.NetFTPPorts = New System.Windows.Forms.TextBox()
+        Me.NetUPDPort = New System.Windows.Forms.TextBox()
+        Me.MediaFrame = New System.Windows.Forms.GroupBox()
+        Me.MediaEnableSound = New System.Windows.Forms.CheckBox()
+        Me.MediaEnableCD = New System.Windows.Forms.CheckBox()
+        Me.MediaEnableQuickDraw = New System.Windows.Forms.CheckBox()
+        Me.MediaModeLabel = New System.Windows.Forms.Label()
+        Me.MediaMode = New System.Windows.Forms.ComboBox()
+        Me.MediaRefreshLabel = New System.Windows.Forms.Label()
+        Me.MediaRefresh = New System.Windows.Forms.ComboBox()
+        Me.MediaResLabel = New System.Windows.Forms.Label()
+        Me.MediaResCust = New System.Windows.Forms.CheckBox()
+        Me.MediaResY = New System.Windows.Forms.ComboBox()
+        Me.MediaResX = New System.Windows.Forms.ComboBox()
+        Me.InputFrame = New System.Windows.Forms.GroupBox()
+        Me.InputMouseWheelLines = New System.Windows.Forms.NumericUpDown()
+        Me.InputMouseWheelMode = New System.Windows.Forms.ComboBox()
+        Me.InputMouseWheelModeLabel = New System.Windows.Forms.Label()
+        Me.InputKeyCodesPathPanel = New System.Windows.Forms.Panel()
+        Me.InputKeyCodesPathLabel = New System.Windows.Forms.Label()
+        Me.InputKeyCodesPath = New System.Windows.Forms.TextBox()
+        Me.InputKeycodesEnable = New System.Windows.Forms.CheckBox()
+        Me.InputEmuKbdType = New System.Windows.Forms.ComboBox()
+        Me.InputEmuKbdTypeLabel = New System.Windows.Forms.Label()
+        Me.SerialFrame = New System.Windows.Forms.GroupBox()
+        Me.SerialBFilePath = New System.Windows.Forms.TextBox()
+        Me.SerialBFileBrowse = New System.Windows.Forms.Button()
+        Me.SerialAFilePath = New System.Windows.Forms.TextBox()
+        Me.SerialAFileBrowse = New System.Windows.Forms.Button()
+        Me.SerialBLabel = New System.Windows.Forms.Label()
+        Me.SerialALabel = New System.Windows.Forms.Label()
+        Me.SerialB = New System.Windows.Forms.ComboBox()
+        Me.SerialA = New System.Windows.Forms.ComboBox()
+        Me.ExtFSFrame = New System.Windows.Forms.GroupBox()
+        Me.ExtFSDrivesLabel = New System.Windows.Forms.Label()
+        Me.ExtFSDrives = New System.Windows.Forms.CheckedListBox()
+        Me.ExtFSEnable = New System.Windows.Forms.CheckBox()
+        Me.MiscFrame = New System.Windows.Forms.GroupBox()
+        Me.MiscIgnoreIllegal = New System.Windows.Forms.CheckBox()
+        Me.MiscClipConv = New System.Windows.Forms.CheckBox()
+        Me.MiscIdle = New System.Windows.Forms.CheckBox()
+        Me.MiscIgnoreSegv = New System.Windows.Forms.CheckBox()
+        Me.MiscEnableGUI = New System.Windows.Forms.CheckBox()
+        Me.MiscROM = New System.Windows.Forms.TextBox()
+        Me.MiscROMBrowse = New System.Windows.Forms.Button()
+        Me.MiscROMLabel = New System.Windows.Forms.Label()
+        Me.JITFrame = New System.Windows.Forms.GroupBox()
+        Me.JITEnable = New System.Windows.Forms.CheckBox()
+        Me.JIT68kEnable = New System.Windows.Forms.CheckBox()
+        Me.JITDebugExtFS = New System.Windows.Forms.CheckBox()
+        Me.EMCFrame = New System.Windows.Forms.GroupBox()
+        Me.EMCEditor = New System.Windows.Forms.ListView()
+        Me.EMCKeywordValueColumn = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.OptionList = New System.Windows.Forms.ListView()
+        Me.Options = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Value = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.DriveListContext.SuspendLayout()
+        Me.GroupContainer.SuspendLayout()
+        Me.MacNameFrame.SuspendLayout()
         Me.IconFrame.SuspendLayout()
-        Me.VMNameFrame.SuspendLayout()
-        Me.ScreenFrame.SuspendLayout()
-        Me.NetworkFrame.SuspendLayout()
-        Me.RouterPanel.SuspendLayout()
-        Me.InputFrame.SuspendLayout()
-        Me.KeyboardGroup.SuspendLayout()
-        Me.MouseGroup.SuspendLayout()
-        CType(Me.ScrollLines, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SerialFrame.SuspendLayout()
-        Me.PrinterOutputFile.SuspendLayout()
-        Me.ModemOutputFile.SuspendLayout()
         Me.MemoryFrame.SuspendLayout()
-        CType(Me.MemorySlider, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.MemoryTracker, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.DriveFrame.SuspendLayout()
+        Me.NetworkFrame.SuspendLayout()
+        Me.NetContainer.SuspendLayout()
+        Me.NetRouterConfig.SuspendLayout()
+        Me.MediaFrame.SuspendLayout()
+        Me.InputFrame.SuspendLayout()
+        CType(Me.InputMouseWheelLines, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.InputKeyCodesPathPanel.SuspendLayout()
+        Me.SerialFrame.SuspendLayout()
+        Me.ExtFSFrame.SuspendLayout()
         Me.MiscFrame.SuspendLayout()
-        Me.DrivesFrame.SuspendLayout()
-        Me.OptionPanel.SuspendLayout()
+        Me.JITFrame.SuspendLayout()
+        Me.EMCFrame.SuspendLayout()
         Me.SuspendLayout()
+        '
+        'NetFakeAddressLabel
+        '
+        Me.NetFakeAddressLabel.AutoSize = True
+        Me.NetFakeAddressLabel.Location = New System.Drawing.Point(7, 193)
+        Me.NetFakeAddressLabel.Name = "NetFakeAddressLabel"
+        Me.NetFakeAddressLabel.Size = New System.Drawing.Size(90, 13)
+        Me.NetFakeAddressLabel.TabIndex = 7
+        Me.NetFakeAddressLabel.Text = "Physical address:"
+        Me.ControlInfo.SetToolTip(Me.NetFakeAddressLabel, "This is an optional, physical adapter address" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "to provide for your Mac. If set, t" & _
+        "his value will" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "override the default physical ethernet" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "address of this Mac.")
         '
         'cmdCancel
         '
@@ -154,44 +207,6 @@
         Me.cmdOK.Text = "OK"
         Me.cmdOK.UseVisualStyleBackColor = True
         '
-        'IconFrame
-        '
-        Me.IconFrame.Controls.Add(Me.BrowseIcon)
-        Me.IconFrame.Controls.Add(Me.IconDescription)
-        Me.IconFrame.Controls.Add(Me.IconList)
-        Me.IconFrame.Location = New System.Drawing.Point(0, 3)
-        Me.IconFrame.Name = "IconFrame"
-        Me.IconFrame.Size = New System.Drawing.Size(367, 279)
-        Me.IconFrame.TabIndex = 3
-        Me.IconFrame.TabStop = False
-        Me.IconFrame.Text = "Icon"
-        '
-        'BrowseIcon
-        '
-        Me.BrowseIcon.Location = New System.Drawing.Point(286, 12)
-        Me.BrowseIcon.Name = "BrowseIcon"
-        Me.BrowseIcon.Size = New System.Drawing.Size(75, 23)
-        Me.BrowseIcon.TabIndex = 6
-        Me.BrowseIcon.Text = "Browse..."
-        Me.BrowseIcon.UseVisualStyleBackColor = True
-        '
-        'IconDescription
-        '
-        Me.IconDescription.Location = New System.Drawing.Point(6, 17)
-        Me.IconDescription.Name = "IconDescription"
-        Me.IconDescription.Size = New System.Drawing.Size(261, 18)
-        Me.IconDescription.TabIndex = 7
-        Me.IconDescription.Text = "If you want an icon that isn't in the list, click Browse."
-        '
-        'IconList
-        '
-        Me.IconList.LargeImageList = Me.Icons
-        Me.IconList.Location = New System.Drawing.Point(9, 38)
-        Me.IconList.Name = "IconList"
-        Me.IconList.Size = New System.Drawing.Size(352, 235)
-        Me.IconList.TabIndex = 6
-        Me.IconList.UseCompatibleStateImageBehavior = False
-        '
         'Icons
         '
         Me.Icons.ColorDepth = System.Windows.Forms.ColorDepth.Depth32Bit
@@ -202,614 +217,1015 @@
         '
         Me.Browser.DefaultExt = "*.png"
         Me.Browser.Filter = """Image files (*.jpg;*.jpeg;*.png;*.bmp;*.ico)|*.jpg;*.jpeg;*.png;*.bmp;*.ico|All " & _
-            "files|*.*"""
+    "files|*.*"""
         Me.Browser.RestoreDirectory = True
         '
-        'VMNameFrame
-        '
-        Me.VMNameFrame.Controls.Add(Me.VMNameHelp)
-        Me.VMNameFrame.Controls.Add(Me.VMName)
-        Me.VMNameFrame.Location = New System.Drawing.Point(0, 3)
-        Me.VMNameFrame.Name = "VMNameFrame"
-        Me.VMNameFrame.Size = New System.Drawing.Size(367, 279)
-        Me.VMNameFrame.TabIndex = 4
-        Me.VMNameFrame.TabStop = False
-        Me.VMNameFrame.Text = "Name"
-        '
-        'VMNameHelp
-        '
-        Me.VMNameHelp.Location = New System.Drawing.Point(6, 17)
-        Me.VMNameHelp.Name = "VMNameHelp"
-        Me.VMNameHelp.Size = New System.Drawing.Size(363, 18)
-        Me.VMNameHelp.TabIndex = 7
-        Me.VMNameHelp.Text = "Do you want a change? Why not start with the name?"
-        '
-        'VMName
-        '
-        Me.VMName.Location = New System.Drawing.Point(9, 38)
-        Me.VMName.Name = "VMName"
-        Me.VMName.Size = New System.Drawing.Size(352, 21)
-        Me.VMName.TabIndex = 6
-        '
-        'ScreenFrame
-        '
-        Me.ScreenFrame.Controls.Add(Me.CustResolution)
-        Me.ScreenFrame.Controls.Add(Me.VMResHeight)
-        Me.ScreenFrame.Controls.Add(Me.VMResWidth)
-        Me.ScreenFrame.Controls.Add(Me.VMResLabel)
-        Me.ScreenFrame.Controls.Add(Me.VMResDef)
-        Me.ScreenFrame.Controls.Add(Me.RefeshRateLabel)
-        Me.ScreenFrame.Controls.Add(Me.RefreshRate)
-        Me.ScreenFrame.Controls.Add(Me.StartModeLabel)
-        Me.ScreenFrame.Controls.Add(Me.StartMode)
-        Me.ScreenFrame.Location = New System.Drawing.Point(0, 3)
-        Me.ScreenFrame.Name = "ScreenFrame"
-        Me.ScreenFrame.Size = New System.Drawing.Size(367, 279)
-        Me.ScreenFrame.TabIndex = 5
-        Me.ScreenFrame.TabStop = False
-        Me.ScreenFrame.Text = "Screen"
-        '
-        'CustResolution
-        '
-        Me.CustResolution.AutoSize = True
-        Me.CustResolution.Location = New System.Drawing.Point(189, 23)
-        Me.CustResolution.Name = "CustResolution"
-        Me.CustResolution.Size = New System.Drawing.Size(115, 17)
-        Me.CustResolution.TabIndex = 8
-        Me.CustResolution.Text = "Custom Resolution"
-        Me.CustResolution.UseVisualStyleBackColor = True
-        '
-        'VMResHeight
-        '
-        Me.VMResHeight.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.VMResHeight.FormattingEnabled = True
-        Me.VMResHeight.Items.AddRange(New Object() {"384", "480", "600", "768", "864", "1024"})
-        Me.VMResHeight.Location = New System.Drawing.Point(139, 21)
-        Me.VMResHeight.Name = "VMResHeight"
-        Me.VMResHeight.Size = New System.Drawing.Size(46, 21)
-        Me.VMResHeight.TabIndex = 7
-        Me.VMResHeight.Visible = False
-        '
-        'VMResWidth
-        '
-        Me.VMResWidth.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.VMResWidth.FormattingEnabled = True
-        Me.VMResWidth.Items.AddRange(New Object() {"512", "640", "800", "1024", "1152", "1280"})
-        Me.VMResWidth.Location = New System.Drawing.Point(87, 21)
-        Me.VMResWidth.Name = "VMResWidth"
-        Me.VMResWidth.Size = New System.Drawing.Size(46, 21)
-        Me.VMResWidth.TabIndex = 6
-        Me.VMResWidth.Visible = False
-        '
-        'VMResLabel
-        '
-        Me.VMResLabel.AutoSize = True
-        Me.VMResLabel.Location = New System.Drawing.Point(6, 24)
-        Me.VMResLabel.Name = "VMResLabel"
-        Me.VMResLabel.Size = New System.Drawing.Size(61, 13)
-        Me.VMResLabel.TabIndex = 5
-        Me.VMResLabel.Text = "Resolution:"
-        '
-        'VMResDef
-        '
-        Me.VMResDef.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.VMResDef.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.VMResDef.FormattingEnabled = True
-        Me.VMResDef.Items.AddRange(New Object() {"512x384", "640x480", "800x600", "1024x768", "1152x864", "1280x1024", "Maximum"})
-        Me.VMResDef.Location = New System.Drawing.Point(87, 21)
-        Me.VMResDef.Name = "VMResDef"
-        Me.VMResDef.Size = New System.Drawing.Size(98, 21)
-        Me.VMResDef.TabIndex = 4
-        '
-        'RefeshRateLabel
-        '
-        Me.RefeshRateLabel.AutoSize = True
-        Me.RefeshRateLabel.Location = New System.Drawing.Point(6, 78)
-        Me.RefeshRateLabel.Name = "RefeshRateLabel"
-        Me.RefeshRateLabel.Size = New System.Drawing.Size(75, 13)
-        Me.RefeshRateLabel.TabIndex = 3
-        Me.RefeshRateLabel.Text = "Refresh Rate:"
-        '
-        'RefreshRate
-        '
-        Me.RefreshRate.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.RefreshRate.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.RefreshRate.FormattingEnabled = True
-        Me.RefreshRate.Items.AddRange(New Object() {"5 Hz", "7.5 Hz", "10 Hz", "15 Hz", "30 Hz", "60 Hz", "Dynamic"})
-        Me.RefreshRate.Location = New System.Drawing.Point(87, 75)
-        Me.RefreshRate.Name = "RefreshRate"
-        Me.RefreshRate.Size = New System.Drawing.Size(98, 21)
-        Me.RefreshRate.TabIndex = 2
-        '
-        'StartModeLabel
-        '
-        Me.StartModeLabel.AutoSize = True
-        Me.StartModeLabel.Location = New System.Drawing.Point(6, 51)
-        Me.StartModeLabel.Name = "StartModeLabel"
-        Me.StartModeLabel.Size = New System.Drawing.Size(46, 13)
-        Me.StartModeLabel.TabIndex = 1
-        Me.StartModeLabel.Text = "Start in:"
-        '
-        'StartMode
-        '
-        Me.StartMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.StartMode.FlatStyle = System.Windows.Forms.FlatStyle.System
-        Me.StartMode.FormattingEnabled = True
-        Me.StartMode.Items.AddRange(New Object() {"Window", "Fullscreen"})
-        Me.StartMode.Location = New System.Drawing.Point(87, 48)
-        Me.StartMode.Name = "StartMode"
-        Me.StartMode.Size = New System.Drawing.Size(98, 21)
-        Me.StartMode.TabIndex = 0
-        '
-        'NetworkFrame
-        '
-        Me.NetworkFrame.Controls.Add(Me.NetInterfaceLabel)
-        Me.NetworkFrame.Controls.Add(Me.NetInterface)
-        Me.NetworkFrame.Controls.Add(Me.RouterPanel)
-        Me.NetworkFrame.Location = New System.Drawing.Point(0, 3)
-        Me.NetworkFrame.Name = "NetworkFrame"
-        Me.NetworkFrame.Size = New System.Drawing.Size(367, 279)
-        Me.NetworkFrame.TabIndex = 8
-        Me.NetworkFrame.TabStop = False
-        Me.NetworkFrame.Text = "Network"
-        '
-        'NetInterfaceLabel
-        '
-        Me.NetInterfaceLabel.AutoSize = True
-        Me.NetInterfaceLabel.Location = New System.Drawing.Point(14, 30)
-        Me.NetInterfaceLabel.Name = "NetInterfaceLabel"
-        Me.NetInterfaceLabel.Size = New System.Drawing.Size(99, 13)
-        Me.NetInterfaceLabel.TabIndex = 2
-        Me.NetInterfaceLabel.Text = "Network Interface:"
-        '
-        'NetInterface
-        '
-        Me.NetInterface.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.NetInterface.FormattingEnabled = True
-        Me.NetInterface.Items.AddRange(New Object() {"Slirp", "Router", "Disabled"})
-        Me.NetInterface.Location = New System.Drawing.Point(119, 27)
-        Me.NetInterface.Name = "NetInterface"
-        Me.NetInterface.Size = New System.Drawing.Size(242, 21)
-        Me.NetInterface.TabIndex = 1
-        '
-        'RouterPanel
-        '
-        Me.RouterPanel.Controls.Add(Me.FTPPortsLabel)
-        Me.RouterPanel.Controls.Add(Me.ServerPortsLabel)
-        Me.RouterPanel.Controls.Add(Me.FTPPorts)
-        Me.RouterPanel.Controls.Add(Me.ServerPorts)
-        Me.RouterPanel.Location = New System.Drawing.Point(9, 51)
-        Me.RouterPanel.Name = "RouterPanel"
-        Me.RouterPanel.Size = New System.Drawing.Size(360, 62)
-        Me.RouterPanel.TabIndex = 8
-        '
-        'FTPPortsLabel
-        '
-        Me.FTPPortsLabel.AutoSize = True
-        Me.FTPPortsLabel.Location = New System.Drawing.Point(5, 6)
-        Me.FTPPortsLabel.Name = "FTPPortsLabel"
-        Me.FTPPortsLabel.Size = New System.Drawing.Size(53, 13)
-        Me.FTPPortsLabel.TabIndex = 4
-        Me.FTPPortsLabel.Text = "FTP Ports"
-        '
-        'ServerPortsLabel
-        '
-        Me.ServerPortsLabel.AutoSize = True
-        Me.ServerPortsLabel.Location = New System.Drawing.Point(5, 33)
-        Me.ServerPortsLabel.Name = "ServerPortsLabel"
-        Me.ServerPortsLabel.Size = New System.Drawing.Size(67, 13)
-        Me.ServerPortsLabel.TabIndex = 6
-        Me.ServerPortsLabel.Text = "Server Ports"
-        '
-        'FTPPorts
-        '
-        Me.FTPPorts.Location = New System.Drawing.Point(110, 3)
-        Me.FTPPorts.Name = "FTPPorts"
-        Me.FTPPorts.Size = New System.Drawing.Size(242, 21)
-        Me.FTPPorts.TabIndex = 3
-        '
-        'ServerPorts
-        '
-        Me.ServerPorts.Location = New System.Drawing.Point(110, 30)
-        Me.ServerPorts.Name = "ServerPorts"
-        Me.ServerPorts.Size = New System.Drawing.Size(242, 21)
-        Me.ServerPorts.TabIndex = 5
-        '
-        'InputFrame
-        '
-        Me.InputFrame.Controls.Add(Me.KeyboardGroup)
-        Me.InputFrame.Controls.Add(Me.MouseGroup)
-        Me.InputFrame.Location = New System.Drawing.Point(0, 3)
-        Me.InputFrame.Name = "InputFrame"
-        Me.InputFrame.Size = New System.Drawing.Size(367, 279)
-        Me.InputFrame.TabIndex = 8
-        Me.InputFrame.TabStop = False
-        Me.InputFrame.Text = "Mouse and keyboard"
-        '
-        'KeyboardGroup
-        '
-        Me.KeyboardGroup.Controls.Add(Me.KeyCodesPathLabel)
-        Me.KeyboardGroup.Controls.Add(Me.KeyCodesPath)
-        Me.KeyboardGroup.Controls.Add(Me.UseKeycodes)
-        Me.KeyboardGroup.Controls.Add(Me.BrowseKeyCodes)
-        Me.KeyboardGroup.Location = New System.Drawing.Point(6, 126)
-        Me.KeyboardGroup.Name = "KeyboardGroup"
-        Me.KeyboardGroup.Size = New System.Drawing.Size(355, 147)
-        Me.KeyboardGroup.TabIndex = 0
-        Me.KeyboardGroup.TabStop = False
-        Me.KeyboardGroup.Text = "Keyboard"
-        '
-        'KeyCodesPathLabel
-        '
-        Me.KeyCodesPathLabel.AutoSize = True
-        Me.KeyCodesPathLabel.Location = New System.Drawing.Point(3, 49)
-        Me.KeyCodesPathLabel.Name = "KeyCodesPathLabel"
-        Me.KeyCodesPathLabel.Size = New System.Drawing.Size(111, 13)
-        Me.KeyCodesPathLabel.TabIndex = 3
-        Me.KeyCodesPathLabel.Text = "Path to keycodes file:"
-        '
-        'KeyCodesPath
-        '
-        Me.KeyCodesPath.Location = New System.Drawing.Point(3, 70)
-        Me.KeyCodesPath.Name = "KeyCodesPath"
-        Me.KeyCodesPath.Size = New System.Drawing.Size(307, 21)
-        Me.KeyCodesPath.TabIndex = 2
-        '
-        'UseKeycodes
-        '
-        Me.UseKeycodes.AutoSize = True
-        Me.UseKeycodes.Location = New System.Drawing.Point(6, 20)
-        Me.UseKeycodes.Name = "UseKeycodes"
-        Me.UseKeycodes.Size = New System.Drawing.Size(109, 17)
-        Me.UseKeycodes.TabIndex = 0
-        Me.UseKeycodes.Text = "Use keycodes file"
-        Me.UseKeycodes.UseVisualStyleBackColor = True
-        '
-        'BrowseKeyCodes
-        '
-        Me.BrowseKeyCodes.Location = New System.Drawing.Point(316, 68)
-        Me.BrowseKeyCodes.Name = "BrowseKeyCodes"
-        Me.BrowseKeyCodes.Size = New System.Drawing.Size(33, 23)
-        Me.BrowseKeyCodes.TabIndex = 1
-        Me.BrowseKeyCodes.Text = "..."
-        Me.BrowseKeyCodes.UseVisualStyleBackColor = True
-        '
-        'MouseGroup
-        '
-        Me.MouseGroup.Controls.Add(Me.ScrollLinesLabel)
-        Me.MouseGroup.Controls.Add(Me.WheelFunctionLabel)
-        Me.MouseGroup.Controls.Add(Me.WheelFunction)
-        Me.MouseGroup.Controls.Add(Me.ScrollLines)
-        Me.MouseGroup.Location = New System.Drawing.Point(6, 20)
-        Me.MouseGroup.Name = "MouseGroup"
-        Me.MouseGroup.Size = New System.Drawing.Size(355, 100)
-        Me.MouseGroup.TabIndex = 5
-        Me.MouseGroup.TabStop = False
-        Me.MouseGroup.Text = "Mouse"
-        '
-        'ScrollLinesLabel
-        '
-        Me.ScrollLinesLabel.AutoSize = True
-        Me.ScrollLinesLabel.Location = New System.Drawing.Point(6, 47)
-        Me.ScrollLinesLabel.Name = "ScrollLinesLabel"
-        Me.ScrollLinesLabel.Size = New System.Drawing.Size(75, 13)
-        Me.ScrollLinesLabel.TabIndex = 6
-        Me.ScrollLinesLabel.Text = "Lines to scroll:"
-        '
-        'WheelFunctionLabel
-        '
-        Me.WheelFunctionLabel.AutoSize = True
-        Me.WheelFunctionLabel.Location = New System.Drawing.Point(6, 21)
-        Me.WheelFunctionLabel.Name = "WheelFunctionLabel"
-        Me.WheelFunctionLabel.Size = New System.Drawing.Size(83, 13)
-        Me.WheelFunctionLabel.TabIndex = 5
-        Me.WheelFunctionLabel.Text = "Wheel function:"
-        '
-        'WheelFunction
-        '
-        Me.WheelFunction.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.WheelFunction.FormattingEnabled = True
-        Me.WheelFunction.Items.AddRange(New Object() {"Cursor Up/Down", "Page Up/Down"})
-        Me.WheelFunction.Location = New System.Drawing.Point(95, 18)
-        Me.WheelFunction.Name = "WheelFunction"
-        Me.WheelFunction.Size = New System.Drawing.Size(76, 21)
-        Me.WheelFunction.TabIndex = 3
-        '
-        'ScrollLines
-        '
-        Me.ScrollLines.Location = New System.Drawing.Point(95, 45)
-        Me.ScrollLines.Maximum = New Decimal(New Integer() {50, 0, 0, 0})
-        Me.ScrollLines.Name = "ScrollLines"
-        Me.ScrollLines.Size = New System.Drawing.Size(76, 21)
-        Me.ScrollLines.TabIndex = 4
-        '
-        'SerialFrame
-        '
-        Me.SerialFrame.Controls.Add(Me.PrinterPort)
-        Me.SerialFrame.Controls.Add(Me.PrinterPortLabel)
-        Me.SerialFrame.Controls.Add(Me.PrinterOutputFile)
-        Me.SerialFrame.Controls.Add(Me.ModemPort)
-        Me.SerialFrame.Controls.Add(Me.Label2)
-        Me.SerialFrame.Controls.Add(Me.ModemOutputFile)
-        Me.SerialFrame.Location = New System.Drawing.Point(0, 3)
-        Me.SerialFrame.Name = "SerialFrame"
-        Me.SerialFrame.Size = New System.Drawing.Size(367, 279)
-        Me.SerialFrame.TabIndex = 8
-        Me.SerialFrame.TabStop = False
-        Me.SerialFrame.Text = "Serial ports"
-        '
-        'PrinterPort
-        '
-        Me.PrinterPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.PrinterPort.FormattingEnabled = True
-        Me.PrinterPort.Items.AddRange(New Object() {"COM 1", "COM 2", "COM 3", "COM 4", "COM 5", "COM 6", "LPT 1", "LPT 2", "LPT 3", "LPT 4", "LPT 5", "LPT 6", "File"})
-        Me.PrinterPort.Location = New System.Drawing.Point(76, 80)
-        Me.PrinterPort.Name = "PrinterPort"
-        Me.PrinterPort.Size = New System.Drawing.Size(69, 21)
-        Me.PrinterPort.TabIndex = 8
-        '
-        'PrinterPortLabel
-        '
-        Me.PrinterPortLabel.AutoSize = True
-        Me.PrinterPortLabel.Location = New System.Drawing.Point(6, 84)
-        Me.PrinterPortLabel.Name = "PrinterPortLabel"
-        Me.PrinterPortLabel.Size = New System.Drawing.Size(66, 13)
-        Me.PrinterPortLabel.TabIndex = 7
-        Me.PrinterPortLabel.Text = "Printer Port:"
-        '
-        'PrinterOutputFile
-        '
-        Me.PrinterOutputFile.Controls.Add(Me.PrinterOutputPath)
-        Me.PrinterOutputFile.Controls.Add(Me.BrowsePOFile)
-        Me.PrinterOutputFile.Location = New System.Drawing.Point(6, 100)
-        Me.PrinterOutputFile.Name = "PrinterOutputFile"
-        Me.PrinterOutputFile.Size = New System.Drawing.Size(360, 31)
-        Me.PrinterOutputFile.TabIndex = 9
-        '
-        'PrinterOutputPath
-        '
-        Me.PrinterOutputPath.Location = New System.Drawing.Point(3, 5)
-        Me.PrinterOutputPath.Name = "PrinterOutputPath"
-        Me.PrinterOutputPath.Size = New System.Drawing.Size(274, 21)
-        Me.PrinterOutputPath.TabIndex = 0
-        '
-        'BrowsePOFile
-        '
-        Me.BrowsePOFile.Location = New System.Drawing.Point(283, 4)
-        Me.BrowsePOFile.Name = "BrowsePOFile"
-        Me.BrowsePOFile.Size = New System.Drawing.Size(75, 23)
-        Me.BrowsePOFile.TabIndex = 4
-        Me.BrowsePOFile.Text = "Browse"
-        Me.BrowsePOFile.UseVisualStyleBackColor = True
-        '
-        'ModemPort
-        '
-        Me.ModemPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ModemPort.FormattingEnabled = True
-        Me.ModemPort.Items.AddRange(New Object() {"COM 1", "COM 2", "COM 3", "COM 4", "COM 5", "COM 6", "LPT 1", "LPT 2", "LPT 3", "LPT 4", "LPT 5", "LPT 6", "File"})
-        Me.ModemPort.Location = New System.Drawing.Point(76, 20)
-        Me.ModemPort.Name = "ModemPort"
-        Me.ModemPort.Size = New System.Drawing.Size(69, 21)
-        Me.ModemPort.TabIndex = 5
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(6, 24)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(68, 13)
-        Me.Label2.TabIndex = 3
-        Me.Label2.Text = "Modem Port:"
-        '
-        'ModemOutputFile
-        '
-        Me.ModemOutputFile.Controls.Add(Me.ModemOutputPath)
-        Me.ModemOutputFile.Controls.Add(Me.BrowseMOFile)
-        Me.ModemOutputFile.Location = New System.Drawing.Point(6, 40)
-        Me.ModemOutputFile.Name = "ModemOutputFile"
-        Me.ModemOutputFile.Size = New System.Drawing.Size(360, 31)
-        Me.ModemOutputFile.TabIndex = 6
-        '
-        'ModemOutputPath
-        '
-        Me.ModemOutputPath.Location = New System.Drawing.Point(3, 5)
-        Me.ModemOutputPath.Name = "ModemOutputPath"
-        Me.ModemOutputPath.Size = New System.Drawing.Size(274, 21)
-        Me.ModemOutputPath.TabIndex = 0
-        '
-        'BrowseMOFile
-        '
-        Me.BrowseMOFile.Location = New System.Drawing.Point(283, 4)
-        Me.BrowseMOFile.Name = "BrowseMOFile"
-        Me.BrowseMOFile.Size = New System.Drawing.Size(75, 23)
-        Me.BrowseMOFile.TabIndex = 4
-        Me.BrowseMOFile.Text = "Browse"
-        Me.BrowseMOFile.UseVisualStyleBackColor = True
+        'DriveListContext
+        '
+        Me.DriveListContext.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ContextAddDisk, Me.ContextAddCD, Me.ContextAddFloppy, Me.ContextSetAsBoot, Me.ContextRemoveDrive})
+        Me.DriveListContext.Name = "DriveListContext"
+        Me.DriveListContext.Size = New System.Drawing.Size(240, 114)
+        '
+        'ContextAddDisk
+        '
+        Me.ContextAddDisk.Name = "ContextAddDisk"
+        Me.ContextAddDisk.Size = New System.Drawing.Size(239, 22)
+        Me.ContextAddDisk.Text = "Add disk image"
+        '
+        'ContextAddCD
+        '
+        Me.ContextAddCD.Name = "ContextAddCD"
+        Me.ContextAddCD.Size = New System.Drawing.Size(239, 22)
+        Me.ContextAddCD.Text = "Add CD image"
+        '
+        'ContextAddFloppy
+        '
+        Me.ContextAddFloppy.Name = "ContextAddFloppy"
+        Me.ContextAddFloppy.Size = New System.Drawing.Size(239, 22)
+        Me.ContextAddFloppy.Text = "Add floppy image"
+        '
+        'ContextSetAsBoot
+        '
+        Me.ContextSetAsBoot.Enabled = False
+        Me.ContextSetAsBoot.Name = "ContextSetAsBoot"
+        Me.ContextSetAsBoot.Size = New System.Drawing.Size(239, 22)
+        Me.ContextSetAsBoot.Text = "Set as boot drive"
+        '
+        'ContextRemoveDrive
+        '
+        Me.ContextRemoveDrive.Enabled = False
+        Me.ContextRemoveDrive.Name = "ContextRemoveDrive"
+        Me.ContextRemoveDrive.Size = New System.Drawing.Size(239, 22)
+        Me.ContextRemoveDrive.Text = "Remove selected drive from list"
+        '
+        'DriveIcons
+        '
+        Me.DriveIcons.ImageStream = CType(resources.GetObject("DriveIcons.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.DriveIcons.TransparentColor = System.Drawing.Color.Transparent
+        Me.DriveIcons.Images.SetKeyName(0, "Floppy")
+        Me.DriveIcons.Images.SetKeyName(1, "Disc")
+        Me.DriveIcons.Images.SetKeyName(2, "Drive")
+        '
+        'GroupContainer
+        '
+        Me.GroupContainer.Controls.Add(Me.MacNameFrame)
+        Me.GroupContainer.Controls.Add(Me.IconFrame)
+        Me.GroupContainer.Controls.Add(Me.MemoryFrame)
+        Me.GroupContainer.Controls.Add(Me.DriveFrame)
+        Me.GroupContainer.Controls.Add(Me.NetworkFrame)
+        Me.GroupContainer.Controls.Add(Me.MediaFrame)
+        Me.GroupContainer.Controls.Add(Me.InputFrame)
+        Me.GroupContainer.Controls.Add(Me.SerialFrame)
+        Me.GroupContainer.Controls.Add(Me.ExtFSFrame)
+        Me.GroupContainer.Controls.Add(Me.MiscFrame)
+        Me.GroupContainer.Controls.Add(Me.JITFrame)
+        Me.GroupContainer.Controls.Add(Me.EMCFrame)
+        Me.GroupContainer.Location = New System.Drawing.Point(371, 2)
+        Me.GroupContainer.Name = "GroupContainer"
+        Me.GroupContainer.Size = New System.Drawing.Size(373, 290)
+        Me.GroupContainer.TabIndex = 27
+        '
+        'MacNameFrame
+        '
+        Me.MacNameFrame.Controls.Add(Me.MacName)
+        Me.MacNameFrame.Controls.Add(Me.MacNameLabel)
+        Me.MacNameFrame.Location = New System.Drawing.Point(0, 0)
+        Me.MacNameFrame.Name = "MacNameFrame"
+        Me.MacNameFrame.Size = New System.Drawing.Size(367, 276)
+        Me.MacNameFrame.TabIndex = 4
+        Me.MacNameFrame.TabStop = False
+        Me.MacNameFrame.Text = "Name"
+        '
+        'MacName
+        '
+        Me.MacName.Location = New System.Drawing.Point(10, 70)
+        Me.MacName.Name = "MacName"
+        Me.MacName.Size = New System.Drawing.Size(347, 21)
+        Me.MacName.TabIndex = 1
+        '
+        'MacNameLabel
+        '
+        Me.MacNameLabel.Location = New System.Drawing.Point(10, 33)
+        Me.MacNameLabel.Name = "MacNameLabel"
+        Me.MacNameLabel.Size = New System.Drawing.Size(347, 30)
+        Me.MacNameLabel.TabIndex = 0
+        Me.MacNameLabel.Text = "The most important thing for any computer, the name. The name can be anything, li" & _
+    "ke Performa 9000, Mac OS 7, iMac G3, or simply Mac"
+        '
+        'IconFrame
+        '
+        Me.IconFrame.Controls.Add(Me.IconAdd)
+        Me.IconFrame.Controls.Add(Me.IconList)
+        Me.IconFrame.Controls.Add(Me.IconInfo)
+        Me.IconFrame.Location = New System.Drawing.Point(0, 0)
+        Me.IconFrame.Name = "IconFrame"
+        Me.IconFrame.Size = New System.Drawing.Size(367, 276)
+        Me.IconFrame.TabIndex = 3
+        Me.IconFrame.TabStop = False
+        Me.IconFrame.Text = "Icon"
+        '
+        'IconAdd
+        '
+        Me.IconAdd.Location = New System.Drawing.Point(10, 170)
+        Me.IconAdd.Name = "IconAdd"
+        Me.IconAdd.Size = New System.Drawing.Size(42, 23)
+        Me.IconAdd.TabIndex = 2
+        Me.IconAdd.Text = "Add"
+        Me.IconAdd.UseVisualStyleBackColor = True
+        '
+        'IconList
+        '
+        Me.IconList.Location = New System.Drawing.Point(10, 90)
+        Me.IconList.Name = "IconList"
+        Me.IconList.Size = New System.Drawing.Size(346, 74)
+        Me.IconList.TabIndex = 1
+        Me.IconList.UseCompatibleStateImageBehavior = False
+        '
+        'IconInfo
+        '
+        Me.IconInfo.AutoSize = True
+        Me.IconInfo.Location = New System.Drawing.Point(10, 33)
+        Me.IconInfo.Name = "IconInfo"
+        Me.IconInfo.Size = New System.Drawing.Size(350, 52)
+        Me.IconInfo.TabIndex = 0
+        Me.IconInfo.Text = resources.GetString("IconInfo.Text")
         '
         'MemoryFrame
         '
-        Me.MemoryFrame.Controls.Add(Me.Memory)
-        Me.MemoryFrame.Controls.Add(Me.MegabyteLabel)
-        Me.MemoryFrame.Controls.Add(Me.MemoryLabel)
-        Me.MemoryFrame.Controls.Add(Me.MemorySlider)
-        Me.MemoryFrame.Location = New System.Drawing.Point(0, 3)
+        Me.MemoryFrame.Controls.Add(Me.MemoryBoxMBLabel)
+        Me.MemoryFrame.Controls.Add(Me.MemoryBoxLabel)
+        Me.MemoryFrame.Controls.Add(Me.MemoryBox)
+        Me.MemoryFrame.Controls.Add(Me.MemoryTracker)
+        Me.MemoryFrame.Location = New System.Drawing.Point(0, 0)
         Me.MemoryFrame.Name = "MemoryFrame"
         Me.MemoryFrame.Size = New System.Drawing.Size(367, 279)
         Me.MemoryFrame.TabIndex = 8
         Me.MemoryFrame.TabStop = False
         Me.MemoryFrame.Text = "Memory"
         '
-        'Memory
+        'MemoryBoxMBLabel
         '
-        Me.Memory.Location = New System.Drawing.Point(273, 61)
-        Me.Memory.Name = "Memory"
-        Me.Memory.Size = New System.Drawing.Size(43, 21)
-        Me.Memory.TabIndex = 5
+        Me.MemoryBoxMBLabel.AutoSize = True
+        Me.MemoryBoxMBLabel.Location = New System.Drawing.Point(336, 26)
+        Me.MemoryBoxMBLabel.Name = "MemoryBoxMBLabel"
+        Me.MemoryBoxMBLabel.Size = New System.Drawing.Size(23, 13)
+        Me.MemoryBoxMBLabel.TabIndex = 3
+        Me.MemoryBoxMBLabel.Text = "MiB"
         '
-        'MegabyteLabel
+        'MemoryBoxLabel
         '
-        Me.MegabyteLabel.AutoSize = True
-        Me.MegabyteLabel.Location = New System.Drawing.Point(322, 63)
-        Me.MegabyteLabel.Name = "MegabyteLabel"
-        Me.MegabyteLabel.Size = New System.Drawing.Size(21, 13)
-        Me.MegabyteLabel.TabIndex = 4
-        Me.MegabyteLabel.Text = "MB"
+        Me.MemoryBoxLabel.AutoSize = True
+        Me.MemoryBoxLabel.Location = New System.Drawing.Point(6, 26)
+        Me.MemoryBoxLabel.Name = "MemoryBoxLabel"
+        Me.MemoryBoxLabel.Size = New System.Drawing.Size(207, 13)
+        Me.MemoryBoxLabel.TabIndex = 2
+        Me.MemoryBoxLabel.Text = "Select how much RAM to give to this Mac:"
         '
-        'MemoryLabel
+        'MemoryBox
         '
-        Me.MemoryLabel.AutoSize = True
-        Me.MemoryLabel.Location = New System.Drawing.Point(6, 35)
-        Me.MemoryLabel.Name = "MemoryLabel"
-        Me.MemoryLabel.Size = New System.Drawing.Size(260, 13)
-        Me.MemoryLabel.TabIndex = 2
-        Me.MemoryLabel.Text = "Set the amount of RAM to dedicate to this Macintosh"
+        Me.MemoryBox.Location = New System.Drawing.Point(286, 23)
+        Me.MemoryBox.Name = "MemoryBox"
+        Me.MemoryBox.Size = New System.Drawing.Size(46, 21)
+        Me.MemoryBox.TabIndex = 1
         '
-        'MemorySlider
+        'MemoryTracker
         '
-        Me.MemorySlider.Location = New System.Drawing.Point(3, 60)
-        Me.MemorySlider.Maximum = 100
-        Me.MemorySlider.Name = "MemorySlider"
-        Me.MemorySlider.Size = New System.Drawing.Size(264, 45)
-        Me.MemorySlider.TabIndex = 0
-        Me.MemorySlider.TickFrequency = 5
+        Me.MemoryTracker.Location = New System.Drawing.Point(6, 52)
+        Me.MemoryTracker.Maximum = 1024
+        Me.MemoryTracker.Name = "MemoryTracker"
+        Me.MemoryTracker.Size = New System.Drawing.Size(355, 45)
+        Me.MemoryTracker.TabIndex = 0
+        Me.MemoryTracker.TickFrequency = 41
+        '
+        'DriveFrame
+        '
+        Me.DriveFrame.Controls.Add(Me.DrivePollMedia)
+        Me.DriveFrame.Controls.Add(Me.DriveBootCD)
+        Me.DriveFrame.Controls.Add(Me.DriveBootDisk)
+        Me.DriveFrame.Controls.Add(Me.DriveSetBootDrive)
+        Me.DriveFrame.Controls.Add(Me.DriveRemove)
+        Me.DriveFrame.Controls.Add(Me.DriveAddFloppy)
+        Me.DriveFrame.Controls.Add(Me.DriveAddCD)
+        Me.DriveFrame.Controls.Add(Me.DriveAddDisk)
+        Me.DriveFrame.Controls.Add(Me.DriveList)
+        Me.DriveFrame.Location = New System.Drawing.Point(0, 0)
+        Me.DriveFrame.Name = "DriveFrame"
+        Me.DriveFrame.Size = New System.Drawing.Size(367, 279)
+        Me.DriveFrame.TabIndex = 8
+        Me.DriveFrame.TabStop = False
+        Me.DriveFrame.Text = "Drives"
+        '
+        'DrivePollMedia
+        '
+        Me.DrivePollMedia.AutoSize = True
+        Me.DrivePollMedia.Location = New System.Drawing.Point(149, 244)
+        Me.DrivePollMedia.Name = "DrivePollMedia"
+        Me.DrivePollMedia.Size = New System.Drawing.Size(126, 17)
+        Me.DrivePollMedia.TabIndex = 10
+        Me.DrivePollMedia.Text = "Check for new media"
+        Me.DrivePollMedia.UseVisualStyleBackColor = True
+        '
+        'DriveBootCD
+        '
+        Me.DriveBootCD.AutoSize = True
+        Me.DriveBootCD.Location = New System.Drawing.Point(10, 256)
+        Me.DriveBootCD.Name = "DriveBootCD"
+        Me.DriveBootCD.Size = New System.Drawing.Size(89, 17)
+        Me.DriveBootCD.TabIndex = 9
+        Me.DriveBootCD.TabStop = True
+        Me.DriveBootCD.Text = "Boot from CD"
+        Me.DriveBootCD.UseVisualStyleBackColor = True
+        '
+        'DriveBootDisk
+        '
+        Me.DriveBootDisk.AutoSize = True
+        Me.DriveBootDisk.Location = New System.Drawing.Point(10, 233)
+        Me.DriveBootDisk.Name = "DriveBootDisk"
+        Me.DriveBootDisk.Size = New System.Drawing.Size(93, 17)
+        Me.DriveBootDisk.TabIndex = 8
+        Me.DriveBootDisk.TabStop = True
+        Me.DriveBootDisk.Text = "Boot from disk"
+        Me.DriveBootDisk.UseVisualStyleBackColor = True
+        '
+        'DriveSetBootDrive
+        '
+        Me.DriveSetBootDrive.Location = New System.Drawing.Point(219, 204)
+        Me.DriveSetBootDrive.Name = "DriveSetBootDrive"
+        Me.DriveSetBootDrive.Size = New System.Drawing.Size(70, 23)
+        Me.DriveSetBootDrive.TabIndex = 7
+        Me.DriveSetBootDrive.Text = "Set Boot"
+        Me.DriveSetBootDrive.UseVisualStyleBackColor = True
+        '
+        'DriveRemove
+        '
+        Me.DriveRemove.Location = New System.Drawing.Point(289, 204)
+        Me.DriveRemove.Name = "DriveRemove"
+        Me.DriveRemove.Size = New System.Drawing.Size(70, 23)
+        Me.DriveRemove.TabIndex = 6
+        Me.DriveRemove.Text = "Remove"
+        Me.DriveRemove.UseVisualStyleBackColor = True
+        '
+        'DriveAddFloppy
+        '
+        Me.DriveAddFloppy.Location = New System.Drawing.Point(9, 204)
+        Me.DriveAddFloppy.Name = "DriveAddFloppy"
+        Me.DriveAddFloppy.Size = New System.Drawing.Size(70, 23)
+        Me.DriveAddFloppy.TabIndex = 5
+        Me.DriveAddFloppy.Text = "Add Floppy"
+        Me.DriveAddFloppy.UseVisualStyleBackColor = True
+        '
+        'DriveAddCD
+        '
+        Me.DriveAddCD.Location = New System.Drawing.Point(79, 204)
+        Me.DriveAddCD.Name = "DriveAddCD"
+        Me.DriveAddCD.Size = New System.Drawing.Size(70, 23)
+        Me.DriveAddCD.TabIndex = 4
+        Me.DriveAddCD.Text = "Add CD"
+        Me.DriveAddCD.UseVisualStyleBackColor = True
+        '
+        'DriveAddDisk
+        '
+        Me.DriveAddDisk.Location = New System.Drawing.Point(149, 204)
+        Me.DriveAddDisk.Name = "DriveAddDisk"
+        Me.DriveAddDisk.Size = New System.Drawing.Size(70, 23)
+        Me.DriveAddDisk.TabIndex = 3
+        Me.DriveAddDisk.Text = "Add Disk"
+        Me.DriveAddDisk.UseVisualStyleBackColor = True
+        '
+        'DriveList
+        '
+        Me.DriveList.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.DriveLCPath, Me.DriveLCType, Me.DriveLCBootMark})
+        Me.DriveList.ContextMenuStrip = Me.DriveListContext
+        Me.DriveList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.DriveList.Location = New System.Drawing.Point(10, 20)
+        Me.DriveList.Name = "DriveList"
+        Me.DriveList.Size = New System.Drawing.Size(349, 178)
+        Me.DriveList.SmallImageList = Me.DriveIcons
+        Me.DriveList.TabIndex = 2
+        Me.DriveList.UseCompatibleStateImageBehavior = False
+        Me.DriveList.View = System.Windows.Forms.View.Details
+        '
+        'DriveLCPath
+        '
+        Me.DriveLCPath.Text = "Path"
+        Me.DriveLCPath.Width = 263
+        '
+        'DriveLCType
+        '
+        Me.DriveLCType.Text = "Type"
+        Me.DriveLCType.Width = 46
+        '
+        'DriveLCBootMark
+        '
+        Me.DriveLCBootMark.Text = "Boot"
+        Me.DriveLCBootMark.Width = 34
+        '
+        'NetworkFrame
+        '
+        Me.NetworkFrame.Controls.Add(Me.NetEnable)
+        Me.NetworkFrame.Controls.Add(Me.NetContainer)
+        Me.NetworkFrame.Location = New System.Drawing.Point(0, 0)
+        Me.NetworkFrame.Name = "NetworkFrame"
+        Me.NetworkFrame.Size = New System.Drawing.Size(367, 279)
+        Me.NetworkFrame.TabIndex = 8
+        Me.NetworkFrame.TabStop = False
+        Me.NetworkFrame.Text = "Network"
+        '
+        'NetEnable
+        '
+        Me.NetEnable.AutoSize = True
+        Me.NetEnable.Checked = True
+        Me.NetEnable.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.NetEnable.Location = New System.Drawing.Point(12, 13)
+        Me.NetEnable.Name = "NetEnable"
+        Me.NetEnable.Size = New System.Drawing.Size(149, 17)
+        Me.NetEnable.TabIndex = 28
+        Me.NetEnable.Text = "Enable network hardware"
+        Me.NetEnable.UseVisualStyleBackColor = True
+        '
+        'NetContainer
+        '
+        Me.NetContainer.Controls.Add(Me.NetMulticastModeLabel)
+        Me.NetContainer.Controls.Add(Me.NetMulticastMode)
+        Me.NetContainer.Controls.Add(Me.NetFakeAddressLabel)
+        Me.NetContainer.Controls.Add(Me.NetTypeLabel)
+        Me.NetContainer.Controls.Add(Me.NetFakeAddress)
+        Me.NetContainer.Controls.Add(Me.NetPermPhysicalAddress)
+        Me.NetContainer.Controls.Add(Me.NetRouterEnabled)
+        Me.NetContainer.Controls.Add(Me.NetEnableUDP)
+        Me.NetContainer.Controls.Add(Me.NetType)
+        Me.NetContainer.Controls.Add(Me.NetUPDPortLabel)
+        Me.NetContainer.Controls.Add(Me.NetRouterConfig)
+        Me.NetContainer.Controls.Add(Me.NetUPDPort)
+        Me.NetContainer.Location = New System.Drawing.Point(2, 35)
+        Me.NetContainer.Name = "NetContainer"
+        Me.NetContainer.Size = New System.Drawing.Size(356, 241)
+        Me.NetContainer.TabIndex = 29
+        '
+        'NetMulticastModeLabel
+        '
+        Me.NetMulticastModeLabel.AutoSize = True
+        Me.NetMulticastModeLabel.Location = New System.Drawing.Point(7, 220)
+        Me.NetMulticastModeLabel.Name = "NetMulticastModeLabel"
+        Me.NetMulticastModeLabel.Size = New System.Drawing.Size(82, 13)
+        Me.NetMulticastModeLabel.TabIndex = 8
+        Me.NetMulticastModeLabel.Text = "Multicast mode:"
+        '
+        'NetMulticastMode
+        '
+        Me.NetMulticastMode.Location = New System.Drawing.Point(116, 217)
+        Me.NetMulticastMode.Name = "NetMulticastMode"
+        Me.NetMulticastMode.Size = New System.Drawing.Size(133, 21)
+        Me.NetMulticastMode.TabIndex = 9
+        '
+        'NetTypeLabel
+        '
+        Me.NetTypeLabel.AutoSize = True
+        Me.NetTypeLabel.Location = New System.Drawing.Point(7, 3)
+        Me.NetTypeLabel.Name = "NetTypeLabel"
+        Me.NetTypeLabel.Size = New System.Drawing.Size(78, 13)
+        Me.NetTypeLabel.TabIndex = 1
+        Me.NetTypeLabel.Text = "Network Type:"
+        '
+        'NetFakeAddress
+        '
+        Me.NetFakeAddress.ForeColor = System.Drawing.Color.Gray
+        Me.NetFakeAddress.Location = New System.Drawing.Point(116, 190)
+        Me.NetFakeAddress.Name = "NetFakeAddress"
+        Me.NetFakeAddress.Size = New System.Drawing.Size(133, 21)
+        Me.NetFakeAddress.TabIndex = 6
+        '
+        'NetPermPhysicalAddress
+        '
+        Me.NetPermPhysicalAddress.AutoSize = True
+        Me.NetPermPhysicalAddress.Location = New System.Drawing.Point(10, 25)
+        Me.NetPermPhysicalAddress.Name = "NetPermPhysicalAddress"
+        Me.NetPermPhysicalAddress.Size = New System.Drawing.Size(211, 17)
+        Me.NetPermPhysicalAddress.TabIndex = 4
+        Me.NetPermPhysicalAddress.Text = "Make permanent the ethernet address"
+        Me.NetPermPhysicalAddress.UseVisualStyleBackColor = True
+        '
+        'NetRouterEnabled
+        '
+        Me.NetRouterEnabled.AutoSize = True
+        Me.NetRouterEnabled.Location = New System.Drawing.Point(10, 50)
+        Me.NetRouterEnabled.Name = "NetRouterEnabled"
+        Me.NetRouterEnabled.Size = New System.Drawing.Size(177, 17)
+        Me.NetRouterEnabled.TabIndex = 5
+        Me.NetRouterEnabled.Text = "Enable router module of Basilisk"
+        Me.NetRouterEnabled.UseVisualStyleBackColor = True
+        '
+        'NetEnableUDP
+        '
+        Me.NetEnableUDP.AutoSize = True
+        Me.NetEnableUDP.Location = New System.Drawing.Point(10, 75)
+        Me.NetEnableUDP.Name = "NetEnableUDP"
+        Me.NetEnableUDP.Size = New System.Drawing.Size(116, 17)
+        Me.NetEnableUDP.TabIndex = 0
+        Me.NetEnableUDP.Text = "Enable UDP Tunnel"
+        Me.NetEnableUDP.UseVisualStyleBackColor = True
+        '
+        'NetType
+        '
+        Me.NetType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.NetType.FormattingEnabled = True
+        Me.NetType.Items.AddRange(New Object() {"Slirp (Virtual Network)", "Router", "None"})
+        Me.NetType.Location = New System.Drawing.Point(116, 0)
+        Me.NetType.Name = "NetType"
+        Me.NetType.Size = New System.Drawing.Size(133, 21)
+        Me.NetType.TabIndex = 0
+        '
+        'NetUPDPortLabel
+        '
+        Me.NetUPDPortLabel.AutoSize = True
+        Me.NetUPDPortLabel.Enabled = False
+        Me.NetUPDPortLabel.Location = New System.Drawing.Point(8, 103)
+        Me.NetUPDPortLabel.Name = "NetUPDPortLabel"
+        Me.NetUPDPortLabel.Size = New System.Drawing.Size(54, 13)
+        Me.NetUPDPortLabel.TabIndex = 3
+        Me.NetUPDPortLabel.Text = "UDP Port:"
+        '
+        'NetRouterConfig
+        '
+        Me.NetRouterConfig.Controls.Add(Me.NetServerPortsLabel)
+        Me.NetRouterConfig.Controls.Add(Me.NetFTPPortsLabel)
+        Me.NetRouterConfig.Controls.Add(Me.NetServerPorts)
+        Me.NetRouterConfig.Controls.Add(Me.NetFTPPorts)
+        Me.NetRouterConfig.Location = New System.Drawing.Point(7, 130)
+        Me.NetRouterConfig.Name = "NetRouterConfig"
+        Me.NetRouterConfig.Size = New System.Drawing.Size(351, 60)
+        Me.NetRouterConfig.TabIndex = 2
+        '
+        'NetServerPortsLabel
+        '
+        Me.NetServerPortsLabel.AutoSize = True
+        Me.NetServerPortsLabel.Location = New System.Drawing.Point(0, 33)
+        Me.NetServerPortsLabel.Name = "NetServerPortsLabel"
+        Me.NetServerPortsLabel.Size = New System.Drawing.Size(71, 13)
+        Me.NetServerPortsLabel.TabIndex = 5
+        Me.NetServerPortsLabel.Text = "Server Ports:"
+        '
+        'NetFTPPortsLabel
+        '
+        Me.NetFTPPortsLabel.AutoSize = True
+        Me.NetFTPPortsLabel.Location = New System.Drawing.Point(0, 3)
+        Me.NetFTPPortsLabel.Name = "NetFTPPortsLabel"
+        Me.NetFTPPortsLabel.Size = New System.Drawing.Size(57, 13)
+        Me.NetFTPPortsLabel.TabIndex = 4
+        Me.NetFTPPortsLabel.Text = "FTP Ports:"
+        '
+        'NetServerPorts
+        '
+        Me.NetServerPorts.Location = New System.Drawing.Point(109, 30)
+        Me.NetServerPorts.Name = "NetServerPorts"
+        Me.NetServerPorts.Size = New System.Drawing.Size(133, 21)
+        Me.NetServerPorts.TabIndex = 1
+        '
+        'NetFTPPorts
+        '
+        Me.NetFTPPorts.Location = New System.Drawing.Point(109, 0)
+        Me.NetFTPPorts.Name = "NetFTPPorts"
+        Me.NetFTPPorts.Size = New System.Drawing.Size(133, 21)
+        Me.NetFTPPorts.TabIndex = 0
+        '
+        'NetUPDPort
+        '
+        Me.NetUPDPort.Enabled = False
+        Me.NetUPDPort.Location = New System.Drawing.Point(116, 100)
+        Me.NetUPDPort.Name = "NetUPDPort"
+        Me.NetUPDPort.Size = New System.Drawing.Size(133, 21)
+        Me.NetUPDPort.TabIndex = 0
+        '
+        'MediaFrame
+        '
+        Me.MediaFrame.Controls.Add(Me.MediaEnableSound)
+        Me.MediaFrame.Controls.Add(Me.MediaEnableCD)
+        Me.MediaFrame.Controls.Add(Me.MediaEnableQuickDraw)
+        Me.MediaFrame.Controls.Add(Me.MediaModeLabel)
+        Me.MediaFrame.Controls.Add(Me.MediaMode)
+        Me.MediaFrame.Controls.Add(Me.MediaRefreshLabel)
+        Me.MediaFrame.Controls.Add(Me.MediaRefresh)
+        Me.MediaFrame.Controls.Add(Me.MediaResLabel)
+        Me.MediaFrame.Controls.Add(Me.MediaResCust)
+        Me.MediaFrame.Controls.Add(Me.MediaResY)
+        Me.MediaFrame.Controls.Add(Me.MediaResX)
+        Me.MediaFrame.Location = New System.Drawing.Point(0, 0)
+        Me.MediaFrame.Name = "MediaFrame"
+        Me.MediaFrame.Size = New System.Drawing.Size(367, 279)
+        Me.MediaFrame.TabIndex = 5
+        Me.MediaFrame.TabStop = False
+        Me.MediaFrame.Text = "Screen"
+        '
+        'MediaEnableSound
+        '
+        Me.MediaEnableSound.AutoSize = True
+        Me.MediaEnableSound.Location = New System.Drawing.Point(230, 130)
+        Me.MediaEnableSound.Name = "MediaEnableSound"
+        Me.MediaEnableSound.Size = New System.Drawing.Size(90, 17)
+        Me.MediaEnableSound.TabIndex = 5
+        Me.MediaEnableSound.Text = "Enable sound"
+        Me.MediaEnableSound.UseVisualStyleBackColor = True
+        '
+        'MediaEnableCD
+        '
+        Me.MediaEnableCD.AutoSize = True
+        Me.MediaEnableCD.Location = New System.Drawing.Point(10, 130)
+        Me.MediaEnableCD.Name = "MediaEnableCD"
+        Me.MediaEnableCD.Size = New System.Drawing.Size(142, 17)
+        Me.MediaEnableCD.TabIndex = 6
+        Me.MediaEnableCD.Text = "Enable CD-ROM support"
+        Me.MediaEnableCD.UseVisualStyleBackColor = True
+        '
+        'MediaEnableQuickDraw
+        '
+        Me.MediaEnableQuickDraw.AutoSize = True
+        Me.MediaEnableQuickDraw.Location = New System.Drawing.Point(18, 100)
+        Me.MediaEnableQuickDraw.Name = "MediaEnableQuickDraw"
+        Me.MediaEnableQuickDraw.Size = New System.Drawing.Size(173, 17)
+        Me.MediaEnableQuickDraw.TabIndex = 8
+        Me.MediaEnableQuickDraw.Text = "Enable QuickDraw acceleration"
+        Me.MediaEnableQuickDraw.UseVisualStyleBackColor = True
+        '
+        'MediaModeLabel
+        '
+        Me.MediaModeLabel.AutoSize = True
+        Me.MediaModeLabel.Location = New System.Drawing.Point(15, 76)
+        Me.MediaModeLabel.Name = "MediaModeLabel"
+        Me.MediaModeLabel.Size = New System.Drawing.Size(37, 13)
+        Me.MediaModeLabel.TabIndex = 7
+        Me.MediaModeLabel.Text = "Mode:"
+        '
+        'MediaMode
+        '
+        Me.MediaMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.MediaMode.FormattingEnabled = True
+        Me.MediaMode.Items.AddRange(New Object() {"Windowed", "Full screen"})
+        Me.MediaMode.Location = New System.Drawing.Point(94, 73)
+        Me.MediaMode.Name = "MediaMode"
+        Me.MediaMode.Size = New System.Drawing.Size(131, 21)
+        Me.MediaMode.TabIndex = 6
+        '
+        'MediaRefreshLabel
+        '
+        Me.MediaRefreshLabel.AutoSize = True
+        Me.MediaRefreshLabel.Location = New System.Drawing.Point(15, 51)
+        Me.MediaRefreshLabel.Name = "MediaRefreshLabel"
+        Me.MediaRefreshLabel.Size = New System.Drawing.Size(72, 13)
+        Me.MediaRefreshLabel.TabIndex = 5
+        Me.MediaRefreshLabel.Text = "Refresh rate:"
+        '
+        'MediaRefresh
+        '
+        Me.MediaRefresh.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.MediaRefresh.FormattingEnabled = True
+        Me.MediaRefresh.Items.AddRange(New Object() {"5 Hz", "7.5 Hz", "10 Hz", "15 Hz", "30 Hz", "60 Hz"})
+        Me.MediaRefresh.Location = New System.Drawing.Point(94, 46)
+        Me.MediaRefresh.Name = "MediaRefresh"
+        Me.MediaRefresh.Size = New System.Drawing.Size(131, 21)
+        Me.MediaRefresh.TabIndex = 4
+        '
+        'MediaResLabel
+        '
+        Me.MediaResLabel.AutoSize = True
+        Me.MediaResLabel.Location = New System.Drawing.Point(15, 23)
+        Me.MediaResLabel.Name = "MediaResLabel"
+        Me.MediaResLabel.Size = New System.Drawing.Size(61, 13)
+        Me.MediaResLabel.TabIndex = 2
+        Me.MediaResLabel.Text = "Resolution:"
+        '
+        'MediaResCust
+        '
+        Me.MediaResCust.AutoSize = True
+        Me.MediaResCust.Location = New System.Drawing.Point(232, 23)
+        Me.MediaResCust.Name = "MediaResCust"
+        Me.MediaResCust.Size = New System.Drawing.Size(120, 17)
+        Me.MediaResCust.TabIndex = 3
+        Me.MediaResCust.Text = "Custom Resolutions"
+        Me.MediaResCust.UseVisualStyleBackColor = True
+        '
+        'MediaResY
+        '
+        Me.MediaResY.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.MediaResY.FormattingEnabled = True
+        Me.MediaResY.Items.AddRange(New Object() {"30", "120", "144", "192", "240", "288", "300", "384", "360", "432", "450", "480", "504", "540", "576", "600", "648", "720", "768", "900", "1080"})
+        Me.MediaResY.Location = New System.Drawing.Point(167, 20)
+        Me.MediaResY.Name = "MediaResY"
+        Me.MediaResY.Size = New System.Drawing.Size(58, 21)
+        Me.MediaResY.TabIndex = 1
+        '
+        'MediaResX
+        '
+        Me.MediaResX.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.MediaResX.FormattingEnabled = True
+        Me.MediaResX.Items.AddRange(New Object() {"40", "160", "256", "320", "384", "400", "426", "512", "640", "768", "800", "848", "896", "960", "1024", "1152", "1280", "1366", "1600", "1920"})
+        Me.MediaResX.Location = New System.Drawing.Point(94, 20)
+        Me.MediaResX.Name = "MediaResX"
+        Me.MediaResX.Size = New System.Drawing.Size(58, 21)
+        Me.MediaResX.TabIndex = 0
+        '
+        'InputFrame
+        '
+        Me.InputFrame.Controls.Add(Me.InputMouseWheelLines)
+        Me.InputFrame.Controls.Add(Me.InputMouseWheelMode)
+        Me.InputFrame.Controls.Add(Me.InputMouseWheelModeLabel)
+        Me.InputFrame.Controls.Add(Me.InputKeyCodesPathPanel)
+        Me.InputFrame.Controls.Add(Me.InputKeycodesEnable)
+        Me.InputFrame.Controls.Add(Me.InputEmuKbdType)
+        Me.InputFrame.Controls.Add(Me.InputEmuKbdTypeLabel)
+        Me.InputFrame.Location = New System.Drawing.Point(0, 0)
+        Me.InputFrame.Name = "InputFrame"
+        Me.InputFrame.Size = New System.Drawing.Size(367, 279)
+        Me.InputFrame.TabIndex = 8
+        Me.InputFrame.TabStop = False
+        Me.InputFrame.Text = "Mouse and keyboard"
+        '
+        'InputMouseWheelLines
+        '
+        Me.InputMouseWheelLines.Location = New System.Drawing.Point(294, 61)
+        Me.InputMouseWheelLines.Maximum = New Decimal(New Integer() {20, 0, 0, 0})
+        Me.InputMouseWheelLines.Name = "InputMouseWheelLines"
+        Me.InputMouseWheelLines.Size = New System.Drawing.Size(54, 21)
+        Me.InputMouseWheelLines.TabIndex = 7
+        '
+        'InputMouseWheelMode
+        '
+        Me.InputMouseWheelMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.InputMouseWheelMode.FormattingEnabled = True
+        Me.InputMouseWheelMode.Items.AddRange(New Object() {"Page Up/Down", "Cursor Up/Down"})
+        Me.InputMouseWheelMode.Location = New System.Drawing.Point(118, 60)
+        Me.InputMouseWheelMode.Name = "InputMouseWheelMode"
+        Me.InputMouseWheelMode.Size = New System.Drawing.Size(169, 21)
+        Me.InputMouseWheelMode.TabIndex = 6
+        '
+        'InputMouseWheelModeLabel
+        '
+        Me.InputMouseWheelModeLabel.AutoSize = True
+        Me.InputMouseWheelModeLabel.Location = New System.Drawing.Point(10, 63)
+        Me.InputMouseWheelModeLabel.Name = "InputMouseWheelModeLabel"
+        Me.InputMouseWheelModeLabel.Size = New System.Drawing.Size(102, 13)
+        Me.InputMouseWheelModeLabel.TabIndex = 5
+        Me.InputMouseWheelModeLabel.Text = "Mouse wheel mode:"
+        '
+        'InputKeyCodesPathPanel
+        '
+        Me.InputKeyCodesPathPanel.Controls.Add(Me.InputKeyCodesPathLabel)
+        Me.InputKeyCodesPathPanel.Controls.Add(Me.InputKeyCodesPath)
+        Me.InputKeyCodesPathPanel.Enabled = False
+        Me.InputKeyCodesPathPanel.Location = New System.Drawing.Point(10, 159)
+        Me.InputKeyCodesPathPanel.Name = "InputKeyCodesPathPanel"
+        Me.InputKeyCodesPathPanel.Size = New System.Drawing.Size(338, 21)
+        Me.InputKeyCodesPathPanel.TabIndex = 4
+        '
+        'InputKeyCodesPathLabel
+        '
+        Me.InputKeyCodesPathLabel.AutoSize = True
+        Me.InputKeyCodesPathLabel.Location = New System.Drawing.Point(0, 3)
+        Me.InputKeyCodesPathLabel.Name = "InputKeyCodesPathLabel"
+        Me.InputKeyCodesPathLabel.Size = New System.Drawing.Size(101, 13)
+        Me.InputKeyCodesPathLabel.TabIndex = 1
+        Me.InputKeyCodesPathLabel.Text = "Keycodes File Path:"
+        '
+        'InputKeyCodesPath
+        '
+        Me.InputKeyCodesPath.Location = New System.Drawing.Point(108, 0)
+        Me.InputKeyCodesPath.Name = "InputKeyCodesPath"
+        Me.InputKeyCodesPath.Size = New System.Drawing.Size(230, 21)
+        Me.InputKeyCodesPath.TabIndex = 0
+        '
+        'InputKeycodesEnable
+        '
+        Me.InputKeycodesEnable.AutoSize = True
+        Me.InputKeycodesEnable.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.InputKeycodesEnable.Location = New System.Drawing.Point(8, 129)
+        Me.InputKeycodesEnable.Name = "InputKeycodesEnable"
+        Me.InputKeycodesEnable.Size = New System.Drawing.Size(123, 17)
+        Me.InputKeycodesEnable.TabIndex = 3
+        Me.InputKeycodesEnable.Text = "Enable keycodes file"
+        Me.InputKeycodesEnable.UseVisualStyleBackColor = True
+        '
+        'InputEmuKbdType
+        '
+        Me.InputEmuKbdType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.InputEmuKbdType.FormattingEnabled = True
+        Me.InputEmuKbdType.Items.AddRange(New Object() {"Apple Extended Keyboard II (ISO)", "Macintosh Plus Keyboard with keypad", "Apple PowerBook Keyboard (ISO)"})
+        Me.InputEmuKbdType.Location = New System.Drawing.Point(118, 30)
+        Me.InputEmuKbdType.Name = "InputEmuKbdType"
+        Me.InputEmuKbdType.Size = New System.Drawing.Size(230, 21)
+        Me.InputEmuKbdType.TabIndex = 1
+        '
+        'InputEmuKbdTypeLabel
+        '
+        Me.InputEmuKbdTypeLabel.AutoSize = True
+        Me.InputEmuKbdTypeLabel.Location = New System.Drawing.Point(10, 33)
+        Me.InputEmuKbdTypeLabel.Name = "InputEmuKbdTypeLabel"
+        Me.InputEmuKbdTypeLabel.Size = New System.Drawing.Size(84, 13)
+        Me.InputEmuKbdTypeLabel.TabIndex = 0
+        Me.InputEmuKbdTypeLabel.Text = "Keyboard Type:"
+        '
+        'SerialFrame
+        '
+        Me.SerialFrame.Controls.Add(Me.SerialBFilePath)
+        Me.SerialFrame.Controls.Add(Me.SerialBFileBrowse)
+        Me.SerialFrame.Controls.Add(Me.SerialAFilePath)
+        Me.SerialFrame.Controls.Add(Me.SerialAFileBrowse)
+        Me.SerialFrame.Controls.Add(Me.SerialBLabel)
+        Me.SerialFrame.Controls.Add(Me.SerialALabel)
+        Me.SerialFrame.Controls.Add(Me.SerialB)
+        Me.SerialFrame.Controls.Add(Me.SerialA)
+        Me.SerialFrame.Location = New System.Drawing.Point(0, 0)
+        Me.SerialFrame.Name = "SerialFrame"
+        Me.SerialFrame.Size = New System.Drawing.Size(367, 279)
+        Me.SerialFrame.TabIndex = 8
+        Me.SerialFrame.TabStop = False
+        Me.SerialFrame.Text = "Serial ports"
+        '
+        'SerialBFilePath
+        '
+        Me.SerialBFilePath.Location = New System.Drawing.Point(9, 103)
+        Me.SerialBFilePath.Name = "SerialBFilePath"
+        Me.SerialBFilePath.Size = New System.Drawing.Size(271, 21)
+        Me.SerialBFilePath.TabIndex = 7
+        '
+        'SerialBFileBrowse
+        '
+        Me.SerialBFileBrowse.Location = New System.Drawing.Point(286, 101)
+        Me.SerialBFileBrowse.Name = "SerialBFileBrowse"
+        Me.SerialBFileBrowse.Size = New System.Drawing.Size(75, 23)
+        Me.SerialBFileBrowse.TabIndex = 6
+        Me.SerialBFileBrowse.Text = "Browse"
+        Me.SerialBFileBrowse.UseVisualStyleBackColor = True
+        '
+        'SerialAFilePath
+        '
+        Me.SerialAFilePath.Location = New System.Drawing.Point(9, 44)
+        Me.SerialAFilePath.Name = "SerialAFilePath"
+        Me.SerialAFilePath.Size = New System.Drawing.Size(271, 21)
+        Me.SerialAFilePath.TabIndex = 5
+        '
+        'SerialAFileBrowse
+        '
+        Me.SerialAFileBrowse.Location = New System.Drawing.Point(286, 42)
+        Me.SerialAFileBrowse.Name = "SerialAFileBrowse"
+        Me.SerialAFileBrowse.Size = New System.Drawing.Size(75, 23)
+        Me.SerialAFileBrowse.TabIndex = 4
+        Me.SerialAFileBrowse.Text = "Browse"
+        Me.SerialAFileBrowse.UseVisualStyleBackColor = True
+        '
+        'SerialBLabel
+        '
+        Me.SerialBLabel.AutoSize = True
+        Me.SerialBLabel.Location = New System.Drawing.Point(6, 76)
+        Me.SerialBLabel.Name = "SerialBLabel"
+        Me.SerialBLabel.Size = New System.Drawing.Size(65, 13)
+        Me.SerialBLabel.TabIndex = 3
+        Me.SerialBLabel.Text = "Serial Port 2"
+        '
+        'SerialALabel
+        '
+        Me.SerialALabel.AutoSize = True
+        Me.SerialALabel.Location = New System.Drawing.Point(6, 20)
+        Me.SerialALabel.Name = "SerialALabel"
+        Me.SerialALabel.Size = New System.Drawing.Size(65, 13)
+        Me.SerialALabel.TabIndex = 2
+        Me.SerialALabel.Text = "Serial Port 1"
+        '
+        'SerialB
+        '
+        Me.SerialB.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.SerialB.FormattingEnabled = True
+        Me.SerialB.Items.AddRange(New Object() {"COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "LPT1", "LPT2", "LPT3", "LPT4", "LPT5", "LPT6", "File", "None"})
+        Me.SerialB.Location = New System.Drawing.Point(76, 73)
+        Me.SerialB.Name = "SerialB"
+        Me.SerialB.Size = New System.Drawing.Size(80, 21)
+        Me.SerialB.TabIndex = 1
+        '
+        'SerialA
+        '
+        Me.SerialA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.SerialA.FormattingEnabled = True
+        Me.SerialA.Items.AddRange(New Object() {"COM1", "COM2", "COM3", "COM4", "COM5", "COM6", "LPT1", "LPT2", "LPT3", "LPT4", "LPT5", "LPT6", "File", "None"})
+        Me.SerialA.Location = New System.Drawing.Point(76, 17)
+        Me.SerialA.Name = "SerialA"
+        Me.SerialA.Size = New System.Drawing.Size(80, 21)
+        Me.SerialA.TabIndex = 0
+        '
+        'ExtFSFrame
+        '
+        Me.ExtFSFrame.Controls.Add(Me.ExtFSDrivesLabel)
+        Me.ExtFSFrame.Controls.Add(Me.ExtFSDrives)
+        Me.ExtFSFrame.Controls.Add(Me.ExtFSEnable)
+        Me.ExtFSFrame.Location = New System.Drawing.Point(0, 0)
+        Me.ExtFSFrame.Name = "ExtFSFrame"
+        Me.ExtFSFrame.Size = New System.Drawing.Size(367, 279)
+        Me.ExtFSFrame.TabIndex = 9
+        Me.ExtFSFrame.TabStop = False
+        Me.ExtFSFrame.Text = "MacOS External FileSystem"
+        '
+        'ExtFSDrivesLabel
+        '
+        Me.ExtFSDrivesLabel.AutoSize = True
+        Me.ExtFSDrivesLabel.Location = New System.Drawing.Point(7, 60)
+        Me.ExtFSDrivesLabel.Name = "ExtFSDrivesLabel"
+        Me.ExtFSDrivesLabel.Size = New System.Drawing.Size(171, 13)
+        Me.ExtFSDrivesLabel.TabIndex = 10
+        Me.ExtFSDrivesLabel.Text = "Volumes which MacOS can access:"
+        Me.ExtFSDrivesLabel.Visible = False
+        '
+        'ExtFSDrives
+        '
+        Me.ExtFSDrives.FormattingEnabled = True
+        Me.ExtFSDrives.Items.AddRange(New Object() {"C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"})
+        Me.ExtFSDrives.Location = New System.Drawing.Point(10, 80)
+        Me.ExtFSDrives.Name = "ExtFSDrives"
+        Me.ExtFSDrives.Size = New System.Drawing.Size(347, 180)
+        Me.ExtFSDrives.TabIndex = 9
+        Me.ExtFSDrives.Visible = False
+        '
+        'ExtFSEnable
+        '
+        Me.ExtFSEnable.AutoSize = True
+        Me.ExtFSEnable.Location = New System.Drawing.Point(10, 30)
+        Me.ExtFSEnable.Name = "ExtFSEnable"
+        Me.ExtFSEnable.Size = New System.Drawing.Size(155, 17)
+        Me.ExtFSEnable.TabIndex = 8
+        Me.ExtFSEnable.Text = "Enable External FileSystem"
+        Me.ExtFSEnable.UseVisualStyleBackColor = True
         '
         'MiscFrame
         '
-        Me.MiscFrame.Controls.Add(Me.IgnoreIllegal)
-        Me.MiscFrame.Controls.Add(Me.IdleCPU)
-        Me.MiscFrame.Controls.Add(Me.Enable68kEmu)
-        Me.MiscFrame.Controls.Add(Me.EnableJIT)
-        Me.MiscFrame.Location = New System.Drawing.Point(0, 3)
+        Me.MiscFrame.Controls.Add(Me.MiscIgnoreIllegal)
+        Me.MiscFrame.Controls.Add(Me.MiscClipConv)
+        Me.MiscFrame.Controls.Add(Me.MiscIdle)
+        Me.MiscFrame.Controls.Add(Me.MiscIgnoreSegv)
+        Me.MiscFrame.Controls.Add(Me.MiscEnableGUI)
+        Me.MiscFrame.Controls.Add(Me.MiscROM)
+        Me.MiscFrame.Controls.Add(Me.MiscROMBrowse)
+        Me.MiscFrame.Controls.Add(Me.MiscROMLabel)
+        Me.MiscFrame.Location = New System.Drawing.Point(0, 0)
         Me.MiscFrame.Name = "MiscFrame"
         Me.MiscFrame.Size = New System.Drawing.Size(367, 279)
         Me.MiscFrame.TabIndex = 8
         Me.MiscFrame.TabStop = False
         Me.MiscFrame.Text = "Miscelaneous"
         '
-        'IgnoreIllegal
+        'MiscIgnoreIllegal
         '
-        Me.IgnoreIllegal.AutoSize = True
-        Me.IgnoreIllegal.Location = New System.Drawing.Point(3, 86)
-        Me.IgnoreIllegal.Name = "IgnoreIllegal"
-        Me.IgnoreIllegal.Size = New System.Drawing.Size(174, 17)
-        Me.IgnoreIllegal.TabIndex = 3
-        Me.IgnoreIllegal.Text = "Ignore illegal memory accesses"
-        Me.IgnoreIllegal.UseVisualStyleBackColor = True
+        Me.MiscIgnoreIllegal.AutoSize = True
+        Me.MiscIgnoreIllegal.Location = New System.Drawing.Point(12, 120)
+        Me.MiscIgnoreIllegal.Name = "MiscIgnoreIllegal"
+        Me.MiscIgnoreIllegal.Size = New System.Drawing.Size(149, 17)
+        Me.MiscIgnoreIllegal.TabIndex = 9
+        Me.MiscIgnoreIllegal.Text = "Ignore Illegal Instructions"
+        Me.MiscIgnoreIllegal.UseVisualStyleBackColor = True
         '
-        'IdleCPU
+        'MiscClipConv
         '
-        Me.IdleCPU.AutoSize = True
-        Me.IdleCPU.Location = New System.Drawing.Point(3, 63)
-        Me.IdleCPU.Name = "IdleCPU"
-        Me.IdleCPU.Size = New System.Drawing.Size(142, 17)
-        Me.IdleCPU.TabIndex = 2
-        Me.IdleCPU.Text = "Don't use CPU when idle"
-        Me.IdleCPU.UseVisualStyleBackColor = True
+        Me.MiscClipConv.AutoSize = True
+        Me.MiscClipConv.Location = New System.Drawing.Point(12, 150)
+        Me.MiscClipConv.Name = "MiscClipConv"
+        Me.MiscClipConv.Size = New System.Drawing.Size(225, 17)
+        Me.MiscClipConv.TabIndex = 8
+        Me.MiscClipConv.Text = "Convert clipboard contents when copying"
+        Me.MiscClipConv.UseVisualStyleBackColor = True
         '
-        'Enable68kEmu
+        'MiscIdle
         '
-        Me.Enable68kEmu.AutoSize = True
-        Me.Enable68kEmu.Enabled = False
-        Me.Enable68kEmu.Location = New System.Drawing.Point(3, 40)
-        Me.Enable68kEmu.Name = "Enable68kEmu"
-        Me.Enable68kEmu.Size = New System.Drawing.Size(196, 17)
-        Me.Enable68kEmu.TabIndex = 1
-        Me.Enable68kEmu.Text = "Enable 68k emulator (experimental)"
-        Me.Enable68kEmu.UseVisualStyleBackColor = True
+        Me.MiscIdle.AutoSize = True
+        Me.MiscIdle.Location = New System.Drawing.Point(12, 180)
+        Me.MiscIdle.Name = "MiscIdle"
+        Me.MiscIdle.Size = New System.Drawing.Size(207, 17)
+        Me.MiscIdle.TabIndex = 7
+        Me.MiscIdle.Text = "Reduce CPU load when the Mac is idle"
+        Me.MiscIdle.UseVisualStyleBackColor = True
         '
-        'EnableJIT
+        'MiscIgnoreSegv
         '
-        Me.EnableJIT.AutoSize = True
-        Me.EnableJIT.Location = New System.Drawing.Point(3, 17)
-        Me.EnableJIT.Name = "EnableJIT"
-        Me.EnableJIT.Size = New System.Drawing.Size(120, 17)
-        Me.EnableJIT.TabIndex = 0
-        Me.EnableJIT.Text = "Enable JIT Compiler"
-        Me.EnableJIT.UseVisualStyleBackColor = True
+        Me.MiscIgnoreSegv.AutoSize = True
+        Me.MiscIgnoreSegv.Location = New System.Drawing.Point(12, 90)
+        Me.MiscIgnoreSegv.Name = "MiscIgnoreSegv"
+        Me.MiscIgnoreSegv.Size = New System.Drawing.Size(177, 17)
+        Me.MiscIgnoreSegv.TabIndex = 6
+        Me.MiscIgnoreSegv.Text = "Ignore Illegal Memory Accesses"
+        Me.MiscIgnoreSegv.UseVisualStyleBackColor = True
         '
-        'DrivesFrame
+        'MiscEnableGUI
         '
-        Me.DrivesFrame.Controls.Add(Me.DrivesList)
-        Me.DrivesFrame.Controls.Add(Me.MoveItemDown)
-        Me.DrivesFrame.Controls.Add(Me.MoveItemUp)
-        Me.DrivesFrame.Controls.Add(Me.AddDisk)
-        Me.DrivesFrame.Controls.Add(Me.AddCD)
-        Me.DrivesFrame.Controls.Add(Me.DeleteItem)
-        Me.DrivesFrame.Location = New System.Drawing.Point(0, 3)
-        Me.DrivesFrame.Name = "DrivesFrame"
-        Me.DrivesFrame.Size = New System.Drawing.Size(367, 279)
-        Me.DrivesFrame.TabIndex = 8
-        Me.DrivesFrame.TabStop = False
-        Me.DrivesFrame.Text = "Drives"
+        Me.MiscEnableGUI.AutoSize = True
+        Me.MiscEnableGUI.Location = New System.Drawing.Point(12, 60)
+        Me.MiscEnableGUI.Name = "MiscEnableGUI"
+        Me.MiscEnableGUI.Size = New System.Drawing.Size(79, 17)
+        Me.MiscEnableGUI.TabIndex = 5
+        Me.MiscEnableGUI.Text = "Enable GUI"
+        Me.MiscEnableGUI.UseVisualStyleBackColor = True
         '
-        'DrivesList
+        'MiscROM
         '
-        Me.DrivesList.FormattingEnabled = True
-        Me.DrivesList.Items.AddRange(New Object() {"C:\Users\Usuario\Documents\ISOs\Mac OS 8.5 Spanish.iso", "C:\Users\Usuario\Documents\My Macs\Mac OS 8\Mac OS 8.dsk", "C:\Users\Usuario\Documents\My Macs\Mac OS 8\Data.dsk"})
-        Me.DrivesList.Location = New System.Drawing.Point(3, 17)
-        Me.DrivesList.Name = "DrivesList"
-        Me.DrivesList.Size = New System.Drawing.Size(358, 186)
-        Me.DrivesList.TabIndex = 6
+        Me.MiscROM.Location = New System.Drawing.Point(72, 30)
+        Me.MiscROM.Name = "MiscROM"
+        Me.MiscROM.Size = New System.Drawing.Size(208, 21)
+        Me.MiscROM.TabIndex = 2
         '
-        'MoveItemDown
+        'MiscROMBrowse
         '
-        Me.MoveItemDown.Enabled = False
-        Me.MoveItemDown.Location = New System.Drawing.Point(328, 213)
-        Me.MoveItemDown.Name = "MoveItemDown"
-        Me.MoveItemDown.Size = New System.Drawing.Size(33, 23)
-        Me.MoveItemDown.TabIndex = 5
-        Me.MoveItemDown.Text = "\/"
-        Me.MoveItemDown.UseVisualStyleBackColor = True
+        Me.MiscROMBrowse.Location = New System.Drawing.Point(286, 28)
+        Me.MiscROMBrowse.Name = "MiscROMBrowse"
+        Me.MiscROMBrowse.Size = New System.Drawing.Size(75, 23)
+        Me.MiscROMBrowse.TabIndex = 1
+        Me.MiscROMBrowse.Text = "Browse"
+        Me.MiscROMBrowse.UseVisualStyleBackColor = True
         '
-        'MoveItemUp
+        'MiscROMLabel
         '
-        Me.MoveItemUp.Enabled = False
-        Me.MoveItemUp.Location = New System.Drawing.Point(294, 213)
-        Me.MoveItemUp.Name = "MoveItemUp"
-        Me.MoveItemUp.Size = New System.Drawing.Size(33, 23)
-        Me.MoveItemUp.TabIndex = 4
-        Me.MoveItemUp.Text = "/\"
-        Me.MoveItemUp.UseVisualStyleBackColor = True
+        Me.MiscROMLabel.AutoSize = True
+        Me.MiscROMLabel.Location = New System.Drawing.Point(9, 33)
+        Me.MiscROMLabel.Name = "MiscROMLabel"
+        Me.MiscROMLabel.Size = New System.Drawing.Size(34, 13)
+        Me.MiscROMLabel.TabIndex = 0
+        Me.MiscROMLabel.Text = "ROM:"
         '
-        'AddDisk
+        'JITFrame
         '
-        Me.AddDisk.Location = New System.Drawing.Point(6, 213)
-        Me.AddDisk.Name = "AddDisk"
-        Me.AddDisk.Size = New System.Drawing.Size(56, 23)
-        Me.AddDisk.TabIndex = 3
-        Me.AddDisk.Text = "Add disk"
-        Me.AddDisk.UseVisualStyleBackColor = True
+        Me.JITFrame.Controls.Add(Me.JITEnable)
+        Me.JITFrame.Controls.Add(Me.JIT68kEnable)
+        Me.JITFrame.Controls.Add(Me.JITDebugExtFS)
+        Me.JITFrame.Location = New System.Drawing.Point(0, 0)
+        Me.JITFrame.Name = "JITFrame"
+        Me.JITFrame.Size = New System.Drawing.Size(367, 279)
+        Me.JITFrame.TabIndex = 10
+        Me.JITFrame.TabStop = False
+        Me.JITFrame.Text = "JIT and debugging options"
         '
-        'AddCD
+        'JITEnable
         '
-        Me.AddCD.Location = New System.Drawing.Point(68, 213)
-        Me.AddCD.Name = "AddCD"
-        Me.AddCD.Size = New System.Drawing.Size(56, 23)
-        Me.AddCD.TabIndex = 2
-        Me.AddCD.Text = "Add CD"
-        Me.AddCD.UseVisualStyleBackColor = True
+        Me.JITEnable.AutoSize = True
+        Me.JITEnable.Location = New System.Drawing.Point(10, 20)
+        Me.JITEnable.Name = "JITEnable"
+        Me.JITEnable.Size = New System.Drawing.Size(120, 17)
+        Me.JITEnable.TabIndex = 0
+        Me.JITEnable.Text = "Enable JIT Compiler"
+        Me.JITEnable.UseVisualStyleBackColor = True
         '
-        'DeleteItem
+        'JIT68kEnable
         '
-        Me.DeleteItem.Location = New System.Drawing.Point(130, 213)
-        Me.DeleteItem.Name = "DeleteItem"
-        Me.DeleteItem.Size = New System.Drawing.Size(90, 23)
-        Me.DeleteItem.TabIndex = 1
-        Me.DeleteItem.Text = "Delete selected"
-        Me.DeleteItem.UseVisualStyleBackColor = True
+        Me.JIT68kEnable.AutoSize = True
+        Me.JIT68kEnable.Location = New System.Drawing.Point(10, 50)
+        Me.JIT68kEnable.Name = "JIT68kEnable"
+        Me.JIT68kEnable.Size = New System.Drawing.Size(221, 17)
+        Me.JIT68kEnable.TabIndex = 9
+        Me.JIT68kEnable.Text = "Enable 68k emulator (Not recommended)"
+        Me.JIT68kEnable.UseVisualStyleBackColor = True
         '
-        'OptionsList
+        'JITDebugExtFS
         '
-        Me.OptionsList.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Options, Me.Value})
-        Me.OptionsList.FullRowSelect = True
-        Me.OptionsList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
-        Me.OptionsList.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9})
-        Me.OptionsList.Location = New System.Drawing.Point(12, 12)
-        Me.OptionsList.Name = "OptionsList"
-        Me.OptionsList.Size = New System.Drawing.Size(353, 376)
-        Me.OptionsList.TabIndex = 19
-        Me.OptionsList.UseCompatibleStateImageBehavior = False
-        Me.OptionsList.View = System.Windows.Forms.View.Details
+        Me.JITDebugExtFS.AutoSize = True
+        Me.JITDebugExtFS.Location = New System.Drawing.Point(10, 80)
+        Me.JITDebugExtFS.Name = "JITDebugExtFS"
+        Me.JITDebugExtFS.Size = New System.Drawing.Size(88, 17)
+        Me.JITDebugExtFS.TabIndex = 10
+        Me.JITDebugExtFS.Text = "Debug ExtFS"
+        Me.JITDebugExtFS.UseVisualStyleBackColor = True
+        '
+        'EMCFrame
+        '
+        Me.EMCFrame.Controls.Add(Me.EMCEditor)
+        Me.EMCFrame.Location = New System.Drawing.Point(0, 0)
+        Me.EMCFrame.Name = "EMCFrame"
+        Me.EMCFrame.Size = New System.Drawing.Size(367, 279)
+        Me.EMCFrame.TabIndex = 9
+        Me.EMCFrame.TabStop = False
+        Me.EMCFrame.Text = "Edit Manually Config File"
+        '
+        'EMCEditor
+        '
+        Me.EMCEditor.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.EMCKeywordValueColumn})
+        Me.EMCEditor.Font = New System.Drawing.Font("Consolas", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EMCEditor.FullRowSelect = True
+        Me.EMCEditor.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.EMCEditor.LabelEdit = True
+        Me.EMCEditor.Location = New System.Drawing.Point(10, 30)
+        Me.EMCEditor.Name = "EMCEditor"
+        Me.EMCEditor.Size = New System.Drawing.Size(351, 235)
+        Me.EMCEditor.TabIndex = 1
+        Me.EMCEditor.UseCompatibleStateImageBehavior = False
+        Me.EMCEditor.View = System.Windows.Forms.View.Details
+        '
+        'EMCKeywordValueColumn
+        '
+        Me.EMCKeywordValueColumn.Text = "Edit lines by double clicking them."
+        Me.EMCKeywordValueColumn.Width = 338
+        '
+        'OptionList
+        '
+        Me.OptionList.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.Options, Me.Value})
+        Me.OptionList.FullRowSelect = True
+        Me.OptionList.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.OptionList.Items.AddRange(New System.Windows.Forms.ListViewItem() {ListViewItem1, ListViewItem2, ListViewItem3, ListViewItem4, ListViewItem5, ListViewItem6, ListViewItem7, ListViewItem8, ListViewItem9, ListViewItem10, ListViewItem11, ListViewItem12})
+        Me.OptionList.Location = New System.Drawing.Point(12, 12)
+        Me.OptionList.Name = "OptionList"
+        Me.OptionList.Size = New System.Drawing.Size(353, 376)
+        Me.OptionList.TabIndex = 26
+        Me.OptionList.UseCompatibleStateImageBehavior = False
+        Me.OptionList.View = System.Windows.Forms.View.Details
         '
         'Options
         '
@@ -821,31 +1237,6 @@
         Me.Value.Text = "Value"
         Me.Value.Width = 176
         '
-        'OptionPanel
-        '
-        Me.OptionPanel.Controls.Add(Me.SerialFrame)
-        Me.OptionPanel.Controls.Add(Me.MiscFrame)
-        Me.OptionPanel.Controls.Add(Me.NetworkFrame)
-        Me.OptionPanel.Controls.Add(Me.InputFrame)
-        Me.OptionPanel.Controls.Add(Me.ScreenFrame)
-        Me.OptionPanel.Controls.Add(Me.IconFrame)
-        Me.OptionPanel.Controls.Add(Me.DrivesFrame)
-        Me.OptionPanel.Controls.Add(Me.MemoryFrame)
-        Me.OptionPanel.Controls.Add(Me.VMNameFrame)
-        Me.OptionPanel.Location = New System.Drawing.Point(371, 2)
-        Me.OptionPanel.Name = "OptionPanel"
-        Me.OptionPanel.Size = New System.Drawing.Size(373, 294)
-        Me.OptionPanel.TabIndex = 21
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(399, 324)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(327, 13)
-        Me.Label1.TabIndex = 22
-        Me.Label1.Text = "Warning! You need to close this window for changes to take effect"
-        '
         'frmSettingsSheepVM
         '
         Me.AcceptButton = Me.cmdOK
@@ -855,9 +1246,8 @@
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.CancelButton = Me.cmdCancel
         Me.ClientSize = New System.Drawing.Size(750, 400)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.OptionPanel)
-        Me.Controls.Add(Me.OptionsList)
+        Me.Controls.Add(Me.GroupContainer)
+        Me.Controls.Add(Me.OptionList)
         Me.Controls.Add(Me.cmdCancel)
         Me.Controls.Add(Me.cmdOK)
         Me.Cursor = System.Windows.Forms.Cursors.Default
@@ -870,108 +1260,149 @@
         Me.Name = "frmSettingsSheepVM"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.Text = "Settings for %s"
+        Me.DriveListContext.ResumeLayout(False)
+        Me.GroupContainer.ResumeLayout(False)
+        Me.MacNameFrame.ResumeLayout(False)
+        Me.MacNameFrame.PerformLayout()
         Me.IconFrame.ResumeLayout(False)
-        Me.VMNameFrame.ResumeLayout(False)
-        Me.VMNameFrame.PerformLayout()
-        Me.ScreenFrame.ResumeLayout(False)
-        Me.ScreenFrame.PerformLayout()
-        Me.NetworkFrame.ResumeLayout(False)
-        Me.NetworkFrame.PerformLayout()
-        Me.RouterPanel.ResumeLayout(False)
-        Me.RouterPanel.PerformLayout()
-        Me.InputFrame.ResumeLayout(False)
-        Me.KeyboardGroup.ResumeLayout(False)
-        Me.KeyboardGroup.PerformLayout()
-        Me.MouseGroup.ResumeLayout(False)
-        Me.MouseGroup.PerformLayout()
-        CType(Me.ScrollLines, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SerialFrame.ResumeLayout(False)
-        Me.SerialFrame.PerformLayout()
-        Me.PrinterOutputFile.ResumeLayout(False)
-        Me.PrinterOutputFile.PerformLayout()
-        Me.ModemOutputFile.ResumeLayout(False)
-        Me.ModemOutputFile.PerformLayout()
+        Me.IconFrame.PerformLayout()
         Me.MemoryFrame.ResumeLayout(False)
         Me.MemoryFrame.PerformLayout()
-        CType(Me.MemorySlider, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.MemoryTracker, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.DriveFrame.ResumeLayout(False)
+        Me.DriveFrame.PerformLayout()
+        Me.NetworkFrame.ResumeLayout(False)
+        Me.NetworkFrame.PerformLayout()
+        Me.NetContainer.ResumeLayout(False)
+        Me.NetContainer.PerformLayout()
+        Me.NetRouterConfig.ResumeLayout(False)
+        Me.NetRouterConfig.PerformLayout()
+        Me.MediaFrame.ResumeLayout(False)
+        Me.MediaFrame.PerformLayout()
+        Me.InputFrame.ResumeLayout(False)
+        Me.InputFrame.PerformLayout()
+        CType(Me.InputMouseWheelLines, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.InputKeyCodesPathPanel.ResumeLayout(False)
+        Me.InputKeyCodesPathPanel.PerformLayout()
+        Me.SerialFrame.ResumeLayout(False)
+        Me.SerialFrame.PerformLayout()
+        Me.ExtFSFrame.ResumeLayout(False)
+        Me.ExtFSFrame.PerformLayout()
         Me.MiscFrame.ResumeLayout(False)
         Me.MiscFrame.PerformLayout()
-        Me.DrivesFrame.ResumeLayout(False)
-        Me.OptionPanel.ResumeLayout(False)
+        Me.JITFrame.ResumeLayout(False)
+        Me.JITFrame.PerformLayout()
+        Me.EMCFrame.ResumeLayout(False)
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents IconFrame As System.Windows.Forms.GroupBox
     Friend WithEvents Browser As System.Windows.Forms.OpenFileDialog
-    Friend WithEvents VMNameFrame As System.Windows.Forms.GroupBox
-    Friend WithEvents VMNameHelp As System.Windows.Forms.Label
-    Friend WithEvents VMName As System.Windows.Forms.TextBox
     Friend WithEvents Icons As System.Windows.Forms.ImageList
+    Friend WithEvents DriveListContext As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents ContextAddDisk As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextAddCD As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextAddFloppy As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextSetAsBoot As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ContextRemoveDrive As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents DriveIcons As System.Windows.Forms.ImageList
+    Friend WithEvents GroupContainer As System.Windows.Forms.Panel
+    Friend WithEvents IconFrame As System.Windows.Forms.GroupBox
     Friend WithEvents IconList As System.Windows.Forms.ListView
-    Friend WithEvents IconDescription As System.Windows.Forms.Label
-    Friend WithEvents BrowseIcon As System.Windows.Forms.Button
-    Friend WithEvents ScreenFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents IconInfo As System.Windows.Forms.Label
+    Friend WithEvents MediaFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents MediaModeLabel As System.Windows.Forms.Label
+    Friend WithEvents MediaMode As System.Windows.Forms.ComboBox
+    Friend WithEvents MediaRefreshLabel As System.Windows.Forms.Label
+    Friend WithEvents MediaRefresh As System.Windows.Forms.ComboBox
+    Friend WithEvents MediaResLabel As System.Windows.Forms.Label
+    Friend WithEvents MediaResCust As System.Windows.Forms.CheckBox
+    Friend WithEvents MediaResY As System.Windows.Forms.ComboBox
+    Friend WithEvents MediaResX As System.Windows.Forms.ComboBox
     Friend WithEvents NetworkFrame As System.Windows.Forms.GroupBox
-    Friend WithEvents InputFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents NetPermPhysicalAddress As System.Windows.Forms.CheckBox
+    Friend WithEvents NetEnableUDP As System.Windows.Forms.CheckBox
+    Friend WithEvents NetUPDPortLabel As System.Windows.Forms.Label
+    Friend WithEvents NetUPDPort As System.Windows.Forms.TextBox
+    Friend WithEvents NetRouterConfig As System.Windows.Forms.Panel
+    Friend WithEvents NetServerPortsLabel As System.Windows.Forms.Label
+    Friend WithEvents NetFTPPortsLabel As System.Windows.Forms.Label
+    Friend WithEvents NetServerPorts As System.Windows.Forms.TextBox
+    Friend WithEvents NetFTPPorts As System.Windows.Forms.TextBox
+    Friend WithEvents NetTypeLabel As System.Windows.Forms.Label
+    Friend WithEvents NetType As System.Windows.Forms.ComboBox
+    Friend WithEvents NetRouterEnabled As System.Windows.Forms.CheckBox
     Friend WithEvents SerialFrame As System.Windows.Forms.GroupBox
-    Friend WithEvents MemoryFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents SerialBFilePath As System.Windows.Forms.TextBox
+    Friend WithEvents SerialBFileBrowse As System.Windows.Forms.Button
+    Friend WithEvents SerialAFilePath As System.Windows.Forms.TextBox
+    Friend WithEvents SerialAFileBrowse As System.Windows.Forms.Button
+    Friend WithEvents SerialBLabel As System.Windows.Forms.Label
+    Friend WithEvents SerialALabel As System.Windows.Forms.Label
+    Friend WithEvents SerialB As System.Windows.Forms.ComboBox
+    Friend WithEvents SerialA As System.Windows.Forms.ComboBox
+    Friend WithEvents EMCFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents EMCEditor As System.Windows.Forms.ListView
+    Friend WithEvents EMCKeywordValueColumn As System.Windows.Forms.ColumnHeader
+    Friend WithEvents DriveFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents DrivePollMedia As System.Windows.Forms.CheckBox
+    Friend WithEvents DriveBootCD As System.Windows.Forms.RadioButton
+    Friend WithEvents DriveBootDisk As System.Windows.Forms.RadioButton
+    Friend WithEvents DriveSetBootDrive As System.Windows.Forms.Button
+    Friend WithEvents DriveRemove As System.Windows.Forms.Button
+    Friend WithEvents DriveAddFloppy As System.Windows.Forms.Button
+    Friend WithEvents DriveAddCD As System.Windows.Forms.Button
+    Friend WithEvents DriveAddDisk As System.Windows.Forms.Button
+    Friend WithEvents DriveList As System.Windows.Forms.ListView
+    Friend WithEvents DriveLCPath As System.Windows.Forms.ColumnHeader
+    Friend WithEvents DriveLCType As System.Windows.Forms.ColumnHeader
+    Friend WithEvents DriveLCBootMark As System.Windows.Forms.ColumnHeader
     Friend WithEvents MiscFrame As System.Windows.Forms.GroupBox
-    Friend WithEvents DrivesFrame As System.Windows.Forms.GroupBox
-    Friend WithEvents IgnoreIllegal As System.Windows.Forms.CheckBox
-    Friend WithEvents IdleCPU As System.Windows.Forms.CheckBox
-    Friend WithEvents Enable68kEmu As System.Windows.Forms.CheckBox
-    Friend WithEvents EnableJIT As System.Windows.Forms.CheckBox
-    Friend WithEvents MegabyteLabel As System.Windows.Forms.Label
-    Friend WithEvents MemoryLabel As System.Windows.Forms.Label
-    Friend WithEvents MemorySlider As System.Windows.Forms.TrackBar
-    Friend WithEvents OptionsList As System.Windows.Forms.ListView
+    Friend WithEvents MiscIdle As System.Windows.Forms.CheckBox
+    Friend WithEvents MiscIgnoreSegv As System.Windows.Forms.CheckBox
+    Friend WithEvents MiscEnableGUI As System.Windows.Forms.CheckBox
+    Friend WithEvents MiscROM As System.Windows.Forms.TextBox
+    Friend WithEvents MiscROMBrowse As System.Windows.Forms.Button
+    Friend WithEvents MiscROMLabel As System.Windows.Forms.Label
+    Friend WithEvents MacNameFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents MacName As System.Windows.Forms.TextBox
+    Friend WithEvents MacNameLabel As System.Windows.Forms.Label
+    Friend WithEvents ExtFSFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents ExtFSDrivesLabel As System.Windows.Forms.Label
+    Friend WithEvents ExtFSDrives As System.Windows.Forms.CheckedListBox
+    Friend WithEvents ExtFSEnable As System.Windows.Forms.CheckBox
+    Friend WithEvents JITFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents JITEnable As System.Windows.Forms.CheckBox
+    Friend WithEvents InputFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents InputMouseWheelLines As System.Windows.Forms.NumericUpDown
+    Friend WithEvents InputMouseWheelMode As System.Windows.Forms.ComboBox
+    Friend WithEvents InputMouseWheelModeLabel As System.Windows.Forms.Label
+    Friend WithEvents InputKeyCodesPathPanel As System.Windows.Forms.Panel
+    Friend WithEvents InputKeyCodesPathLabel As System.Windows.Forms.Label
+    Friend WithEvents InputKeyCodesPath As System.Windows.Forms.TextBox
+    Friend WithEvents InputKeycodesEnable As System.Windows.Forms.CheckBox
+    Friend WithEvents InputEmuKbdType As System.Windows.Forms.ComboBox
+    Friend WithEvents InputEmuKbdTypeLabel As System.Windows.Forms.Label
+    Friend WithEvents MediaEnableSound As System.Windows.Forms.CheckBox
+    Friend WithEvents MediaEnableCD As System.Windows.Forms.CheckBox
+    Friend WithEvents MemoryFrame As System.Windows.Forms.GroupBox
+    Friend WithEvents MemoryBoxMBLabel As System.Windows.Forms.Label
+    Friend WithEvents MemoryBoxLabel As System.Windows.Forms.Label
+    Friend WithEvents MemoryBox As System.Windows.Forms.TextBox
+    Friend WithEvents MemoryTracker As System.Windows.Forms.TrackBar
+    Friend WithEvents OptionList As System.Windows.Forms.ListView
     Friend WithEvents Options As System.Windows.Forms.ColumnHeader
     Friend WithEvents Value As System.Windows.Forms.ColumnHeader
-    Friend WithEvents StartModeLabel As System.Windows.Forms.Label
-    Friend WithEvents StartMode As System.Windows.Forms.ComboBox
-    Friend WithEvents VMResLabel As System.Windows.Forms.Label
-    Friend WithEvents VMResDef As System.Windows.Forms.ComboBox
-    Friend WithEvents RefeshRateLabel As System.Windows.Forms.Label
-    Friend WithEvents RefreshRate As System.Windows.Forms.ComboBox
-    Friend WithEvents CustResolution As System.Windows.Forms.CheckBox
-    Friend WithEvents VMResHeight As System.Windows.Forms.ComboBox
-    Friend WithEvents VMResWidth As System.Windows.Forms.ComboBox
-    Friend WithEvents MoveItemDown As System.Windows.Forms.Button
-    Friend WithEvents MoveItemUp As System.Windows.Forms.Button
-    Friend WithEvents AddDisk As System.Windows.Forms.Button
-    Friend WithEvents AddCD As System.Windows.Forms.Button
-    Friend WithEvents DeleteItem As System.Windows.Forms.Button
-    Friend WithEvents DrivesList As System.Windows.Forms.ListBox
-    Friend WithEvents NetInterfaceLabel As System.Windows.Forms.Label
-    Friend WithEvents NetInterface As System.Windows.Forms.ComboBox
-    Friend WithEvents FTPPorts As System.Windows.Forms.TextBox
-    Friend WithEvents ServerPortsLabel As System.Windows.Forms.Label
-    Friend WithEvents ServerPorts As System.Windows.Forms.TextBox
-    Friend WithEvents FTPPortsLabel As System.Windows.Forms.Label
-    Friend WithEvents RouterPanel As System.Windows.Forms.Panel
-    Friend WithEvents ScrollLines As System.Windows.Forms.NumericUpDown
-    Friend WithEvents WheelFunction As System.Windows.Forms.ComboBox
-    Friend WithEvents KeyCodesPath As System.Windows.Forms.TextBox
-    Friend WithEvents BrowseKeyCodes As System.Windows.Forms.Button
-    Friend WithEvents UseKeycodes As System.Windows.Forms.CheckBox
-    Friend WithEvents KeyboardGroup As System.Windows.Forms.GroupBox
-    Friend WithEvents KeyCodesPathLabel As System.Windows.Forms.Label
-    Friend WithEvents MouseGroup As System.Windows.Forms.GroupBox
-    Friend WithEvents ScrollLinesLabel As System.Windows.Forms.Label
-    Friend WithEvents WheelFunctionLabel As System.Windows.Forms.Label
-    Friend WithEvents Memory As System.Windows.Forms.TextBox
-    Friend WithEvents ModemPort As System.Windows.Forms.ComboBox
-    Friend WithEvents BrowseMOFile As System.Windows.Forms.Button
-    Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents ModemOutputPath As System.Windows.Forms.TextBox
-    Friend WithEvents PrinterPort As System.Windows.Forms.ComboBox
-    Friend WithEvents PrinterPortLabel As System.Windows.Forms.Label
-    Friend WithEvents PrinterOutputFile As System.Windows.Forms.Panel
-    Friend WithEvents PrinterOutputPath As System.Windows.Forms.TextBox
-    Friend WithEvents BrowsePOFile As System.Windows.Forms.Button
-    Friend WithEvents ModemOutputFile As System.Windows.Forms.Panel
-    Friend WithEvents OptionPanel As System.Windows.Forms.Panel
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents IconAdd As System.Windows.Forms.Button
+    Friend WithEvents MediaEnableQuickDraw As System.Windows.Forms.CheckBox
+    Friend WithEvents NetEnable As System.Windows.Forms.CheckBox
+    Friend WithEvents NetContainer As System.Windows.Forms.Panel
+    Friend WithEvents MiscClipConv As System.Windows.Forms.CheckBox
+    Friend WithEvents MiscIgnoreIllegal As System.Windows.Forms.CheckBox
+    Friend WithEvents JIT68kEnable As System.Windows.Forms.CheckBox
+    Friend WithEvents NetFakeAddressLabel As System.Windows.Forms.Label
+    Friend WithEvents NetFakeAddress As System.Windows.Forms.TextBox
+    Friend WithEvents JITDebugExtFS As System.Windows.Forms.CheckBox
+    Friend WithEvents NetMulticastModeLabel As System.Windows.Forms.Label
+    Friend WithEvents NetMulticastMode As System.Windows.Forms.TextBox
 #End Region
 End Class

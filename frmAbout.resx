@@ -120,10 +120,801 @@
   <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AboutTab_AppInfo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LicenseInformation.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="LicenseInformation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 136</value>
+  </data>
+  <data name="LicenseInformation.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="LicenseInformation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LicenseInformation.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LicenseInformation.Text" xml:space="preserve">
+    <value>Licensed under GNU GPL v3</value>
+  </data>
+  <data name="&gt;&gt;LicenseInformation.Name" xml:space="preserve">
+    <value>LicenseInformation</value>
+  </data>
+  <data name="&gt;&gt;LicenseInformation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LicenseInformation.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;LicenseInformation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ProductNAV.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ProductNAV.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 88</value>
+  </data>
+  <data name="ProductNAV.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ProductNAV.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <data name="ProductNAV.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ProductNAV.Text" xml:space="preserve">
+    <value>TEA's Virtual Mac</value>
+  </data>
+  <data name="&gt;&gt;ProductNAV.Name" xml:space="preserve">
+    <value>ProductNAV</value>
+  </data>
+  <data name="&gt;&gt;ProductNAV.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductNAV.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;ProductNAV.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="MvMCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 219</value>
+  </data>
+  <data name="MvMCopyright.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="MvMCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <data name="MvMCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="MvMCopyright.Text" xml:space="preserve">
+    <value>Mini vMac © 2001-2018 The Gryphel Project</value>
+  </data>
+  <data name="&gt;&gt;MvMCopyright.Name" xml:space="preserve">
+    <value>MvMCopyright</value>
+  </data>
+  <data name="&gt;&gt;MvMCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MvMCopyright.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;MvMCopyright.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ThirdPartyNotice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 202</value>
+  </data>
+  <data name="ThirdPartyNotice.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ThirdPartyNotice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <data name="ThirdPartyNotice.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ThirdPartyNotice.Text" xml:space="preserve">
+    <value>Portions of this Software:</value>
+  </data>
+  <data name="&gt;&gt;ThirdPartyNotice.Name" xml:space="preserve">
+    <value>ThirdPartyNotice</value>
+  </data>
+  <data name="&gt;&gt;ThirdPartyNotice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ThirdPartyNotice.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;ThirdPartyNotice.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ArmandoTechnologiesCopyright.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="ArmandoTechnologiesCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 102</value>
+  </data>
+  <data name="ArmandoTechnologiesCopyright.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ArmandoTechnologiesCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <data name="ArmandoTechnologiesCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ArmandoTechnologiesCopyright.Text" xml:space="preserve">
+    <value>Copyright © 2017-2018 Tecnologias Edson Armando</value>
+  </data>
+  <data name="&gt;&gt;ArmandoTechnologiesCopyright.Name" xml:space="preserve">
+    <value>ArmandoTechnologiesCopyright</value>
+  </data>
+  <data name="&gt;&gt;ArmandoTechnologiesCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ArmandoTechnologiesCopyright.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;ArmandoTechnologiesCopyright.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AppleCopyright.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="AppleCopyright.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 119</value>
+  </data>
+  <data name="AppleCopyright.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="AppleCopyright.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 17</value>
+  </data>
+  <data name="AppleCopyright.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="AppleCopyright.Text" xml:space="preserve">
+    <value>Copyright © 1984-2001 Apple Computer</value>
+  </data>
+  <data name="&gt;&gt;AppleCopyright.Name" xml:space="preserve">
+    <value>AppleCopyright</value>
+  </data>
+  <data name="&gt;&gt;AppleCopyright.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AppleCopyright.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;AppleCopyright.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ArmandoLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ArmandoLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 162</value>
+  </data>
+  <data name="ArmandoLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="ArmandoLink.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ArmandoLink.Text" xml:space="preserve">
+    <value>Tecnologias Edson Armando</value>
+  </data>
+  <data name="&gt;&gt;ArmandoLink.Name" xml:space="preserve">
+    <value>ArmandoLink</value>
+  </data>
+  <data name="&gt;&gt;ArmandoLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ArmandoLink.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;ArmandoLink.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EmaculationLink.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EmaculationLink.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 175</value>
+  </data>
+  <data name="EmaculationLink.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 13</value>
+  </data>
+  <data name="EmaculationLink.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="EmaculationLink.Text" xml:space="preserve">
+    <value>E-Maculation.com</value>
+  </data>
+  <data name="&gt;&gt;EmaculationLink.Name" xml:space="preserve">
+    <value>EmaculationLink</value>
+  </data>
+  <data name="&gt;&gt;EmaculationLink.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmaculationLink.Parent" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;EmaculationLink.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AboutTab_AppInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="AboutTab_AppInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 295</value>
+  </data>
+  <data name="AboutTab_AppInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="AboutTab_AppInfo.Text" xml:space="preserve">
+    <value>About Virtual Mac</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_AppInfo.Name" xml:space="preserve">
+    <value>AboutTab_AppInfo</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_AppInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_AppInfo.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_AppInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AboutTab_SysInfo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="OSName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 103</value>
+  </data>
+  <data name="OSName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OSName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="OSName.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;OSName.Name" xml:space="preserve">
+    <value>OSName</value>
+  </data>
+  <data name="&gt;&gt;OSName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSName.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;OSName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CPUCoresLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 154</value>
+  </data>
+  <data name="CPUCoresLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPUCoresLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="CPUCoresLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="CPUCoresLabel.Text" xml:space="preserve">
+    <value>Processor cores:</value>
+  </data>
+  <data name="&gt;&gt;CPUCoresLabel.Name" xml:space="preserve">
+    <value>CPUCoresLabel</value>
+  </data>
+  <data name="&gt;&gt;CPUCoresLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUCoresLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;CPUCoresLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CPUType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 137</value>
+  </data>
+  <data name="CPUType.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPUType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="CPUType.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Name" xml:space="preserve">
+    <value>CPUType</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUType.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;CPUType.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="OSVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 120</value>
+  </data>
+  <data name="OSVersion.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OSVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="OSVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;OSVersion.Name" xml:space="preserve">
+    <value>OSVersion</value>
+  </data>
+  <data name="&gt;&gt;OSVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSVersion.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;OSVersion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SysInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="SysInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 87</value>
+  </data>
+  <data name="SysInfoLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="SysInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="SysInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="SysInfoLabel.Text" xml:space="preserve">
+    <value>System Information</value>
+  </data>
+  <data name="&gt;&gt;SysInfoLabel.Name" xml:space="preserve">
+    <value>SysInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;SysInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SysInfoLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;SysInfoLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CPUTypeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 137</value>
+  </data>
+  <data name="CPUTypeLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPUTypeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="CPUTypeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="CPUTypeLabel.Text" xml:space="preserve">
+    <value>Processor type:</value>
+  </data>
+  <data name="&gt;&gt;CPUTypeLabel.Name" xml:space="preserve">
+    <value>CPUTypeLabel</value>
+  </data>
+  <data name="&gt;&gt;CPUTypeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUTypeLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;CPUTypeLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RAMInstalledLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 171</value>
+  </data>
+  <data name="RAMInstalledLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMInstalledLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="RAMInstalledLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="RAMInstalledLabel.Text" xml:space="preserve">
+    <value>Total physical memory:</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalledLabel.Name" xml:space="preserve">
+    <value>RAMInstalledLabel</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalledLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalledLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalledLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CPUCores.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 154</value>
+  </data>
+  <data name="CPUCores.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CPUCores.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="CPUCores.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;CPUCores.Name" xml:space="preserve">
+    <value>CPUCores</value>
+  </data>
+  <data name="&gt;&gt;CPUCores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CPUCores.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;CPUCores.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="OSNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 103</value>
+  </data>
+  <data name="OSNameLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OSNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="OSNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="OSNameLabel.Text" xml:space="preserve">
+    <value>Operating System:</value>
+  </data>
+  <data name="&gt;&gt;OSNameLabel.Name" xml:space="preserve">
+    <value>OSNameLabel</value>
+  </data>
+  <data name="&gt;&gt;OSNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSNameLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;OSNameLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="OSVersionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 120</value>
+  </data>
+  <data name="OSVersionLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OSVersionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="OSVersionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="OSVersionLabel.Text" xml:space="preserve">
+    <value>System Version:</value>
+  </data>
+  <data name="&gt;&gt;OSVersionLabel.Name" xml:space="preserve">
+    <value>OSVersionLabel</value>
+  </data>
+  <data name="&gt;&gt;OSVersionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OSVersionLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;OSVersionLabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="RAMInstalled.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 171</value>
+  </data>
+  <data name="RAMInstalled.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMInstalled.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="RAMInstalled.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalled.Name" xml:space="preserve">
+    <value>RAMInstalled</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalled.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalled.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;RAMInstalled.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="RAMAvailableLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 188</value>
+  </data>
+  <data name="RAMAvailableLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMAvailableLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="RAMAvailableLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="RAMAvailableLabel.Text" xml:space="preserve">
+    <value>Available physical memory:</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailableLabel.Name" xml:space="preserve">
+    <value>RAMAvailableLabel</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailableLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailableLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailableLabel.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="RAMAvailable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 188</value>
+  </data>
+  <data name="RAMAvailable.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="RAMAvailable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="RAMAvailable.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailable.Name" xml:space="preserve">
+    <value>RAMAvailable</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailable.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;RAMAvailable.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CurrUsr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 223</value>
+  </data>
+  <data name="CurrUsr.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CurrUsr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="CurrUsr.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;CurrUsr.Name" xml:space="preserve">
+    <value>CurrUsr</value>
+  </data>
+  <data name="&gt;&gt;CurrUsr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrUsr.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;CurrUsr.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CurrUsrLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 223</value>
+  </data>
+  <data name="CurrUsrLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="CurrUsrLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="CurrUsrLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="CurrUsrLabel.Text" xml:space="preserve">
+    <value>Current user name:</value>
+  </data>
+  <data name="&gt;&gt;CurrUsrLabel.Name" xml:space="preserve">
+    <value>CurrUsrLabel</value>
+  </data>
+  <data name="&gt;&gt;CurrUsrLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CurrUsrLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;CurrUsrLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="UserInfoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="UserInfoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 208</value>
+  </data>
+  <data name="UserInfoLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="UserInfoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="UserInfoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="UserInfoLabel.Text" xml:space="preserve">
+    <value>User Information</value>
+  </data>
+  <data name="&gt;&gt;UserInfoLabel.Name" xml:space="preserve">
+    <value>UserInfoLabel</value>
+  </data>
+  <data name="&gt;&gt;UserInfoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UserInfoLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;UserInfoLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="PCName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 240</value>
+  </data>
+  <data name="PCName.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="PCName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 17</value>
+  </data>
+  <data name="PCName.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;PCName.Name" xml:space="preserve">
+    <value>PCName</value>
+  </data>
+  <data name="&gt;&gt;PCName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PCName.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;PCName.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="PCNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 240</value>
+  </data>
+  <data name="PCNameLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="PCNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="PCNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="PCNameLabel.Text" xml:space="preserve">
+    <value>Computer name:</value>
+  </data>
+  <data name="&gt;&gt;PCNameLabel.Name" xml:space="preserve">
+    <value>PCNameLabel</value>
+  </data>
+  <data name="&gt;&gt;PCNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PCNameLabel.Parent" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;PCNameLabel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="AboutTab_SysInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="AboutTab_SysInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 295</value>
+  </data>
+  <data name="AboutTab_SysInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AboutTab_SysInfo.Text" xml:space="preserve">
+    <value>System Information</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_SysInfo.Name" xml:space="preserve">
+    <value>AboutTab_SysInfo</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_SysInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_SysInfo.Parent" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;AboutTab_SysInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="AboutTab.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="AboutTab.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>42, 18</value>
+  </data>
+  <data name="AboutTab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="AboutTab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 321</value>
+  </data>
+  <data name="AboutTab.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.Name" xml:space="preserve">
+    <value>AboutTab</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AboutTab.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="AvailMemTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>116, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>508, 335</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAMAEBAQAAAAAAAoAQAANgAAACAgAAAAAAAAqAgAAF4BAAAwMAAAAAAAAKgOAAAGCgAAKAAAABAA
@@ -233,5 +1024,35 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAB
         AADAAAAAAAMAAP///////wAA
 </value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>About VirtualMac</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AvailMemTimer.Name" xml:space="preserve">
+    <value>AvailMemTimer</value>
+  </data>
+  <data name="&gt;&gt;AvailMemTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmAbout</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

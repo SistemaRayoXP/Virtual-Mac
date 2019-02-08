@@ -117,25 +117,1651 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HwPresetsDescription.Text" xml:space="preserve">
-    <value>Select the operating system you plan to install on this Macintosh. Below are shown the specifications for the operating system detected from the name of your Mac. If the OS isn't in the list, select other.</value>
+  <data name="&gt;&gt;MacNameLabel.Parent" xml:space="preserve">
+    <value>MacNameFrame</value>
   </data>
-  <data name="AssignRAMDescription.Text" xml:space="preserve">
-    <value>A Macintosh needs memory to boot the system, and the applications need it to run. A more recent system needs more memory, also the heavier apps you want to run, the more memory you will need. It's recommended that you use the recommended memory unless you want to run heavy applications.</value>
+  <data name="&gt;&gt;DiskNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="Open.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>2, 3</value>
-  </metadata>
-  <metadata name="Save.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>63, 5</value>
-  </metadata>
-  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>126, 5</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>40</value>
-  </metadata>
+  <data name="&gt;&gt;HwOSList.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="EndInfoFinish.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 223</value>
+  </data>
+  <data name="AddEmulator.Items2" xml:space="preserve">
+    <value>Basilisk</value>
+  </data>
+  <data name="&gt;&gt;DiskPath.Name" xml:space="preserve">
+    <value>DiskPath</value>
+  </data>
+  <data name="&gt;&gt;CreateNormal.Name" xml:space="preserve">
+    <value>CreateNormal</value>
+  </data>
+  <data name="HwCPU.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FormButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="WelcomeDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 75</value>
+  </data>
+  <data name="EndRAMLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;HwDisk.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DiskFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cmdNext.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 13</value>
+  </data>
+  <data name="&gt;&gt;MacNameFrame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RAMCustomInvalidSize.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="DiskSizeFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 25</value>
+  </data>
+  <data name="&gt;&gt;EndInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 90</value>
+  </data>
+  <data name="&gt;&gt;RAMCustom.Parent" xml:space="preserve">
+    <value>RAMFrame</value>
+  </data>
+  <data name="HwEmulatorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="HwCPULabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Welcome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MacNameBrowse.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="RAMLabelMB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CreateNoWizardLabel.Name" xml:space="preserve">
+    <value>CreateNoWizardLabel</value>
+  </data>
+  <data name="RAMCustomInvalidSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DiskSize.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;DiskNew.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WelcomeTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="AddFromFileFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 245</value>
+  </data>
+  <data name="&gt;&gt;CreateNormal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="RAMBox.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;HwEmulatorLabel.Name" xml:space="preserve">
+    <value>HwEmulatorLabel</value>
+  </data>
+  <data name="HwRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 101</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeFrame.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="HwDisk.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Wizard.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DiskSizeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;Wizard.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="MacNameBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 68</value>
+  </data>
+  <data name="&gt;&gt;RAMFrame.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DiskPathBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 55</value>
+  </data>
+  <data name="EndRAM.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateNoWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddEmulatorLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CreateNoWizardLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskPathBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="AddFromFileFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DiskFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="&gt;&gt;AddFile.Name" xml:space="preserve">
+    <value>AddFile</value>
+  </data>
+  <data name="MacNameFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="&gt;&gt;HwCPULabel.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="EndRAMLabel.Text" xml:space="preserve">
+    <value>Memory:</value>
+  </data>
+  <data name="WelcomeDescription.Text" xml:space="preserve">
+    <value>This wizard helps you create and configure a new Macintosh or add an existing Macintosh to the Virtual Mac Console.
+
+The Macintosh configuration is stored in a .mcc file.
+
+To continue, click Next.</value>
+  </data>
+  <data name="RAMCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RAMInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RAMDefault.Name" xml:space="preserve">
+    <value>RAMDefault</value>
+  </data>
+  <data name="CreateNoWizard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwRAMLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RAMCustomInvalidSize.Name" xml:space="preserve">
+    <value>RAMCustomInvalidSize</value>
+  </data>
+  <data name="EndInfoFinish.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AddInfo.Name" xml:space="preserve">
+    <value>AddInfo</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CreateNoWizard.Text" xml:space="preserve">
+    <value>&amp;Create a Macintosh</value>
+  </data>
+  <data name="&gt;&gt;DiskNone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;MacNameBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Description.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 30</value>
+  </data>
+  <data name="DiskInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 15</value>
+  </data>
+  <data name="EndMacNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AddEmulator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndInfoFinish.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;MacNameBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="EndDiskPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DiskInfo.Text" xml:space="preserve">
+    <value>A Macintosh needs a disk to install the operating system. You can create a new disk to install MacOS (Or Linux) or you can use an exisitng disk with a preinstalled operating system.</value>
+  </data>
+  <data name="&gt;&gt;EndMacName.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="&gt;&gt;AddFileBrowse.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;HwCPU.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;AddInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwCPULabel.Name" xml:space="preserve">
+    <value>HwCPULabel</value>
+  </data>
+  <data name="&gt;&gt;EndWizard.Name" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="AddName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 70</value>
+  </data>
+  <data name="MacName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMSlider.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 22</value>
+  </data>
+  <data name="HwDiskLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AddEmulator.Items4" xml:space="preserve">
+    <value>PearPC</value>
+  </data>
+  <data name="&gt;&gt;CreateNormalLabel.Name" xml:space="preserve">
+    <value>CreateNormalLabel</value>
+  </data>
+  <data name="DiskPathBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;HwDisk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RAMCustom.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMLabelMB.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AddFileBrowse.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="&gt;&gt;RAMControlsPanel.Name" xml:space="preserve">
+    <value>RAMControlsPanel</value>
+  </data>
+  <data name="&gt;&gt;RAMBox.Name" xml:space="preserve">
+    <value>RAMBox</value>
+  </data>
+  <data name="DescriptionName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 20</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmNewMac</value>
+  </data>
+  <data name="&gt;&gt;HwCPULabel.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;Description.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwEmulatorLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="&gt;&gt;Welcome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwEmulator.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="DiskExisting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 106</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExistLabel.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="&gt;&gt;EndRAMLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DescriptionName.Parent" xml:space="preserve">
+    <value>DescriptionContainer</value>
+  </data>
+  <data name="EndDiskPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="DiskSizeLabelMB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndMacName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndRAMLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RAMControlsPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwEmulator.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RAMControlsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 130</value>
+  </data>
+  <data name="cmdBack.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DiskPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 55</value>
+  </data>
+  <data name="DescriptionName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EndDiskPath.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="MacName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 21</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPathLabel.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeLabelMB.Name" xml:space="preserve">
+    <value>DiskSizeLabelMB</value>
+  </data>
+  <data name="AddEmulator.Items5" xml:space="preserve">
+    <value>QEMU Windows Batch</value>
+  </data>
+  <data name="DiskSizeLabelMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="MacNameFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Wizard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="DiskSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 2</value>
+  </data>
+  <data name="&gt;&gt;MacNameFrame.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="CreateAddExistLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>412, 33</value>
+  </data>
+  <data name="HwCPU.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 149</value>
+  </data>
+  <data name="&gt;&gt;Save.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RAMCustomInvalidSize.Text" xml:space="preserve">
+    <value>Please use a valid size between %n and %x</value>
+  </data>
+  <data name="AddInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 20</value>
+  </data>
+  <data name="&gt;&gt;AddEmulatorLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="HwEmulatorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmdNext.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AddEmulatorLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeLabelMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiskSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMCustomInvalidSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DiskPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DiskNone.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddEmulatorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="&gt;&gt;HwDiskLabel.Name" xml:space="preserve">
+    <value>HwDiskLabel</value>
+  </data>
+  <data name="&gt;&gt;DescriptionName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RAMDefault.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdNext.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="DiskNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 17</value>
+  </data>
+  <data name="AddEmulator.Items3" xml:space="preserve">
+    <value>SheepShaver</value>
+  </data>
+  <data name="HwRAMLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RAMFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EndWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 313</value>
+  </data>
+  <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>412, 13</value>
+  </data>
+  <data name="&gt;&gt;WelcomeTitle.Name" xml:space="preserve">
+    <value>WelcomeTitle</value>
+  </data>
+  <data name="MacNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 24</value>
+  </data>
+  <data name="RAMSlider.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="AddFile.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;AddName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EndInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 62</value>
+  </data>
+  <data name="FormButtons.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndWizard.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;EndInfo.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="RAMSlider.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="WelcomeTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 15</value>
+  </data>
+  <data name="HwPresetsFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DiskSize.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CreateNormalLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RAMInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndTitle.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="AddFileLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmdNext.Text" xml:space="preserve">
+    <value>&amp;Next &gt;</value>
+  </data>
+  <data name="AddEmulatorLabel.Text" xml:space="preserve">
+    <value>Emulator:</value>
+  </data>
+  <data name="&gt;&gt;FormButtons.Name" xml:space="preserve">
+    <value>FormButtons</value>
+  </data>
+  <data name="&gt;&gt;HwInfoDef.Name" xml:space="preserve">
+    <value>HwInfoDef</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddFileBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwCPULabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwInfoDef.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RAMLabelMB.Name" xml:space="preserve">
+    <value>RAMLabelMB</value>
+  </data>
+  <data name="&gt;&gt;EndRAM.Name" xml:space="preserve">
+    <value>EndRAM</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExist.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="CreateNoWizardLabel.Text" xml:space="preserve">
+    <value>Recommended for more users. Creates a Macintosh in base to the system you want to install on it.</value>
+  </data>
+  <data name="DiskSizeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;CreateNoWizardLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AddFileBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>410, 125</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="HwCPU.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="CreateInfo.Text" xml:space="preserve">
+    <value>Select an option:</value>
+  </data>
+  <data name="RAMDefault.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RAMInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;HwCPU.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMInfo.Parent" xml:space="preserve">
+    <value>RAMFrame</value>
+  </data>
+  <data name="&gt;&gt;WelcomeTitle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EndMacName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EndRAMLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdBack.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CreateAddExist.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;HwRAM.Name" xml:space="preserve">
+    <value>HwRAM</value>
+  </data>
+  <data name="DescriptionName.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="HwOSList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;cmdNext.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Save.Name" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="RAMCustomInvalidSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 13</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>New Macintosh Wizard</value>
+  </data>
+  <data name="&gt;&gt;HwInfoDef.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="DescriptionName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RAMSlider.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Welcome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HwCPU.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FormButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="Description.Location" type="System.Drawing.Point, System.Drawing">
+    <value>48, 34</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPathLabel.Name" xml:space="preserve">
+    <value>EndDiskPathLabel</value>
+  </data>
+  <data name="WelcomeDescription.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMCustom.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MacName.Parent" xml:space="preserve">
+    <value>MacNameFrame</value>
+  </data>
+  <data name="HwDiskLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateNoWizardLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DiskNew.Text" xml:space="preserve">
+    <value>Create a new disk</value>
+  </data>
+  <data name="&gt;&gt;AddFile.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="&gt;&gt;WelcomeTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RAMDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CreateFrame.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="DiskSizeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DiskSizeFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddFileLabel.Text" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="RAMCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 113</value>
+  </data>
+  <data name="AddInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HwEmulator.Items" xml:space="preserve">
+    <value>Mini vMac</value>
+  </data>
+  <data name="&gt;&gt;DiskInfo.Name" xml:space="preserve">
+    <value>DiskInfo</value>
+  </data>
+  <data name="HwCPU.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="&gt;&gt;DiskNew.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="&gt;&gt;RAMSlider.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EndTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 13</value>
+  </data>
+  <data name="&gt;&gt;DiskFrame.Name" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="CreateNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="CreateAddExist.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="HwRAMLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CreateNoWizard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HwCPULabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 149</value>
+  </data>
+  <data name="CreateNormalLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>412, 33</value>
+  </data>
+  <data name="WelcomeTitle.Text" xml:space="preserve">
+    <value>Welcome to the New Macintosh Wizard</value>
+  </data>
+  <data name="EndInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskSizeLabel.Name" xml:space="preserve">
+    <value>DiskSizeLabel</value>
+  </data>
+  <data name="&gt;&gt;HwOSList.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Welcome.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 313</value>
+  </data>
+  <data name="&gt;&gt;HwPresetsFrame.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.Name" xml:space="preserve">
+    <value>cmdNext</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="AddFileLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="&gt;&gt;EndInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cmdBack.Parent" xml:space="preserve">
+    <value>FormButtons</value>
+  </data>
+  <data name="AddEmulator.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="HwInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndRAMLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 129</value>
+  </data>
+  <data name="&gt;&gt;RAMSlider.Parent" xml:space="preserve">
+    <value>RAMControlsPanel</value>
+  </data>
+  <data name="&gt;&gt;RAMSlider.Name" xml:space="preserve">
+    <value>RAMSlider</value>
+  </data>
+  <data name="Wizard.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;HwDiskLabel.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="RAMBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 25</value>
+  </data>
+  <data name="&gt;&gt;DiskSize.Parent" xml:space="preserve">
+    <value>DiskSizeFrame</value>
+  </data>
+  <data name="HwDiskLabel.Text" xml:space="preserve">
+    <value>Disk:</value>
+  </data>
+  <data name="&gt;&gt;CreateNoWizard.Name" xml:space="preserve">
+    <value>CreateNoWizard</value>
+  </data>
+  <data name="&gt;&gt;HwInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddFileLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 103</value>
+  </data>
+  <data name="CreateNormal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="EndWizard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwCPULabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cmdCancel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="EndMacName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 111</value>
+  </data>
+  <data name="AddFileLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CreateInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="DiskSizeLabel.Text" xml:space="preserve">
+    <value>Size of the disk:</value>
+  </data>
+  <data name="CreateAddExistLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cmdCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;HwRAM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="AddFileBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="RAMDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 90</value>
+  </data>
+  <data name="&gt;&gt;HwDisk.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;MacName.Name" xml:space="preserve">
+    <value>MacName</value>
+  </data>
+  <data name="&gt;&gt;Welcome.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="DiskInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;WelcomeTitle.Parent" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>499, 362</value>
+  </data>
+  <data name="DiskSizeLabelMB.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="HwPresetsFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 245</value>
+  </data>
+  <data name="&gt;&gt;DiskExisting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddEmulator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 70</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="EndDiskPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;HwEmulator.Name" xml:space="preserve">
+    <value>HwEmulator</value>
+  </data>
+  <data name="EndInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DiskExisting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="&gt;&gt;EndInfoFinish.Name" xml:space="preserve">
+    <value>EndInfoFinish</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeLabelMB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="HwPresetsFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndTitle.Text" xml:space="preserve">
+    <value>Completing the New Macintosh Wizard</value>
+  </data>
+  <data name="CreateNoWizardLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 60</value>
+  </data>
+  <data name="CreateAddExist.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AddInfo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DiskSizeLabelMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 5</value>
+  </data>
+  <data name="&gt;&gt;EndMacName.Name" xml:space="preserve">
+    <value>EndMacName</value>
+  </data>
+  <data name="CreateNoWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 40</value>
+  </data>
+  <data name="CreateInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 24</value>
+  </data>
+  <data name="DiskPathBrowse.Text" xml:space="preserve">
+    <value>Browse...</value>
+  </data>
+  <data name="&gt;&gt;HwEmulatorLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmdCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwInfo.Text" xml:space="preserve">
+    <value>Select the emulator you plan to use. Some emulators run some versions of Mac OS and
+System Software. Try different emulators to see different versions of Mac OS. Remember
+that you can customise the hardware shown here, so don't worry if you wanted more
+memory, more disk or even another CPU (Only available for some emulators).</value>
+  </data>
+  <data name="&gt;&gt;AddFromFileFrame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RAMControlsPanel.Parent" xml:space="preserve">
+    <value>RAMFrame</value>
+  </data>
+  <data name="&gt;&gt;EndRAM.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="EndRAMLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="CreateNormalLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;RAMCustomInvalidSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndMacNameLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CreateNormal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddNameLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AddFileBrowse.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="CreateAddExist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 155</value>
+  </data>
+  <data name="RAMCustomInvalidSize.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;WelcomeDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMCustom.Name" xml:space="preserve">
+    <value>RAMCustom</value>
+  </data>
+  <data name="&gt;&gt;DiskExisting.Name" xml:space="preserve">
+    <value>DiskExisting</value>
+  </data>
+  <data name="HwInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 52</value>
+  </data>
+  <data name="EndMacNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeFrame.Name" xml:space="preserve">
+    <value>DiskSizeFrame</value>
+  </data>
+  <data name="cmdBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;CreateNormal.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="AddEmulator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 21</value>
+  </data>
+  <data name="HwDisk.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwDisk.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="EndInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 49</value>
+  </data>
+  <data name="&gt;&gt;AddNameLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EndDiskPathLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RAMCustom.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HwCPU.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="AddEmulatorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 48</value>
+  </data>
+  <data name="AddNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 48</value>
+  </data>
+  <data name="CreateNormal.Text" xml:space="preserve">
+    <value>Customise a Mac</value>
+  </data>
+  <data name="&gt;&gt;CreateFrame.Name" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPath.Name" xml:space="preserve">
+    <value>EndDiskPath</value>
+  </data>
+  <data name="CreateFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwRAMLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 101</value>
+  </data>
+  <data name="MacNameLabel.Text" xml:space="preserve">
+    <value>Give a name to your Macintosh, remember to make it descirptive, something like "Mac OS 7" or "iMac G3" are good examples. </value>
+  </data>
+  <data name="EndWizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;DiskNew.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EndTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;CreateNoWizard.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="FormButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 54</value>
+  </data>
+  <data name="&gt;&gt;CreateInfo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;HwRAMLabel.Name" xml:space="preserve">
+    <value>HwRAMLabel</value>
+  </data>
+  <data name="&gt;&gt;HwPresetsFrame.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DiskInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>445, 30</value>
+  </data>
+  <data name="AddFromFileFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="AddName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MacNameLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RAMInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CreateNormalLabel.Text" xml:space="preserve">
+    <value>Recommended for advanced users. Creates a Macintosh guiding you to increase or decrease the resources you assign to this Macintosh.</value>
+  </data>
+  <data name="HwRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="DescriptionName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;DiskInfo.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="DiskNone.Text" xml:space="preserve">
+    <value>Do not use a disk</value>
+  </data>
+  <data name="&gt;&gt;DiskInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RAMLabelMB.Parent" xml:space="preserve">
+    <value>RAMControlsPanel</value>
+  </data>
+  <data name="&gt;&gt;DiskPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CreateNoWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
+  </data>
+  <data name="&gt;&gt;HwDiskLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskPath.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;MacNameFrame.Name" xml:space="preserve">
+    <value>MacNameFrame</value>
+  </data>
+  <data name="&gt;&gt;HwEmulatorLabel.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;CreateNormalLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EndRAM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;HwRAM.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="AddEmulator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;MacNameFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwOSList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;RAMFrame.Name" xml:space="preserve">
+    <value>RAMFrame</value>
+  </data>
+  <data name="&gt;&gt;EndRAMLabel.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="RAMControlsPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmdBack.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="WelcomeTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 45</value>
+  </data>
+  <data name="&gt;&gt;FormButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndInfoFinish.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="&gt;&gt;AddFromFileFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwRAMLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="&gt;&gt;MacNameLabel.Name" xml:space="preserve">
+    <value>MacNameLabel</value>
+  </data>
+  <data name="&gt;&gt;HwInfo.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;AddEmulator.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;RAMCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MacNameBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DiskExisting.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="HwCPULabel.Text" xml:space="preserve">
+    <value>CPU:</value>
+  </data>
+  <data name="EndMacNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;WelcomeDescription.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HwDiskLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EndMacName.Text" xml:space="preserve">
+    <value>Example Name</value>
+  </data>
+  <data name="AddFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>371, 21</value>
+  </data>
+  <data name="&gt;&gt;CreateInfo.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="&gt;&gt;DescriptionContainer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;HwPresetsFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwEmulatorLabel.Text" xml:space="preserve">
+    <value>Select an option:</value>
+  </data>
+  <data name="MacNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 41</value>
+  </data>
+  <data name="HwEmulator.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="&gt;&gt;HwEmulator.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AddFileBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Wizard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CreateInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CreateAddExist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 17</value>
+  </data>
+  <data name="CreateNormal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CreateAddExist.Text" xml:space="preserve">
+    <value>Create from file</value>
+  </data>
+  <data name="&gt;&gt;AddFileLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RAMLabelMB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Wizard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="AddName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;EndRAMLabel.Name" xml:space="preserve">
+    <value>EndRAMLabel</value>
+  </data>
+  <data name="EndDiskPathLabel.Text" xml:space="preserve">
+    <value>Disk:</value>
+  </data>
+  <data name="&gt;&gt;EndTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EndInfoFinish.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 35</value>
+  </data>
+  <data name="&gt;&gt;EndTitle.Name" xml:space="preserve">
+    <value>EndTitle</value>
+  </data>
+  <data name="AddInfo.Text" xml:space="preserve">
+    <value>Select the file to add to the Virtual Mac Console</value>
+  </data>
+  <data name="&gt;&gt;CreateNormalLabel.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="AddName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>285, 21</value>
+  </data>
+  <data name="&gt;&gt;DiskInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwOSList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EndRAM.Text" xml:space="preserve">
+    <value>255 MB</value>
+  </data>
+  <data name="&gt;&gt;EndMacName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DiskNew.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;HwEmulator.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;CreateInfo.Name" xml:space="preserve">
+    <value>CreateInfo</value>
+  </data>
+  <data name="DiskSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="&gt;&gt;DiskPathBrowse.Name" xml:space="preserve">
+    <value>DiskPathBrowse</value>
+  </data>
+  <data name="CreateInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DiskExisting.Text" xml:space="preserve">
+    <value>Use an existing disk</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="&gt;&gt;RAMFrame.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="&gt;&gt;cmdNext.Parent" xml:space="preserve">
+    <value>FormButtons</value>
+  </data>
+  <data name="MacNameLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwRAM.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopRight</value>
+  </data>
+  <data name="&gt;&gt;AddFromFileFrame.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="WelcomeTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="HwInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Welcome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="EndTitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RAMLabelMB.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateAddExistLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 175</value>
+  </data>
+  <data name="&gt;&gt;AddNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndWizard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EndMacName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndRAMLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="EndRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="RAMSlider.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 45</value>
+  </data>
+  <data name="DiskPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
+  </data>
+  <data name="&gt;&gt;EndWizard.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Wizard.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 21</value>
+  </data>
+  <data name="&gt;&gt;DescriptionName.Name" xml:space="preserve">
+    <value>DescriptionName</value>
+  </data>
+  <data name="HwInfoDef.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="EndDiskPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 147</value>
+  </data>
+  <data name="HwInfoDef.Text" xml:space="preserve">
+    <value>Recommended hardware for this operating system:</value>
+  </data>
+  <data name="AddFromFileFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AddName.Name" xml:space="preserve">
+    <value>AddName</value>
+  </data>
+  <data name="EndWizard.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;EndMacNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeLabel.Parent" xml:space="preserve">
+    <value>DiskSizeFrame</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 5</value>
+  </data>
+  <data name="DiskSizeFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 95</value>
+  </data>
+  <data name="&gt;&gt;RAMLabelMB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwDisk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="&gt;&gt;HwDisk.Name" xml:space="preserve">
+    <value>HwDisk</value>
+  </data>
+  <data name="DiskExisting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiskFrame.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;FormButtons.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;HwCPU.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;AddEmulatorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdNext.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskNone.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="&gt;&gt;RAMDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwEmulatorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;AddNameLabel.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="EndMacName.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="CreateAddExistLabel.Text" xml:space="preserve">
+    <value>For Basilisk, SheepShaver and PearPC users. Creates a Macintosh from a file in your physical machine.</value>
+  </data>
+  <data name="cmdBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="AddFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 125</value>
+  </data>
+  <data name="EndRAM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 129</value>
+  </data>
+  <data name="DescriptionName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="Description.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CreateAddExistLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DescriptionContainer.Name" xml:space="preserve">
+    <value>DescriptionContainer</value>
+  </data>
+  <data name="RAMCustomInvalidSize.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="AddInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RAMInfo.Name" xml:space="preserve">
+    <value>RAMInfo</value>
+  </data>
+  <data name="&gt;&gt;MacNameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddEmulator.Name" xml:space="preserve">
+    <value>AddEmulator</value>
+  </data>
+  <data name="EndTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 46</value>
+  </data>
+  <data name="&gt;&gt;MacName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HwDisk.Text" xml:space="preserve">
+    <value>2048 MB</value>
+  </data>
+  <data name="&gt;&gt;EndInfoFinish.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskNone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 123</value>
+  </data>
+  <data name="&gt;&gt;HwOSList.Name" xml:space="preserve">
+    <value>HwOSList</value>
+  </data>
+  <data name="&gt;&gt;cmdBack.Name" xml:space="preserve">
+    <value>cmdBack</value>
+  </data>
+  <data name="Welcome.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwDisk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 125</value>
+  </data>
+  <data name="HwCPULabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CreateNoWizard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Open.Name" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="HwRAM.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DescriptionContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Wizard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="RAMFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="DescriptionContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, -8</value>
+  </data>
+  <data name="CreateFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="EndRAM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="&gt;&gt;WelcomeDescription.Parent" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="&gt;&gt;RAMBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AddEmulator.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="HwEmulator.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DiskSizeFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="CreateInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EndInfo.Text" xml:space="preserve">
+    <value>You have succefully completed the New Macintosh Wizard. Your Macintosh will be created with the following attributes:</value>
+  </data>
+  <data name="RAMDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
+  </data>
+  <data name="&gt;&gt;WelcomeDescription.Name" xml:space="preserve">
+    <value>WelcomeDescription</value>
+  </data>
+  <data name="RAMControlsPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>420, 93</value>
+  </data>
+  <data name="&gt;&gt;Welcome.Name" xml:space="preserve">
+    <value>Welcome</value>
+  </data>
+  <data name="DiskNew.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;HwEmulatorLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskSizeLabelMB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RAMCustom.Text" xml:space="preserve">
+    <value>Use this amount of memory</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Parent" xml:space="preserve">
+    <value>FormButtons</value>
+  </data>
+  <data name="AddNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 13</value>
+  </data>
+  <data name="HwRAMLabel.Text" xml:space="preserve">
+    <value>Memory:</value>
+  </data>
+  <data name="&gt;&gt;Description.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;HwInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AddNameLabel.Name" xml:space="preserve">
+    <value>AddNameLabel</value>
+  </data>
+  <data name="&gt;&gt;AddFromFileFrame.Name" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="RAMInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>423, 78</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAMAEBAQAAAABAAoAQAANgAAACAgEAAAAAQA6AIAAF4BAAAwMBAAAAAEAGgGAABGBAAAKAAAABAA
@@ -186,4 +1812,543 @@
         AADwAAAAAA8AAPgAAAAAHwAA/gAAAAB/AAD///////8AAA==
 </value>
   </data>
+  <data name="AddEmulatorLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;DiskFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WelcomeTitle.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwEmulator.Items4" xml:space="preserve">
+    <value>QEMU</value>
+  </data>
+  <data name="HwEmulator.Items3" xml:space="preserve">
+    <value>PearPC</value>
+  </data>
+  <data name="HwEmulator.Items2" xml:space="preserve">
+    <value>SheepShaver</value>
+  </data>
+  <data name="HwEmulator.Items1" xml:space="preserve">
+    <value>Basilisk II</value>
+  </data>
+  <data name="Wizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>497, 313</value>
+  </data>
+  <data name="EndMacNameLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 111</value>
+  </data>
+  <data name="&gt;&gt;HwCPU.Name" xml:space="preserve">
+    <value>HwCPU</value>
+  </data>
+  <data name="&gt;&gt;MacNameBrowse.Name" xml:space="preserve">
+    <value>MacNameBrowse</value>
+  </data>
+  <data name="HwEmulator.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 97</value>
+  </data>
+  <data name="MacNameFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskPathBrowse.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WelcomeDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 80</value>
+  </data>
+  <data name="&gt;&gt;RAMBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwOSList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 124</value>
+  </data>
+  <data name="&gt;&gt;EndInfo.Name" xml:space="preserve">
+    <value>EndInfo</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExistLabel.Name" xml:space="preserve">
+    <value>CreateAddExistLabel</value>
+  </data>
+  <data name="HwCPULabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 13</value>
+  </data>
+  <data name="&gt;&gt;RAMCustomInvalidSize.Parent" xml:space="preserve">
+    <value>RAMControlsPanel</value>
+  </data>
+  <data name="&gt;&gt;HwInfo.Name" xml:space="preserve">
+    <value>HwInfo</value>
+  </data>
+  <data name="&gt;&gt;EndMacNameLabel.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="&gt;&gt;EndMacNameLabel.Name" xml:space="preserve">
+    <value>EndMacNameLabel</value>
+  </data>
+  <data name="&gt;&gt;HwRAMLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AddInfo.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RAMInfo.Text" xml:space="preserve">
+    <value>A Macintosh needs memory to boot the system, and the applications need it to run. A
+more recent system needs more memory, also the heavier apps you want to run, the
+more memory you will need. It's recommended that you use the recommended memory
+unless you want to run heavy applications.
+
+The recommended memory is [ %m MB ]</value>
+  </data>
+  <data name="HwPresetsFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="&gt;&gt;RAMBox.Parent" xml:space="preserve">
+    <value>RAMControlsPanel</value>
+  </data>
+  <data name="&gt;&gt;AddEmulatorLabel.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeLabelMB.Parent" xml:space="preserve">
+    <value>DiskSizeFrame</value>
+  </data>
+  <data name="RAMLabelMB.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="HwInfoDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 28</value>
+  </data>
+  <data name="&gt;&gt;CreateNoWizardLabel.Parent" xml:space="preserve">
+    <value>CreateFrame</value>
+  </data>
+  <data name="RAMDefault.Text" xml:space="preserve">
+    <value>Use the recommended memory</value>
+  </data>
+  <data name="CreateNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 96</value>
+  </data>
+  <data name="EndDiskPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;MacName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndWizard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DiskNew.Name" xml:space="preserve">
+    <value>DiskNew</value>
+  </data>
+  <data name="EndDiskPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>277, 147</value>
+  </data>
+  <data name="HwInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;HwRAMLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FormButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 307</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskNew.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="DiskNone.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="DiskSize.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AddName.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EndMacNameLabel.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="RAMFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 245</value>
+  </data>
+  <data name="EndMacNameLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CreateNormalLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 116</value>
+  </data>
+  <data name="Welcome.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="DescriptionName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Description.Parent" xml:space="preserve">
+    <value>DescriptionContainer</value>
+  </data>
+  <data name="RAMCustomInvalidSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 69</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwDiskLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CreateInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="DescriptionContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>499, 67</value>
+  </data>
+  <data name="CreateNoWizardLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DescriptionContainer.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="EndInfoFinish.Text" xml:space="preserve">
+    <value>To close this wizard and create this Mac, click Finish.</value>
+  </data>
+  <data name="&gt;&gt;HwRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwRAM.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;AddName.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="RAMFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="EndInfoFinish.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Open.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DiskPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>364, 21</value>
+  </data>
+  <data name="&gt;&gt;DiskNone.Name" xml:space="preserve">
+    <value>DiskNone</value>
+  </data>
+  <data name="&gt;&gt;HwPresetsFrame.Name" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExistLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;HwRAMLabel.Parent" xml:space="preserve">
+    <value>HwPresetsFrame</value>
+  </data>
+  <data name="RAMLabelMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 28</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
+    <value>cmdCancel</value>
+  </data>
+  <data name="RAMDefault.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;CreateNormalLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DiskNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="cmdCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;AddFileLabel.Name" xml:space="preserve">
+    <value>AddFileLabel</value>
+  </data>
+  <data name="DiskFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 245</value>
+  </data>
+  <data name="EndTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="cmdBack.Text" xml:space="preserve">
+    <value>&lt; &amp;Back</value>
+  </data>
+  <data name="AddInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;EndRAM.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DiskNew.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMLabelMB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExist.Name" xml:space="preserve">
+    <value>CreateAddExist</value>
+  </data>
+  <data name="WelcomeDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;DiskExisting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CreateFrame.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CreateAddExistLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskExisting.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="&gt;&gt;HwInfoDef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EndRAM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CreateFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 245</value>
+  </data>
+  <data name="HwDiskLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="EndWizard.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="MacNameFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>498, 245</value>
+  </data>
+  <data name="CreateNoWizardLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>412, 33</value>
+  </data>
+  <data name="DiskSizeLabelMB.Text" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="AddEmulator.Items" xml:space="preserve">
+    <value>Mini vMac Batch</value>
+  </data>
+  <data name="DiskExisting.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RAMControlsPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskFrame.Parent" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="&gt;&gt;DiskSizeFrame.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="HwInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 9</value>
+  </data>
+  <data name="EndMacName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="DescriptionContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskSizeLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="HwEmulatorLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 80</value>
+  </data>
+  <data name="DiskInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;DiskSize.Name" xml:space="preserve">
+    <value>DiskSize</value>
+  </data>
+  <data name="HwOSList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPathLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="AddFile.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EndDiskPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="&gt;&gt;AddEmulatorLabel.Name" xml:space="preserve">
+    <value>AddEmulatorLabel</value>
+  </data>
+  <data name="MacName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AddNameLabel.Text" xml:space="preserve">
+    <value>Name:</value>
+  </data>
+  <data name="EndDiskPath.Text" xml:space="preserve">
+    <value>C:\</value>
+  </data>
+  <data name="DiskSizeLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AddEmulator.Items1" xml:space="preserve">
+    <value>Virtual Mac MvM File</value>
+  </data>
+  <data name="&gt;&gt;RAMControlsPanel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DescriptionName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Welcome.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="DiskNone.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="HwDiskLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 125</value>
+  </data>
+  <data name="cmdBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 13</value>
+  </data>
+  <data name="AddFileLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;Wizard.Name" xml:space="preserve">
+    <value>Wizard</value>
+  </data>
+  <data name="&gt;&gt;DescriptionContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 13</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddFileBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HwInfoDef.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;AddFileBrowse.Name" xml:space="preserve">
+    <value>AddFileBrowse</value>
+  </data>
+  <data name="&gt;&gt;AddFileLabel.Parent" xml:space="preserve">
+    <value>AddFromFileFrame</value>
+  </data>
+  <data name="cmdBack.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;RAMDefault.Parent" xml:space="preserve">
+    <value>RAMFrame</value>
+  </data>
+  <data name="&gt;&gt;MacNameBrowse.Parent" xml:space="preserve">
+    <value>MacNameFrame</value>
+  </data>
+  <data name="EndDiskPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;CreateNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="AddNameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>You can create a new Mac or add an existing one to the Virtual Mac Console</value>
+  </data>
+  <data name="MacNameLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;Description.Name" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;cmdBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="HwRAM.Text" xml:space="preserve">
+    <value>256 MB</value>
+  </data>
+  <data name="&gt;&gt;DiskPathBrowse.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="MacNameBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;DiskPath.Parent" xml:space="preserve">
+    <value>DiskFrame</value>
+  </data>
+  <data name="&gt;&gt;CreateNoWizard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MacNameBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="RAMBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;FormButtons.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CreateAddExist.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;AddFileLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;EndDiskPath.Parent" xml:space="preserve">
+    <value>EndWizard</value>
+  </data>
+  <data name="DiskFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MacName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 68</value>
+  </data>
+  <data name="&gt;&gt;AddFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CreateFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 59</value>
+  </data>
+  <data name="HwInfoDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 70</value>
+  </data>
+  <data name="cmdNext.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="Save.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>63, 5</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>es-MX</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>126, 5</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>40</value>
+  </metadata>
+  <metadata name="Open.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>2, 3</value>
+  </metadata>
 </root>

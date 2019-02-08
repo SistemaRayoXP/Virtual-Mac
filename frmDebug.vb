@@ -95,4 +95,8 @@ EndCheck:
     Public Sub ClearScreen()
         ConsoleIO.Text = " "
     End Sub
+
+    Private Sub MenuItem2_Click(sender As System.Object, e As System.EventArgs) Handles MenuItem2.Click
+        Me.Close()
+    End Sub
 End Class
