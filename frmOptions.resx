@@ -1,0 +1,1793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FolderAppCurrentLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ROMBIILabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 61</value>
+  </data>
+  <data name="EPSSPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPPPCPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EPQEMUPathBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ROMBIILabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;Setting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;EmulatorPathFrame.Name" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathLabel.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="EPBIIPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="cmdCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 344</value>
+  </data>
+  <data name="ROMBII.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="LangSelected.Items1" xml:space="preserve">
+    <value>German (Germany)  [Deustch]</value>
+  </data>
+  <data name="ROMBIIBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="EPBIIPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathBrowse.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathBrowse.Name" xml:space="preserve">
+    <value>EPSSPathBrowse</value>
+  </data>
+  <data name="EPSSPathBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EPSSPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 129</value>
+  </data>
+  <data name="EPPPCPathBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="cmdOK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="LangInfo.Text" xml:space="preserve">
+    <value>In this page you can set the language of the application. This will 
+not be reflected inmediatly. You need to restart Virtual Mac in
+order for this change to take effect.</value>
+  </data>
+  <data name="EPBIIPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LangInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ROMFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 332</value>
+  </data>
+  <data name="LangFrame.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;UCEnableTest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="EPPPCPathBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ROMBIILabel.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="ROMBII.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UCDisableTest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMac.Parent" xml:space="preserve">
+    <value>FolderFrame</value>
+  </data>
+  <data name="FolderAppCurrentLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPath.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="EPPPCPathLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmulatorPathFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ROMvMacLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="cmdOK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>544, 344</value>
+  </data>
+  <data name="EPvMacPath.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ROMBII.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cmdCancel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPVerifyEmulatorPaths.Text" xml:space="preserve">
+    <value>Check for invalid paths at start</value>
+  </data>
+  <data name="&gt;&gt;LangInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FolderNewMac.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FolderAppCurrent.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;LangSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPvMacPath.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="ROMvMac.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="ROMSSLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;FolderFrame.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OptionContainer.Items4" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0JAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEJQmFja0NvbG9yB0NoZWNrZWQERm9u
+        dAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAAEBAAICDFTeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtAgAAABRTeXN0ZW0uRHJhd2luZy5Db2xv
+        cgMAAAABE1N5c3RlbS5EcmF3aW5nLkZvbnQDAAAAFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAECAAAA
+        BgQAAAAITGFuZ3VhZ2X/////AgAAAAkFAAAABfr///8UU3lzdGVtLkRyYXdpbmcuQ29sb3IEAAAABG5h
+        bWUFdmFsdWUKa25vd25Db2xvcgVzdGF0ZQEAAAAJBwcDAAAACgAAAAAAAAAAGAABAAAJBwAAAAH4////
+        +v///woAAAAAAAAAABoAAQABDAkAAABLbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1u
+        ZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQUAAAAxU3lzdGVtLldpbmRvd3Mu
+        Rm9ybXMuTGlzdFZpZXdJdGVtK0xpc3RWaWV3U3ViSXRlbQQAAAAEdGV4dARuYW1lBXN0eWxlCHVzZXJE
+        YXRhAQEEAj5TeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtK1N1
+        Ykl0ZW1TdHlsZQIAAAACAAAACgoKCgUHAAAAE1N5c3RlbS5EcmF3aW5nLkZvbnQEAAAABE5hbWUEU2l6
+        ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAwAAABtTeXN0ZW0uRHJhd2lu
+        Zy5HcmFwaGljc1VuaXQDAAAAAwAAAAYKAAAABlRhaG9tYQAABEEF9f///xhTeXN0ZW0uRHJhd2luZy5G
+        b250U3R5bGUBAAAAB3ZhbHVlX18ACAMAAAAAAAAABfT///8bU3lzdGVtLkRyYXdpbmcuR3JhcGhpY3NV
+        bml0AQAAAAd2YWx1ZV9fAAgDAAAAAwAAAAs=
+</value>
+  </data>
+  <data name="FolderNewMacLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;OptionContainer.Name" xml:space="preserve">
+    <value>OptionContainer</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPPPCPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPvMacPathBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;UCDisableTest.Parent" xml:space="preserve">
+    <value>UseContainerFrame</value>
+  </data>
+  <data name="ROMSS.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathBrowse.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathBrowse.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrent.Parent" xml:space="preserve">
+    <value>FolderFrame</value>
+  </data>
+  <data name="EPQEMUPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ROMSS.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPSSPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="&gt;&gt;Setting.Name" xml:space="preserve">
+    <value>Setting</value>
+  </data>
+  <data name="FolderNewMacLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="&gt;&gt;ROMBIIBrowse.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="LangSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 80</value>
+  </data>
+  <data name="&gt;&gt;ROMvMac.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="EPQEMUPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UseContainerFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 6</value>
+  </data>
+  <data name="&gt;&gt;FolderFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmulatorPathFrame.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ROMNoteNoROM.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FolderNewMacBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="FolderNewMac.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
+  </data>
+  <data name="EPPPCPath.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="EPSSPathLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ROMBII.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPath.Name" xml:space="preserve">
+    <value>EPPPCPath</value>
+  </data>
+  <data name="&gt;&gt;EPSSPath.Name" xml:space="preserve">
+    <value>EPSSPath</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UseContainerFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="FolderNewMac.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathBrowse.Name" xml:space="preserve">
+    <value>EPBIIPathBrowse</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMac.Name" xml:space="preserve">
+    <value>FolderNewMac</value>
+  </data>
+  <data name="LangInfo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FolderAppCurrent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EPBIIPathBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="LangFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FolderFrame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="UCEnableTest.Text" xml:space="preserve">
+    <value>Enable Test</value>
+  </data>
+  <data name="ROMFrame.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="FolderFrame.Text" xml:space="preserve">
+    <value>Folders</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathLabel.Name" xml:space="preserve">
+    <value>EPSSPathLabel</value>
+  </data>
+  <data name="FolderNewMacLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathBrowse.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;OptionContainer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FolderNewMacBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ROMBIIBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMac.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EPBIIPathBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPQEMUPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 215</value>
+  </data>
+  <data name="FolderNewMac.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPSSPathBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ROMvMacLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;UCDisableTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPPPCPath.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPath.Name" xml:space="preserve">
+    <value>EPQEMUPath</value>
+  </data>
+  <data name="OptionContainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="FolderNewMacBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;ROMFrame.Name" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="&gt;&gt;LangSelected.Name" xml:space="preserve">
+    <value>LangSelected</value>
+  </data>
+  <data name="Value.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="&gt;&gt;ROMvMacLabel.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="&gt;&gt;ROMSSBrowse.Name" xml:space="preserve">
+    <value>ROMSSBrowse</value>
+  </data>
+  <data name="EmulatorPathFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 6</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathLabel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;UseContainerFrame.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="EPvMacPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="ROMSSBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 119</value>
+  </data>
+  <data name="LangInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UseContainerFrame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPSSPathBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMSSBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ROMBIILabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ROMBII.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="EPBIIPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="&gt;&gt;ROMvMac.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="EPSSPathLabel.Text" xml:space="preserve">
+    <value>SheepShaver Path:</value>
+  </data>
+  <data name="ROMNoteNoROM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 13</value>
+  </data>
+  <data name="ROMvMacLabel.Text" xml:space="preserve">
+    <value>Mini vMac ROM</value>
+  </data>
+  <data name="FolderNewMac.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="EPvMacPathLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPBIIPath.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="EPQEMUPathLabel.Text" xml:space="preserve">
+    <value>QEMU Path:</value>
+  </data>
+  <data name="ROMvMacLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ROMSSBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EPSSPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 127</value>
+  </data>
+  <data name="LangInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 39</value>
+  </data>
+  <data name="ROMSSLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FolderAppCurrent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 81</value>
+  </data>
+  <data name="OptionContainer.Items2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0JAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEJQmFja0NvbG9yB0NoZWNrZWQERm9u
+        dAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAAEBAAICDFTeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtAgAAABRTeXN0ZW0uRHJhd2luZy5Db2xv
+        cgMAAAABE1N5c3RlbS5EcmF3aW5nLkZvbnQDAAAAFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAECAAAA
+        BgQAAAAPTmV3IE1hY3MgRm9sZGVy/////wIAAAAJBQAAAAX6////FFN5c3RlbS5EcmF3aW5nLkNvbG9y
+        BAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgAAQAACQcA
+        AAAB+P////r///8KAAAAAAAAAAAaAAEAAQwJAAAAS21zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1
+        bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQUFAAAAMVN5c3RlbS5X
+        aW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0EAAAABHRleHQEbmFtZQVzdHls
+        ZQh1c2VyRGF0YQEBBAI+U3lzdGVtLldpbmRvd3MuRm9ybXMuTGlzdFZpZXdJdGVtK0xpc3RWaWV3U3Vi
+        SXRlbStTdWJJdGVtU3R5bGUCAAAAAgAAAAYKAAAAA0M6XAoKCgUHAAAAE1N5c3RlbS5EcmF3aW5nLkZv
+        bnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0eWxlAwAA
+        ABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYLAAAABlRhaG9tYQAABEEF9P///xhT
+        eXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAMAAAAAAAAABfP///8bU3lzdGVtLkRy
+        YXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgDAAAAAwAAAAs=
+</value>
+  </data>
+  <data name="ROMBIIBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EPQEMUPathLabel.Name" xml:space="preserve">
+    <value>EPQEMUPathLabel</value>
+  </data>
+  <data name="FolderNewMacBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPath.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPath.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="EPQEMUPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 197</value>
+  </data>
+  <data name="&gt;&gt;ROMBIIBrowse.Name" xml:space="preserve">
+    <value>ROMBIIBrowse</value>
+  </data>
+  <data name="&gt;&gt;ROMSS.Name" xml:space="preserve">
+    <value>ROMSS</value>
+  </data>
+  <data name="&gt;&gt;ROMvMacLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPath.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ROMNoteNoROM.Text" xml:space="preserve">
+    <value>Note that QEMU and PearPC don't require a ROM in order to work</value>
+  </data>
+  <data name="EPPPCPathBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UCEnableTest.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ROMSSLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMSS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 119</value>
+  </data>
+  <data name="FolderFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 332</value>
+  </data>
+  <data name="&gt;&gt;ROMvMac.Name" xml:space="preserve">
+    <value>ROMvMac</value>
+  </data>
+  <data name="FolderFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LangSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cmdCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 22</value>
+  </data>
+  <data name="UseContainerFrame.Text" xml:space="preserve">
+    <value>Test Macintosh Window</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrentLabel.Parent" xml:space="preserve">
+    <value>FolderFrame</value>
+  </data>
+  <data name="&gt;&gt;ROMSSBrowse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EPQEMUPathLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmulatorPathFrame.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;ROMBIIBrowse.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="&gt;&gt;EPVerifyEmulatorPaths.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="LangSelected.Items2" xml:space="preserve">
+    <value>Spanish (Mexico) [Español]</value>
+  </data>
+  <data name="ROMNoteNoROM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LangInfo.Parent" xml:space="preserve">
+    <value>LangFrame</value>
+  </data>
+  <data name="&gt;&gt;OptionContainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="EPBIIPathLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;Value.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LangFrame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="UCEnableTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FolderAppCurrent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ROMvMac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="EPSSPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ROMBIIBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="OptionContainer.Items1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0JAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEJQmFja0NvbG9yB0NoZWNrZWQERm9u
+        dAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAAEBAAICDFTeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtAgAAABRTeXN0ZW0uRHJhd2luZy5Db2xv
+        cgMAAAABE1N5c3RlbS5EcmF3aW5nLkZvbnQDAAAAFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAECAAAA
+        BgQAAAAEUk9Nc/////8CAAAACQUAAAAF+v///xRTeXN0ZW0uRHJhd2luZy5Db2xvcgQAAAAEbmFtZQV2
+        YWx1ZQprbm93bkNvbG9yBXN0YXRlAQAAAAkHBwMAAAAKAAAAAAAAAAAYAAEAAAkHAAAAAfj////6////
+        CgAAAAAAAAAAGgABAAEMCQAAAEttc2NvcmxpYiwgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRy
+        YWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFBQAAADFTeXN0ZW0uV2luZG93cy5Gb3Jt
+        cy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtBAAAAAR0ZXh0BG5hbWUFc3R5bGUIdXNlckRhdGEB
+        AQQCPlN5c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0rU3ViSXRl
+        bVN0eWxlAgAAAAIAAAAGCgAAAAdYLCBZLCBaCgoKBQcAAAATU3lzdGVtLkRyYXdpbmcuRm9udAQAAAAE
+        TmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUDAAAAG1N5c3Rl
+        bS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABgsAAAAGVGFob21hAAAEQQX0////GFN5c3RlbS5E
+        cmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF8////xtTeXN0ZW0uRHJhd2luZy5H
+        cmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="cmdOK.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ROMBII.Name" xml:space="preserve">
+    <value>ROMBII</value>
+  </data>
+  <data name="&gt;&gt;ROMBIILabel.Name" xml:space="preserve">
+    <value>ROMBIILabel</value>
+  </data>
+  <data name="&gt;&gt;ROMSSLabel.Name" xml:space="preserve">
+    <value>ROMSSLabel</value>
+  </data>
+  <data name="EPvMacPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="ROMBII.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="EPPPCPathLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPvMacPathBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="LangFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPBIIPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 65</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPath.Name" xml:space="preserve">
+    <value>EPBIIPath</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacLabel.Name" xml:space="preserve">
+    <value>FolderNewMacLabel</value>
+  </data>
+  <data name="EPVerifyEmulatorPaths.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LangInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 33</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrentLabel.Name" xml:space="preserve">
+    <value>FolderAppCurrentLabel</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LangFrame.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMac.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPQEMUPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;Value.Name" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="LangInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ROMvMac.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMSSLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacBrowse.Name" xml:space="preserve">
+    <value>FolderNewMacBrowse</value>
+  </data>
+  <data name="EPvMacPathLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="ROMSSLabel.Text" xml:space="preserve">
+    <value>SheepShaver ROM</value>
+  </data>
+  <data name="LangFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 6</value>
+  </data>
+  <data name="&gt;&gt;ROMSSLabel.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="EPPPCPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="EPPPCPathBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BrowseOpen.Filter" xml:space="preserve">
+    <value>ROM File (*.rom)|*.rom|All files (*.*)|*.*</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathBrowse.Name" xml:space="preserve">
+    <value>EPvMacPathBrowse</value>
+  </data>
+  <data name="cmdOK.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;UseContainerFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FolderFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 6</value>
+  </data>
+  <data name="ROMSSBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;ROMSSBrowse.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="EPSSPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="ROMSSBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="EPSSPath.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;LangFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathBrowse.Name" xml:space="preserve">
+    <value>EPQEMUPathBrowse</value>
+  </data>
+  <data name="&gt;&gt;ROMSSLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ROMFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UseContainerFrame.Name" xml:space="preserve">
+    <value>UseContainerFrame</value>
+  </data>
+  <data name="UCDisableTest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EPVerifyEmulatorPaths.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EPvMacPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="EPPPCPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="EPSSPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EPvMacPathBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;ROMvMacLabel.Name" xml:space="preserve">
+    <value>ROMvMacLabel</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathBrowse.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="EmulatorPathFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 332</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPath.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;ROMvMacBrowse.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathLabel.Name" xml:space="preserve">
+    <value>EPBIIPathLabel</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPath.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAAAAAAoAQAANgAAACAgAAAAAAAAqAgAAF4BAAAwMAAAAAAAAKgOAAAGCgAAKAAAABAA
+        AAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICA
+        AADAwMAAgICAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAAAd3d3AAAAAAAHd3AAAAAAAAd3cA
+        AAB3d3d4d3d3d3d3d3d3d3d3AAAAAAAAAAAIiIiIiIiIgAiIiIiIiIiACIiIiIiIiIAIiIiIiIiIgAiI
+        iIiIiIiACIiIiIiIiIAIiIiIiIiIgAiIiIiIiIiACIiIiIiIiIAAAAAAAAAAAPgfAAD8PwAA/D8AAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAIAAAAEAA
+        AAABAAgAAAAAAIAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDA
+        wADA3MAA8MqmAAQEBAAICAgADAwMABEREQAWFhYAHBwcACIiIgApKSkAVVVVAE1NTQBCQkIAOTk5AIB8
+        /wBQUP8AkwDWAP/szADG1u8A1ufnAJCprQAAADMAAABmAAAAmQAAAMwAADMAAAAzMwAAM2YAADOZAAAz
+        zAAAM/8AAGYAAABmMwAAZmYAAGaZAABmzAAAZv8AAJkAAACZMwAAmWYAAJmZAACZzAAAmf8AAMwAAADM
+        MwAAzGYAAMyZAADMzAAAzP8AAP9mAAD/mQAA/8wAMwAAADMAMwAzAGYAMwCZADMAzAAzAP8AMzMAADMz
+        MwAzM2YAMzOZADMzzAAzM/8AM2YAADNmMwAzZmYAM2aZADNmzAAzZv8AM5kAADOZMwAzmWYAM5mZADOZ
+        zAAzmf8AM8wAADPMMwAzzGYAM8yZADPMzAAzzP8AM/8zADP/ZgAz/5kAM//MADP//wBmAAAAZgAzAGYA
+        ZgBmAJkAZgDMAGYA/wBmMwAAZjMzAGYzZgBmM5kAZjPMAGYz/wBmZgAAZmYzAGZmZgBmZpkAZmbMAGaZ
+        AABmmTMAZplmAGaZmQBmmcwAZpn/AGbMAABmzDMAZsyZAGbMzABmzP8AZv8AAGb/MwBm/5kAZv/MAMwA
+        /wD/AMwAmZkAAJkzmQCZAJkAmQDMAJkAAACZMzMAmQBmAJkzzACZAP8AmWYAAJlmMwCZM2YAmWaZAJlm
+        zACZM/8AmZkzAJmZZgCZmZkAmZnMAJmZ/wCZzAAAmcwzAGbMZgCZzJkAmczMAJnM/wCZ/wAAmf8zAJnM
+        ZgCZ/5kAmf/MAJn//wDMAAAAmQAzAMwAZgDMAJkAzADMAJkzAADMMzMAzDNmAMwzmQDMM8wAzDP/AMxm
+        AADMZjMAmWZmAMxmmQDMZswAmWb/AMyZAADMmTMAzJlmAMyZmQDMmcwAzJn/AMzMAADMzDMAzMxmAMzM
+        mQDMzMwAzMz/AMz/AADM/zMAmf9mAMz/mQDM/8wAzP//AMwAMwD/AGYA/wCZAMwzAAD/MzMA/zNmAP8z
+        mQD/M8wA/zP/AP9mAAD/ZjMAzGZmAP9mmQD/ZswAzGb/AP+ZAAD/mTMA/5lmAP+ZmQD/mcwA/5n/AP/M
+        AAD/zDMA/8xmAP/MmQD/zMwA/8z/AP//MwDM/2YA//+ZAP//zABmZv8AZv9mAGb//wD/ZmYA/2b/AP//
+        ZgAhAKUAX19fAHd3dwCGhoYAlpaWAMvLywCysrIA19fXAN3d3QDj4+MA6urqAPHx8QD4+PgA8Pv/AKSg
+        oACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AAoKCgoKCgoKCgoKBwcHBwcHBwcHBwoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKBwcHBwcHBwcKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoHBwcHBwcHBwoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKBwcHBwcH
+        BwcKCgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCgcHBwcHBwcHBwcHBwcH
+        B+zsBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH7OwHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKChISEhISEhISEhISEhISEhISEhISEhISEhISEhIKCgoK
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEgoKCgoSEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        CgoKChISEhISEhISEhISEhISEhISEhISEhISEhISEhIKCgoKEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISEgoKCgoSEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKChISEhISEhISEhISEhISEhISEhIS
+        EhISEhISEhIKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEgoKCgoSEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISCgoKChISEhISEhISEhISEhISEhISEhISEhISEhISEhIKCgoKEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISEgoKCgoSEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKChISEhISEhIS
+        EhISEhISEhISEhISEhISEhISEhIKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEgoKCgoSEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISCgoKChISEhISEhISEhISEhISEhISEhISEhISEhISEhIKCgoK
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEgoKCgoSEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgr/4Af///AP///wD///8A////AP/4AA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAB/////ygAAAAwAAAAYAAAAAEA
+        CAAAAAAAgAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAMDc
+        wADwyqYABAQEAAgICAAMDAwAERERABYWFgAcHBwAIiIiACkpKQBVVVUATU1NAEJCQgA5OTkAgHz/AFBQ
+        /wCTANYA/+zMAMbW7wDW5+cAkKmtAAAAMwAAAGYAAACZAAAAzAAAMwAAADMzAAAzZgAAM5kAADPMAAAz
+        /wAAZgAAAGYzAABmZgAAZpkAAGbMAABm/wAAmQAAAJkzAACZZgAAmZkAAJnMAACZ/wAAzAAAAMwzAADM
+        ZgAAzJkAAMzMAADM/wAA/2YAAP+ZAAD/zAAzAAAAMwAzADMAZgAzAJkAMwDMADMA/wAzMwAAMzMzADMz
+        ZgAzM5kAMzPMADMz/wAzZgAAM2YzADNmZgAzZpkAM2bMADNm/wAzmQAAM5kzADOZZgAzmZkAM5nMADOZ
+        /wAzzAAAM8wzADPMZgAzzJkAM8zMADPM/wAz/zMAM/9mADP/mQAz/8wAM///AGYAAABmADMAZgBmAGYA
+        mQBmAMwAZgD/AGYzAABmMzMAZjNmAGYzmQBmM8wAZjP/AGZmAABmZjMAZmZmAGZmmQBmZswAZpkAAGaZ
+        MwBmmWYAZpmZAGaZzABmmf8AZswAAGbMMwBmzJkAZszMAGbM/wBm/wAAZv8zAGb/mQBm/8wAzAD/AP8A
+        zACZmQAAmTOZAJkAmQCZAMwAmQAAAJkzMwCZAGYAmTPMAJkA/wCZZgAAmWYzAJkzZgCZZpkAmWbMAJkz
+        /wCZmTMAmZlmAJmZmQCZmcwAmZn/AJnMAACZzDMAZsxmAJnMmQCZzMwAmcz/AJn/AACZ/zMAmcxmAJn/
+        mQCZ/8wAmf//AMwAAACZADMAzABmAMwAmQDMAMwAmTMAAMwzMwDMM2YAzDOZAMwzzADMM/8AzGYAAMxm
+        MwCZZmYAzGaZAMxmzACZZv8AzJkAAMyZMwDMmWYAzJmZAMyZzADMmf8AzMwAAMzMMwDMzGYAzMyZAMzM
+        zADMzP8AzP8AAMz/MwCZ/2YAzP+ZAMz/zADM//8AzAAzAP8AZgD/AJkAzDMAAP8zMwD/M2YA/zOZAP8z
+        zAD/M/8A/2YAAP9mMwDMZmYA/2aZAP9mzADMZv8A/5kAAP+ZMwD/mWYA/5mZAP+ZzAD/mf8A/8wAAP/M
+        MwD/zGYA/8yZAP/MzAD/zP8A//8zAMz/ZgD//5kA///MAGZm/wBm/2YAZv//AP9mZgD/Zv8A//9mACEA
+        pQBfX18Ad3d3AIaGhgCWlpYAy8vLALKysgDX19cA3d3dAOPj4wDq6uoA8fHxAPj4+ADw+/8ApKCgAICA
+        gAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8ACgoKCgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcHBwcH
+        BwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgcHBwcHBwcHBwcHBwcHBwcKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        BwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcH
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKBwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoKCgoHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwfs7AcHBwcHBwcHBwcHBwcHBwcHBwcHBwoKCgcHBwcHBwcHBwcHBwcHBwcH
+        BwcHB+zs7OwHBwcHBwcHBwcHBwcHBwcHBwcHBwcKBwcHBwcHBwcHBwcHBwcHBwcHBwcHB+zs7OwHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHB+zs7OwHBwcHBwcHBwcHBwcHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcH
+        BwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISEhISEhISEhISEhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIS
+        EhISCgoKCgoKEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKEhIS
+        EhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK
+        CgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoK//4AAH//
+        AAD//wAA//8AAP//wAP//wAA///AA///AAD//8AD//8AAP//wAP//wAA///AA///AAD//8AD//8AAMAA
+        AAAAAwAAgAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAB
+        AADAAAAAAAMAAP///////wAA
+</value>
+  </data>
+  <data name="EPvMacPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="EPvMacPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="EmulatorPathFrame.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;EPSSPath.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="ROMNoteNoROM.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMSSLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 102</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathLabel.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="Setting.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="OptionContainer.Items3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0JAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEJQmFja0NvbG9yB0NoZWNrZWQERm9u
+        dAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAAEBAAICDFTeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtAgAAABRTeXN0ZW0uRHJhd2luZy5Db2xv
+        cgMAAAABE1N5c3RlbS5EcmF3aW5nLkZvbnQDAAAAFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAECAAAA
+        BgQAAAASRW11bGF0b3JzIGxvY2F0aW9u/////wIAAAAJBQAAAAX6////FFN5c3RlbS5EcmF3aW5nLkNv
+        bG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgAAQAA
+        CQcAAAAB+P////r///8KAAAAAAAAAAAaAAEAAQwJAAAAS21zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAs
+        IEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQUFAAAAMVN5c3Rl
+        bS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0EAAAABHRleHQEbmFtZQVz
+        dHlsZQh1c2VyRGF0YQEBBAI+U3lzdGVtLldpbmRvd3MuRm9ybXMuTGlzdFZpZXdJdGVtK0xpc3RWaWV3
+        U3ViSXRlbStTdWJJdGVtU3R5bGUCAAAAAgAAAAYKAAAABkN1c3RvbQoKCgUHAAAAE1N5c3RlbS5EcmF3
+        aW5nLkZvbnQEAAAABE5hbWUEU2l6ZQVTdHlsZQRVbml0AQAEBAsYU3lzdGVtLkRyYXdpbmcuRm9udFN0
+        eWxlAwAAABtTeXN0ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQDAAAAAwAAAAYLAAAABlRhaG9tYQAABEEF
+        9P///xhTeXN0ZW0uRHJhd2luZy5Gb250U3R5bGUBAAAAB3ZhbHVlX18ACAMAAAAAAAAABfP///8bU3lz
+        dGVtLkRyYXdpbmcuR3JhcGhpY3NVbml0AQAAAAd2YWx1ZV9fAAgDAAAAAwAAAAs=
+</value>
+  </data>
+  <data name="cmdCancel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMBIILabel.Text" xml:space="preserve">
+    <value>Basilisk II ROM</value>
+  </data>
+  <data name="EPQEMUPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;ROMNoteNoROM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ROMBIILabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UCDisableTest.Name" xml:space="preserve">
+    <value>UCDisableTest</value>
+  </data>
+  <data name="ROMFrame.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacLabel.Parent" xml:space="preserve">
+    <value>FolderFrame</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPSSPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 109</value>
+  </data>
+  <data name="&gt;&gt;ToolTip1.Name" xml:space="preserve">
+    <value>ToolTip1</value>
+  </data>
+  <data name="EPPPCPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathBrowse.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Value.Width" type="System.Int32, mscorlib">
+    <value>182</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathLabel.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LangSelected.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ROMvMacBrowse.Name" xml:space="preserve">
+    <value>ROMvMacBrowse</value>
+  </data>
+  <data name="ROMBIILabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathLabel.Name" xml:space="preserve">
+    <value>EPPPCPathLabel</value>
+  </data>
+  <data name="EPVerifyEmulatorPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;ROMvMacBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPBIIPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 85</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowser.Name" xml:space="preserve">
+    <value>FolderBrowser</value>
+  </data>
+  <data name="EPQEMUPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPVerifyEmulatorPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 244</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrentLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FolderAppCurrent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="ROMBIILabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 13</value>
+  </data>
+  <data name="UCDisableTest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ROMSS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="ROMvMacBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="LangFrame.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="EPPPCPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="EPQEMUPathBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="EPBIIPathBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="UseContainerFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 332</value>
+  </data>
+  <data name="OptionContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="EPvMacPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <data name="EPQEMUPathLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ROMBII.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EmulatorPathFrame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="OptionContainer.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ROMBII.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="EPPPCPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 173</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ROMBIIBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ROMSS.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BrowseOpen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Setting.Width" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="FolderAppCurrentLabel.Text" xml:space="preserve">
+    <value>Current program folder</value>
+  </data>
+  <data name="LangFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>360, 332</value>
+  </data>
+  <data name="ROMFrame.Text" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="&gt;&gt;ROMNoteNoROM.Name" xml:space="preserve">
+    <value>ROMNoteNoROM</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathLabel.Name" xml:space="preserve">
+    <value>EPvMacPathLabel</value>
+  </data>
+  <data name="&gt;&gt;ROMSS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EmulatorPathFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmdOK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPvMacPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPvMacPathBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ROMSS.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="EPQEMUPathBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EPBIIPathLabel.Text" xml:space="preserve">
+    <value>Basilisk II Path:</value>
+  </data>
+  <data name="LangSelected.Items" xml:space="preserve">
+    <value>English (United States) [English]</value>
+  </data>
+  <data name="EPBIIPathBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;UCEnableTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPBIIPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMvMacBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="EPSSPath.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ROMBII.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPVerifyEmulatorPaths.Name" xml:space="preserve">
+    <value>EPVerifyEmulatorPaths</value>
+  </data>
+  <data name="LangSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>263, 21</value>
+  </data>
+  <data name="EPQEMUPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;FolderNewMacLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ROMBIIBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="FolderNewMacLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <data name="EPSSPathLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPvMacPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 35</value>
+  </data>
+  <data name="UCDisableTest.Text" xml:space="preserve">
+    <value>Disable Test</value>
+  </data>
+  <data name="&gt;&gt;UCEnableTest.Parent" xml:space="preserve">
+    <value>UseContainerFrame</value>
+  </data>
+  <data name="&gt;&gt;ROMSS.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="FolderFrame.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="EPPPCPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ROMSSLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 13</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPath.Name" xml:space="preserve">
+    <value>EPvMacPath</value>
+  </data>
+  <data name="ROMvMacBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 34</value>
+  </data>
+  <data name="EPPPCPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 153</value>
+  </data>
+  <data name="FolderAppCurrentLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPVerifyEmulatorPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 17</value>
+  </data>
+  <data name="ROMvMacBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="UCEnableTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Name" xml:space="preserve">
+    <value>cmdOK</value>
+  </data>
+  <data name="EPPPCPathLabel.Text" xml:space="preserve">
+    <value>PearPC Path:</value>
+  </data>
+  <data name="UseContainerFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cmdCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathLabel.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="EPvMacPathLabel.Text" xml:space="preserve">
+    <value>Mini vMac Path:</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cmdOK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="&gt;&gt;ROMvMac.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPBIIPath.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FolderAppCurrentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="EPSSPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="UCEnableTest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OptionContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPPPCPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="EPBIIPathLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPSSPathBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPBIIPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EPSSPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="EPQEMUPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacBrowse.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FolderNewMacBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ROMBIILabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ROMvMacLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="FolderNewMacLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathLabel.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="EPPPCPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 171</value>
+  </data>
+  <data name="EPQEMUPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 217</value>
+  </data>
+  <data name="UCDisableTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 54</value>
+  </data>
+  <data name="EmulatorPathFrame.Text" xml:space="preserve">
+    <value>Emulator Path</value>
+  </data>
+  <data name="UCDisableTest.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ROMvMacBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="EPVerifyEmulatorPaths.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPQEMUPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 22</value>
+  </data>
+  <data name="EPQEMUPath.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LangInfo.Name" xml:space="preserve">
+    <value>LangInfo</value>
+  </data>
+  <data name="ROMNoteNoROM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 264</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;UCEnableTest.Name" xml:space="preserve">
+    <value>UCEnableTest</value>
+  </data>
+  <data name="&gt;&gt;ROMvMacBrowse.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ROMvMacLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmulatorPathFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPSSPathBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPathBrowse.Parent" xml:space="preserve">
+    <value>EmulatorPathFrame</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOptions</value>
+  </data>
+  <data name="&gt;&gt;LangFrame.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;EPSSPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ROMBIIBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 78</value>
+  </data>
+  <data name="EPBIIPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;ROMSSBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPQEMUPath.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;BrowseOpen.Name" xml:space="preserve">
+    <value>BrowseOpen</value>
+  </data>
+  <data name="EPvMacPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 37</value>
+  </data>
+  <data name="EPBIIPath.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;cmdOK.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>710, 378</value>
+  </data>
+  <data name="&gt;&gt;FolderNewMacBrowse.Parent" xml:space="preserve">
+    <value>FolderFrame</value>
+  </data>
+  <data name="FolderNewMacBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 35</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathBrowse.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ROMvMac.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;ROMFrame.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrentLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPBIIPathBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OptionContainer.Items" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkMAwAAAFFTeXN0
+        ZW0uRHJhd2luZywgVmVyc2lvbj0yLjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2Vu
+        PWIwM2Y1ZjdmMTFkNTBhM2EFAQAAACFTeXN0ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0JAAAA
+        BFRleHQKSW1hZ2VJbmRleAxTdWJJdGVtQ291bnQIU3ViSXRlbTEJQmFja0NvbG9yB0NoZWNrZWQERm9u
+        dAlGb3JlQ29sb3IXVXNlSXRlbVN0eWxlRm9yU3ViSXRlbXMBAAAEBAAEBAAICDFTeXN0ZW0uV2luZG93
+        cy5Gb3Jtcy5MaXN0Vmlld0l0ZW0rTGlzdFZpZXdTdWJJdGVtAgAAABRTeXN0ZW0uRHJhd2luZy5Db2xv
+        cgMAAAABE1N5c3RlbS5EcmF3aW5nLkZvbnQDAAAAFFN5c3RlbS5EcmF3aW5nLkNvbG9yAwAAAAECAAAA
+        BgQAAAAVVGVzdCBNYWNpbnRvc2ggV2luZG93/////wIAAAAJBQAAAAX6////FFN5c3RlbS5EcmF3aW5n
+        LkNvbG9yBAAAAARuYW1lBXZhbHVlCmtub3duQ29sb3IFc3RhdGUBAAAACQcHAwAAAAoAAAAAAAAAABgA
+        AQAACQcAAAAB+P////r///8KAAAAAAAAAAAaAAEAAQwJAAAAS21zY29ybGliLCBWZXJzaW9uPTIuMC4w
+        LjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OQUFAAAAMVN5
+        c3RlbS5XaW5kb3dzLkZvcm1zLkxpc3RWaWV3SXRlbStMaXN0Vmlld1N1Ykl0ZW0EAAAABHRleHQEbmFt
+        ZQVzdHlsZQh1c2VyRGF0YQEBBAI+U3lzdGVtLldpbmRvd3MuRm9ybXMuTGlzdFZpZXdJdGVtK0xpc3RW
+        aWV3U3ViSXRlbStTdWJJdGVtU3R5bGUCAAAAAgAAAAYKAAAAAk5vCgoKBQcAAAATU3lzdGVtLkRyYXdp
+        bmcuRm9udAQAAAAETmFtZQRTaXplBVN0eWxlBFVuaXQBAAQECxhTeXN0ZW0uRHJhd2luZy5Gb250U3R5
+        bGUDAAAAG1N5c3RlbS5EcmF3aW5nLkdyYXBoaWNzVW5pdAMAAAADAAAABgsAAAAGVGFob21hAAAEQQX0
+        ////GFN5c3RlbS5EcmF3aW5nLkZvbnRTdHlsZQEAAAAHdmFsdWVfXwAIAwAAAAAAAAAF8////xtTeXN0
+        ZW0uRHJhd2luZy5HcmFwaGljc1VuaXQBAAAAB3ZhbHVlX18ACAMAAAADAAAACw==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="EPPPCPathBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;LangFrame.Name" xml:space="preserve">
+    <value>LangFrame</value>
+  </data>
+  <data name="&gt;&gt;ROMNoteNoROM.Parent" xml:space="preserve">
+    <value>ROMFrame</value>
+  </data>
+  <data name="ROMNoteNoROM.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;FolderBrowser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FolderNewMacLabel.Text" xml:space="preserve">
+    <value>Default Mac Folder</value>
+  </data>
+  <data name="ROMvMacLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EPPPCPathBrowse.Name" xml:space="preserve">
+    <value>EPPPCPathBrowse</value>
+  </data>
+  <data name="UCDisableTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="&gt;&gt;LangSelected.Parent" xml:space="preserve">
+    <value>LangFrame</value>
+  </data>
+  <data name="&gt;&gt;EPSSPathLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ROMFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>344, 6</value>
+  </data>
+  <data name="ROMvMac.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="FolderNewMac.Text" xml:space="preserve">
+    <value>C:\Documents and settings\Edson Armando\Mis documentos\My Macs</value>
+  </data>
+  <data name="OptionContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 354</value>
+  </data>
+  <data name="UCEnableTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 33</value>
+  </data>
+  <data name="UseContainerFrame.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;LangSelected.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ROMFrame.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="EPQEMUPathBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EPSSPath.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ROMSSBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPQEMUPathBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;ROMSSLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;FolderFrame.Name" xml:space="preserve">
+    <value>FolderFrame</value>
+  </data>
+  <data name="&gt;&gt;EPvMacPathBrowse.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="EPvMacPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ROMvMacLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathBrowse.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;EPVerifyEmulatorPaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FolderNewMac.Size" type="System.Drawing.Size, System.Drawing">
+    <value>312, 21</value>
+  </data>
+  <data name="ROMvMacBrowse.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;EPvMacPathLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ROMFrame.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ROMSS.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPSSPath.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPvMacPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ROMBIILabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPPPCPathLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="FolderAppCurrent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FolderAppCurrentLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 62</value>
+  </data>
+  <data name="FolderFrame.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EPBIIPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 83</value>
+  </data>
+  <data name="&gt;&gt;ROMBIIBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EPBIIPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ROMvMac.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EPQEMUPathLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ROMFrame.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="FolderFrame.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="EPvMacPathBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="ROMSSBrowse.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;cmdCancel.Name" xml:space="preserve">
+    <value>cmdCancel</value>
+  </data>
+  <data name="&gt;&gt;FolderAppCurrent.Name" xml:space="preserve">
+    <value>FolderAppCurrent</value>
+  </data>
+  <metadata name="FolderBrowser.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>213, 16</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="BrowseOpen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>

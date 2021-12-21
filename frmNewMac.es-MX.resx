@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="cmdNext.Text" xml:space="preserve">
+    <value>&amp;Siguiente &gt;</value>
+  </data>
+  <data name="cmdBack.Text" xml:space="preserve">
+    <value>&lt; A&amp;tras</value>
+  </data>
+  <data name="CreateNoWizardLabel.Text" xml:space="preserve">
+    <value>Recomendado para la mayoría de usuarios. Crea una Mac en base al sistema que desee instalar.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="CreateNoWizard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 17</value>
+  </data>
+  <data name="CreateNoWizard.Text" xml:space="preserve">
+    <value>&amp;Crear una Mac</value>
+  </data>
+  <data name="CreateAddExistLabel.Text" xml:space="preserve">
+    <value>Para usuarios de Basilisk, SheepShaver y PearPC. Crea una Mac en base al archivo de configuración de estos emuladores.</value>
+  </data>
+  <data name="CreateAddExist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 17</value>
+  </data>
+  <data name="CreateAddExist.Text" xml:space="preserve">
+    <value>Crear una Mac en base a un &amp;archivo</value>
+  </data>
+  <data name="CreateNormalLabel.Text" xml:space="preserve">
+    <value>Recomendado para usuarios avanzados. Crea una Mac guiandolo para incrementar o reducir los recursos para esta.</value>
+  </data>
+  <data name="CreateNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="CreateNormal.Text" xml:space="preserve">
+    <value>&amp;Personalizar una Mac</value>
+  </data>
+  <data name="CreateInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="CreateInfo.Text" xml:space="preserve">
+    <value>Seleccione una opción:</value>
+  </data>
+  <data name="MacNameLabel.Text" xml:space="preserve">
+    <value>Dé un nombre a su Mac. Recuerde hacerlo descriptivo, algo como "Mac OS 7" o "iMac G3" son algunos ejemplos.</value>
+  </data>
+  <data name="MacNameBrowse.Text" xml:space="preserve">
+    <value>Examinar...</value>
+  </data>
+  <data name="AddNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="AddNameLabel.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="AddFileLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 13</value>
+  </data>
+  <data name="AddFileLabel.Text" xml:space="preserve">
+    <value>Archivo:</value>
+  </data>
+  <data name="AddEmulatorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="AddEmulatorLabel.Text" xml:space="preserve">
+    <value>Emulador:</value>
+  </data>
+  <data name="AddInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 13</value>
+  </data>
+  <data name="AddInfo.Text" xml:space="preserve">
+    <value>Seleccione el archivo a añadir a la consola.</value>
+  </data>
+  <data name="AddFileBrowse.Text" xml:space="preserve">
+    <value>Examinar...</value>
+  </data>
+  <data name="HwInfoDef.Text" xml:space="preserve">
+    <value>Hardware recomendado para este sistema operativo:</value>
+  </data>
+  <data name="HwEmulatorLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="HwEmulatorLabel.Text" xml:space="preserve">
+    <value>Seleccione una opción:</value>
+  </data>
+  <data name="HwInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 65</value>
+  </data>
+  <data name="HwInfo.Text" xml:space="preserve">
+    <value>Seleccione el emulador que planea usar. Algunos emuladores corren algunas versiones
+de Mac OS y System Software. Elija diferentes emuladores para listar diferentes versiones
+de Mac OS. Recuerde que puede personalizar el hardware mostrado aqui, así que no se
+preocupe si deseaba más memoria, espacio de disco o incluso otro CPU (Solo algunos
+emuladores)</value>
+  </data>
+  <data name="HwRAMLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="HwRAMLabel.Text" xml:space="preserve">
+    <value>Memoria:</value>
+  </data>
+  <data name="HwDiskLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="HwDiskLabel.Text" xml:space="preserve">
+    <value>Espacio en disco:</value>
+  </data>
+  <data name="RAMInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 3</value>
+  </data>
+  <data name="RAMInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 78</value>
+  </data>
+  <data name="RAMInfo.Text" xml:space="preserve">
+    <value>Una Mac necsita memoria para arrancar el sistema, y las aplicaciones la necesitan para
+ejecutarse. Una versión reciente de Mac OS requiere más memoria, al igual que aplicaciones
+pesadas. Se recomienda que use el valor recomendado a menos de que desee correr
+aplicaciones más pesadas.
+
+La memoria recomendada es [ %m MB ]</value>
+  </data>
+  <data name="RAMCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 111</value>
+  </data>
+  <data name="RAMCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
+  </data>
+  <data name="RAMCustom.Text" xml:space="preserve">
+    <value>Usar esta cantidad de memoria</value>
+  </data>
+  <data name="RAMDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 88</value>
+  </data>
+  <data name="RAMDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 17</value>
+  </data>
+  <data name="RAMDefault.Text" xml:space="preserve">
+    <value>Usar la memoria recomendada</value>
+  </data>
+  <data name="RAMControlsPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 128</value>
+  </data>
+  <data name="RAMCustomInvalidSize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>233, 13</value>
+  </data>
+  <data name="RAMCustomInvalidSize.Text" xml:space="preserve">
+    <value>Por favor utilize un valor válido entre %n y %x</value>
+  </data>
+  <data name="DiskNew.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 99</value>
+  </data>
+  <data name="DiskNew.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="DiskNew.Text" xml:space="preserve">
+    <value>Crear un nuevo disco</value>
+  </data>
+  <data name="DiskExisting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 115</value>
+  </data>
+  <data name="DiskExisting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="DiskExisting.Text" xml:space="preserve">
+    <value>Usar un disco existente</value>
+  </data>
+  <data name="DiskNone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 132</value>
+  </data>
+  <data name="DiskNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="DiskNone.Text" xml:space="preserve">
+    <value>No usar un disco</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="DiskInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DiskInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="DiskInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>408, 39</value>
+  </data>
+  <data name="DiskInfo.Text" xml:space="preserve">
+    <value>Una Mac necesita un disco para instalar el sistema operativo. Puede crear un nuevo
+disco para instalar Mac OS (O Linux) o puede usar disco existente con un sistema
+preinstalado</value>
+  </data>
+  <data name="DiskPathBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 62</value>
+  </data>
+  <data name="DiskPathBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="DiskPathBrowse.Text" xml:space="preserve">
+    <value>Examinar...</value>
+  </data>
+  <data name="DiskPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 64</value>
+  </data>
+  <data name="DiskSizeFrame.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 91</value>
+  </data>
+  <data name="DiskSizeFrame.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 25</value>
+  </data>
+  <data name="DiskSize.Location" type="System.Drawing.Point, System.Drawing">
+    <value>97, 2</value>
+  </data>
+  <data name="DiskSizeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="DiskSizeLabel.Text" xml:space="preserve">
+    <value>Tamaño del disco:</value>
+  </data>
+  <data name="DiskSizeLabelMB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 7</value>
+  </data>
+  <data name="Description.Text" xml:space="preserve">
+    <value>Puede crear una nueva Mac o agregar una existente a la consola</value>
+  </data>
+  <data name="DescriptionName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="DescriptionName.Text" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="WelcomeDescription.Text" xml:space="preserve">
+    <value>Este asistente le ayuda a crear y configurar una nueva Mac o añadir una ya existente a la consola de Virtual Mac.
+
+La configuración es almacenada en un archivo .mcf
+
+Para continuar, haga click en Siguiente.</value>
+  </data>
+  <data name="WelcomeTitle.Text" xml:space="preserve">
+    <value>Bienvenido al Asistente para Nueva Mac</value>
+  </data>
+  <data name="EndTitle.Text" xml:space="preserve">
+    <value>Completando el Asistente para Nueva Mac</value>
+  </data>
+  <data name="EndInfo.Text" xml:space="preserve">
+    <value>Usted completó satisfactoriamente el Asistente para Nueva Mac. Su nueva Mac será creada con los siguientes atributos:</value>
+  </data>
+  <data name="EndMacNameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="EndMacNameLabel.Text" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="EndRAMLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="EndRAMLabel.Text" xml:space="preserve">
+    <value>Memoria RAM:</value>
+  </data>
+  <data name="EndDiskPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="EndDiskPathLabel.Text" xml:space="preserve">
+    <value>Disco:</value>
+  </data>
+  <data name="EndInfoFinish.Text" xml:space="preserve">
+    <value>Para cerrar este Asistente y crear la Mac, haga click en Finalizar.</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAQAAAABAAoAQAANgAAACAgEAAAAAQA6AIAAF4BAAAwMBAAAAAEAGgGAABGBAAAKAAAABAA
+        AAAgAAAAAQAEAAAAAACAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICA
+        AACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAAiIiIiIiIAAjoiIiIiI6AiO6O7u7o
+        7uiI6IiIiIiOiIgAAAAAAACIiAAAAAAAAIiIAAAAAAAAiIgAAAAAAACIiAAAAAAAAIiIAAAAAAAAiIgA
+        AAAAAACIiAAAAAAAAIiIAAAAAAAAiIgAAAAAAACICIiIiIiIiIAAiIiIiIiIAMADAACAAQAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAMADAAAoAAAAIAAAAEAA
+        AAABAAQAAAAAAAACAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICA
+        gADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wDQ0AAA////AAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIiIiI
+        iIiIiAAAAIiIiIiIiIiIiIiIiIiIAACI7uiIiIiIiIiIiI7u6AAIju7uiIiIiIiIiIiO7uiACI7u7oju
+        7u7u7u6Iju7ogAiI7uiIiIiIiIiIiI7u6IAIiIiIiIiIiIiIiIiIiIiACIiAAAAAAAAAAAAAAAiIgAiI
+        gAAAAAAAAAAAAAAIiIAIiIAAAAAAAAAAAAAACIiACIiAAAAAAAAAAAAAAAiIgAiIgAAAAAAAAAAAAAAI
+        iIAIiIAAAAAAAAAAAAAACIiACIiAAAAAAAAAAAAAAAiIgAiIgAAAAAAAAAAAAAAIiIAIiIAAAAAAAAAA
+        AAAACIiACIiAAAAAAAAAAAAAAAiIgAiIgAAAAAAAAAAAAAAIiIAIiIAAAAAAAAAAAAAACIiACIiAAAAA
+        AAAAAAAAAAiIgAiIgAAAAAAAAAAAAAAIiIAIiIAAAAAAAAAAAAAACIiACIiAAAAAAAAAAAAAAAiIgAiI
+        gAAAAAAAAAAAAAAIiIAIiIAAAAAAAAAAAAAACIiACIiAAAAAAAAAAAAAAAiIgAiIiIiIiIiIiIiIiIiI
+        iIAAiIiIiIiIiIiIiIiIiIgAAIiIiIiIiIiIiIiIiIiIAAAAiIiIiIiIiIiIiIiIAAAAAAAAAAAAAAAA
+        AAAAAAAA//////AAAA/AAAADwAAAA4AAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAcAA
+        AAPAAAAD8AAAD/////8oAAAAMAAAAGAAAAABAAQAAAAAAIAEAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAA
+        gAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wDZ2QAA////AAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAd3d3d3d3d3d3d3d3d3d3d3cAAAAAAAB3d3d3d3d3d3d3d3
+        d3d3d3d3d3AAAAAAd3d3d3d3d3d3d3d3d3d3d3d3d3cAAAAHd37ud3d3d3d3d3d3d3d3d3d+7ndwAAB3
+        d+7u53d3d3d3d3d3d3d3d3fu7ud3AAB3fu7u7nd3d3d3d3d3d3d3d37u7u53AAd3fu7u7nd+7u7u7u7u
+        7u7nd37u7u53cAd3fu7u7nd+7u7u7u7u7u7nd37u7u53cAd3d+7u53d3d3d3d3d3d3d3d3fu7ud3cAd3
+        d37ud3d3d3d3d3d3d3d3d3d+7nd3cAd3d3d3d3d3d3d3d3d3d3d3d3d3d3d3cAd3d3AAAAAAAAAAAAAA
+        AAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3
+        d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAA
+        AAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3
+        d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAA
+        AAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3
+        d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAA
+        AAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3
+        d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAA
+        AAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3
+        d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAA
+        AAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAd3
+        d3AAAAAAAAAAAAAAAAAAAAAAB3d3cAB3d3d3d3d3d3d3d3d3d3d3d3d3d3d3AAB3d3d3d3d3d3d3d3d3
+        d3d3d3d3d3d3AAAHd3d3d3d3d3d3d3d3d3d3d3d3d3dwAAAAd3d3d3d3d3d3d3d3d3d3d3d3d3cAAAAA
+        B3d3d3d3d3d3d3d3d3d3d3d3d3AAAAAAAAd3d3d3d3d3d3d3d3d3d3d3cAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAP///////wAA/gAAAAB/AAD4AAAAAB8AAPAAAAAADwAA4AAAAAAHAADAAAAAAAMAAMAA
+        AAAAAwAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAAB
+        AACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAACAAAAAAAEAAIAA
+        AAAAAQAAgAAAAAABAACAAAAAAAEAAIAAAAAAAQAAgAAAAAABAADAAAAAAAMAAMAAAAAAAwAA4AAAAAAH
+        AADwAAAAAA8AAPgAAAAAHwAA/gAAAAB/AAD///////8AAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Asistente para nueva Mac</value>
+  </data>
+</root>
